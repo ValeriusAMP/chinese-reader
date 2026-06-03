@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中文阅读器</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:       #f5f2ed;
+  --card:     #ffffff;
+  --text:     #1c1917;
+  --text2:    #78716c;
+  --accent:   #4a7c6a;
+  --accent2:  #ddeee8;
+  --amber:    #fde68a;
+  --amber-d:  #d97706;
+  --green:    #16a34a;
+  --green-l:  #dcfce7;
+  --border:   #e8e2d8;
+  --r:        12px;
+  --zh: "PingFang SC","Noto Sans CJK SC","Hiragino Sans GB",
+        "Microsoft YaHei UI","Microsoft YaHei","STHeiti",
+        "WenQuanYi Micro Hei",sans-serif;
+  --en: -apple-system,"Segoe UI","Helvetica Neue",sans-serif;
+}
+
+html { font-size: 16px; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--zh);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* ══ WEEK VIEW ════════════════════════════════════════════ */
+#week-view {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 0 16px 100px;
+}
+
+.wk-hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0 22px;
+}
+.wk-hdr h1 { font-size: 24px; font-weight: 700; }
+
+.pill {
+  background: var(--accent);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 13px;
+  border-radius: 20px;
+  font-family: var(--en);
+}
+
+.day-list { display: flex; flex-direction: column; gap: 10px; }
+
+.day-card {
+  background: var(--card);
+  border-radius: var(--r);
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+  border: 1.5px solid transparent;
+  padding: 15px 16px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+  transition: border-color .15s, transform .1s;
+  -webkit-tap-highlight-color: transparent;
+}
+.day-card:active { transform: scale(.98); }
+.day-card.done  { border-color: #bbf7d0; background: #f7fef9; }
+
+.day-num {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: var(--accent2);
+  color: var(--accent);
+  font-size: 15px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  font-family: var(--en);
+}
+.day-card.done .day-num { background: var(--green-l); color: var(--green); }
+
+.card-info { flex: 1; min-width: 0; }
+.card-title {
+  font-size: 15px; font-weight: 600;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.card-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 5px; }
+
+.tag {
+  font-size: 11px; font-weight: 600;
+  padding: 2px 7px; border-radius: 5px;
+  background: var(--accent2); color: var(--accent);
+  font-family: var(--en);
+}
+.tag.lvl  { background: #fef3c7; color: #92400e; }
+.tag.done { background: var(--green-l); color: var(--green); }
+
+.done-icon { font-size: 18px; color: #d1d5db; flex-shrink: 0; }
+.day-card.done .done-icon { color: var(--green); }
+
+.wk-foot {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding: 12px 16px 20px;
+  display: flex; justify-content: center;
+  background: linear-gradient(to top, var(--bg) 70%, transparent);
+  pointer-events: none;
+}
+.wk-foot button { pointer-events: all; }
+
+.btn-export {
+  background: var(--accent); color: #fff;
+  border: none; border-radius: 30px;
+  padding: 13px 30px;
+  font-size: 15px; font-family: var(--zh); font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(74,124,106,.3);
+  transition: opacity .15s, transform .1s;
+}
+.btn-export:active { opacity: .85; transform: scale(.97); }
+
+.loading { text-align: center; padding: 48px 0; color: var(--text2); font-size: 16px; }
+.err     { color: #dc2626; padding: 24px; text-align: center; font-size: 15px; }
+
+/* ══ READING VIEW ═════════════════════════════════════════ */
+#reading-view {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--bg);
+  overflow-y: auto;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+#reading-view.open { display: block; }
+
+.rd-hdr {
+  position: sticky; top: 0; z-index: 5;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  display: flex; align-items: center; gap: 10px;
+}
+.btn-back {
+  background: none; border: none;
+  color: var(--accent); font-family: var(--zh);
+  font-size: 15px; font-weight: 600;
+  cursor: pointer; padding: 4px 0;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.rd-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+
+.art-wrap {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 24px 20px 200px;
+}
+
+.art-title {
+  font-size: 21px; font-weight: 700;
+  line-height: 1.5; margin-bottom: 24px;
+}
+
+.art-text {
+  font-size: 20px;
+  line-height: 1.95;
+  color: var(--text);
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+@media (max-width: 380px) { .art-text { font-size: 18px; } }
+
+.word {
+  display: inline;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 1px;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color .12s;
+}
+.word:hover  { background: var(--accent2); }
+.word.unk    { background: var(--amber); border-bottom: 2px solid var(--amber-d); }
+
+.punct { display: inline; }
+
+/* Comprehension block */
+.comp-block {
+  margin-top: 40px;
+  background: var(--card);
+  border-radius: var(--r);
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+  padding: 18px;
+}
+.blk-lbl {
+  font-size: 11px; font-weight: 700; letter-spacing: .07em;
+  color: var(--text2); text-transform: uppercase; margin-bottom: 10px;
+  font-family: var(--en);
+}
+.q-text { font-size: 17px; line-height: 1.75; margin-bottom: 12px; }
+
+.btn-show {
+  background: var(--accent2); color: var(--accent);
+  border: none; border-radius: 8px; padding: 8px 16px;
+  font-family: var(--zh); font-size: 14px; font-weight: 600;
+  cursor: pointer;
+}
+.btn-show:active { background: #c9e2d8; }
+
+.ans-text {
+  display: none;
+  margin: 12px 0 0;
+  font-size: 16px; line-height: 1.75;
+  padding: 12px;
+  background: #f0fdf4;
+  border-radius: 8px;
+  border-left: 3px solid #86efac;
+}
+.ans-text.vis { display: block; }
+
+.comp-btns { display: none; gap: 8px; margin-top: 12px; }
+.comp-btns.vis { display: flex; }
+
+.btn-comp {
+  flex: 1; padding: 10px 6px;
+  border: 1.5px solid var(--border); border-radius: 8px;
+  background: var(--card);
+  font-family: var(--zh); font-size: 14px;
+  cursor: pointer; text-align: center;
+  transition: all .15s;
+}
+.btn-comp.ok  { background: var(--green-l); border-color: #86efac; color: var(--green); font-weight: 600; }
+.btn-comp.nok { background: #fef2f2; border-color: #fca5a5; color: #dc2626; font-weight: 600; }
+
+/* Ratings */
+.rates { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+
+.rate-blk {
+  background: var(--card);
+  border-radius: var(--r);
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+  padding: 16px 18px;
+}
+.rate-lbl { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 10px; }
+.rate-row  { display: flex; gap: 8px; }
+
+.btn-rate {
+  flex: 1; padding: 10px 4px;
+  border: 1.5px solid var(--border); border-radius: 8px;
+  background: var(--card);
+  font-family: var(--zh); font-size: 13px;
+  cursor: pointer; text-align: center;
+  transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-rate:active { transform: scale(.96); }
+.btn-rate.sel {
+  background: var(--accent); border-color: var(--accent);
+  color: #fff; font-weight: 600;
+}
+
+.done-banner {
+  display: none; margin-top: 14px;
+  text-align: center; font-size: 14px;
+  color: var(--green); font-weight: 600;
+  background: var(--green-l);
+  padding: 12px; border-radius: 8px;
+}
+.done-banner.vis { display: block; }
+
+/* ══ DEFINITION PANEL ═════════════════════════════════════ */
+#def-panel {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 100;
+  background: var(--card);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -4px 20px rgba(0,0,0,.1);
+  padding: 16px 20px calc(16px + env(safe-area-inset-bottom, 0px));
+  transform: translateY(100%);
+  transition: transform .22s cubic-bezier(.34,1.26,.64,1);
+}
+#def-panel.open { transform: translateY(0); }
+
+.def-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+.def-zh   { font-size: 36px; font-weight: 700; line-height: 1.1; }
+.def-py   { font-size: 16px; color: var(--accent); font-family: var(--en); margin-top: 5px; letter-spacing: .02em; }
+.def-gl   { font-size: 14px; color: var(--text2); font-family: var(--en); margin-top: 2px; }
+.def-hint { font-size: 12px; color: var(--text2); font-style: italic; margin-top: 10px; }
+
+.btn-close {
+  background: none; border: none;
+  font-size: 20px; color: var(--text2);
+  cursor: pointer; padding: 0 0 0 12px;
+  line-height: 1; flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+</style>
+</head>
+<body>
+
+<!-- ══ WEEK VIEW ═══════════════════════════════════════════ -->
+<div id="week-view">
+  <div class="wk-hdr">
+    <h1 id="wk-title">第 — 周</h1>
+    <span class="pill" id="wk-pill">— / 7</span>
+  </div>
+  <div class="day-list" id="day-list">
+    <div class="loading">加载中…</div>
+  </div>
+  <div class="wk-foot">
+    <button class="btn-export" id="btn-export">导出本周反馈</button>
+  </div>
+</div>
+
+<!-- ══ READING VIEW ════════════════════════════════════════ -->
+<div id="reading-view">
+  <div class="rd-hdr">
+    <button class="btn-back" id="btn-back">← 返回</button>
+    <div class="rd-tags" id="rd-tags"></div>
+  </div>
+  <div class="art-wrap">
+    <h2 class="art-title" id="art-title"></h2>
+    <div class="art-text" id="art-text"></div>
+    <div id="comp-sec"></div>
+    <div class="rates" id="rates-sec"></div>
+    <div class="done-banner" id="done-banner">✓ 本文已完成！</div>
+  </div>
+</div>
+
+<!-- ══ DEFINITION PANEL ════════════════════════════════════ -->
+<div id="def-panel">
+  <div class="def-row">
+    <div>
+      <div class="def-zh" id="def-zh"></div>
+      <div class="def-py" id="def-py"></div>
+      <div class="def-gl" id="def-gl"></div>
+    </div>
+    <button class="btn-close" id="btn-close-def" aria-label="关闭">✕</button>
+  </div>
+  <div class="def-hint" id="def-hint"></div>
+</div>
+
+<script>
+(function () {
+'use strict';
+
+/* ── constants ──────────────────────────────────────────── */
+const TYPE_ZH = { article: '文章', dialogue: '对话', story: '故事' };
+
+/* ── shared state ───────────────────────────────────────── */
+var S = {
+  week:    1,
+  index:   null,
+  art:     {},      // id → article JSON
+  curId:   null,
+  tokens:  [],      // current article tokens
+  defOpen: false,
+};
+
+/* ── localStorage ───────────────────────────────────────── */
+function lsKey(id)    { return 'cr_w' + S.week + '_' + id; }
+function blank()      { return { unkns: [], diff: null, topic: null, comp: null, done: false }; }
+
+function loadSt(id) {
+  try {
+    var r = localStorage.getItem(lsKey(id));
+    if (!r) return blank();
+    return Object.assign(blank(), JSON.parse(r));
+  } catch(e) { return blank(); }
+}
+function saveSt(id, st) {
+  try { localStorage.setItem(lsKey(id), JSON.stringify(st)); } catch(e) {}
+}
+
+/* ── fetch ──────────────────────────────────────────────── */
+function weekDir() {
+  return '../weeks/week-' + String(S.week).padStart(2, '0');
+}
+function jfetch(url) {
+  return fetch(url).then(function(r) {
+    if (!r.ok) throw new Error('HTTP ' + r.status + ': ' + url);
+    return r.json();
+  });
+}
+
+/* ── HTML escape ────────────────────────────────────────── */
+function h(s) {
+  return String(s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ══ INIT ═══════════════════════════════════════════════════ */
+function init() {
+  var p = new URLSearchParams(location.search);
+  S.week = Math.max(1, parseInt(p.get('week') || '1', 10) || 1);
+  document.getElementById('wk-title').textContent = '第 ' + S.week + ' 周';
+
+  jfetch(weekDir() + '/index.json').then(function(idx) {
+    S.index = idx;
+    renderWeek();
+  }).catch(function(e) {
+    document.getElementById('day-list').innerHTML =
+      '<div class="err">无法加载第 ' + S.week + ' 周数据。<br><small>' + h(e.message) + '</small></div>';
+  });
+}
+
+/* ══ WEEK VIEW ══════════════════════════════════════════════ */
+function renderWeek() {
+  var list = document.getElementById('day-list');
+  list.innerHTML = '';
+  var done = 0;
+
+  S.index.articles.forEach(function(a) {
+    var st = loadSt(a.id);
+    if (st.done) done++;
+    list.appendChild(makeCard(a, st));
+  });
+
+  document.getElementById('wk-pill').textContent = done + ' / 7';
+}
+
+function makeCard(a, st) {
+  var card = document.createElement('div');
+  card.className = 'day-card' + (st.done ? ' done' : '');
+
+  var typeLabel = TYPE_ZH[a.type] || a.type;
+  var doneTag   = st.done ? '<span class="tag done">✓ 完成</span>' : '';
+
+  card.innerHTML =
+    '<div class="day-num">' + a.day + '</div>' +
+    '<div class="card-info">' +
+      '<div class="card-title">' + h(a.title) + '</div>' +
+      '<div class="card-tags">' +
+        '<span class="tag">' + h(typeLabel) + '</span>' +
+        '<span class="tag">' + h(a.topic) + '</span>' +
+        '<span class="tag lvl">' + h(a.target_level) + '</span>' +
+        doneTag +
+      '</div>' +
+    '</div>' +
+    '<div class="done-icon">' + (st.done ? '✓' : '○') + '</div>';
+
+  card.addEventListener('click', function() { openArt(a.id); });
+  return card;
+}
+
+/* ══ READING VIEW ═══════════════════════════════════════════ */
+function openArt(id) {
+  var load = S.art[id]
+    ? Promise.resolve(S.art[id])
+    : jfetch(weekDir() + '/' + id + '.json').then(function(d) {
+        S.art[id] = d; return d;
+      });
+
+  load.then(function(art) {
+    S.curId  = id;
+    S.tokens = art.tokens;
+
+    var st = loadSt(id);
+
+    // switch views
+    document.getElementById('week-view').style.display = 'none';
+    var rv = document.getElementById('reading-view');
+    rv.classList.add('open');
+    rv.scrollTop = 0;
+
+    // header meta
+    document.getElementById('art-title').textContent = art.title;
+    document.getElementById('rd-tags').innerHTML =
+      '<span class="tag">' + h(TYPE_ZH[art.type] || art.type) + '</span>' +
+      '<span class="tag">' + h(art.topic) + '</span>' +
+      '<span class="tag lvl">' + h(art.target_level) + '</span>';
+
+    // content
+    buildText(art.tokens, st.unkns);
+    buildComp(art.comprehension || [], st);
+    buildRatings(st);
+    document.getElementById('done-banner').classList.toggle('vis', !!st.done);
+    closePanel();
+
+  }).catch(function(e) {
+    alert('加载失败：' + e.message);
+  });
+}
+
+/* ── token rendering ────────────────────────────────────── */
+function buildText(tokens, unknArr) {
+  var unkSet = new Set(unknArr);
+  var el = document.getElementById('art-text');
+  var frag = document.createDocumentFragment();
+
+  tokens.forEach(function(tok, i) {
+    var s = document.createElement('span');
+    if (tok.punct) {
+      s.className   = 'punct';
+      s.textContent = tok.t;
+    } else {
+      s.className   = 'word' + (unkSet.has(i) ? ' unk' : '');
+      s.textContent = tok.t;
+      s.dataset.i   = i;
+      s.addEventListener('click', onWordTap);
+    }
+    frag.appendChild(s);
+  });
+
+  el.innerHTML = '';
+  el.appendChild(frag);
+}
+
+function onWordTap() {
+  var idx = parseInt(this.dataset.i, 10);
+  var st  = loadSt(S.curId);
+  var unk = new Set(st.unkns);
+  var tok = S.tokens[idx];
+
+  if (unk.has(idx)) {
+    unk.delete(idx);
+    this.classList.remove('unk');
+  } else {
+    unk.add(idx);
+    this.classList.add('unk');
+  }
+
+  st.unkns = Array.from(unk);
+  saveSt(S.curId, st);
+  showPanel(tok, unk.has(idx));
+}
+
+/* ── definition panel ───────────────────────────────────── */
+function showPanel(tok, isUnk) {
+  document.getElementById('def-zh').textContent   = tok.t;
+  document.getElementById('def-py').textContent   = tok.py  || '';
+  document.getElementById('def-gl').textContent   = tok.g   || '';
+  document.getElementById('def-hint').textContent = isUnk
+    ? '已标记为生词 · 再次点击可取消标记'
+    : '已取消标记 · 点击词语可重新标记';
+  document.getElementById('def-panel').classList.add('open');
+  S.defOpen = true;
+}
+
+function closePanel() {
+  document.getElementById('def-panel').classList.remove('open');
+  S.defOpen = false;
+}
+
+/* ── comprehension ──────────────────────────────────────── */
+function buildComp(items, st) {
+  var el = document.getElementById('comp-sec');
+  if (!items.length) { el.innerHTML = ''; return; }
+
+  var q      = items[0];
+  var shown  = st.comp !== null;
+
+  el.innerHTML =
+    '<div class="comp-block">' +
+      '<div class="blk-lbl">理解问题</div>' +
+      '<p class="q-text">' + h(q.q) + '</p>' +
+      (shown ? '' : '<button class="btn-show" id="btn-show">显示答案</button>') +
+      '<div class="ans-text' + (shown ? ' vis' : '') + '" id="ans-text">' + h(q.a) + '</div>' +
+      '<div class="comp-btns' + (shown ? ' vis' : '') + '" id="comp-btns">' +
+        '<button class="btn-comp' + (st.comp === 'got_it' ? ' ok'  : '') + '" data-v="got_it">✓ 答对了</button>' +
+        '<button class="btn-comp' + (st.comp === 'missed' ? ' nok' : '') + '" data-v="missed">✗ 没答对</button>' +
+      '</div>' +
+    '</div>';
+
+  var btnShow = document.getElementById('btn-show');
+  if (btnShow) {
+    btnShow.addEventListener('click', function() {
+      this.style.display = 'none';
+      document.getElementById('ans-text').classList.add('vis');
+      document.getElementById('comp-btns').classList.add('vis');
+    });
+  }
+
+  el.querySelectorAll('.btn-comp').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var v   = this.dataset.v;
+      var st2 = loadSt(S.curId);
+      st2.comp = v;
+      saveSt(S.curId, st2);
+      el.querySelectorAll('.btn-comp').forEach(function(b) { b.className = 'btn-comp'; });
+      this.className = 'btn-comp ' + (v === 'got_it' ? 'ok' : 'nok');
+    });
+  });
+}
+
+/* ── ratings ────────────────────────────────────────────── */
+function buildRatings(st) {
+  var el = document.getElementById('rates-sec');
+
+  el.innerHTML =
+    '<div class="rate-blk">' +
+      '<div class="rate-lbl">难度</div>' +
+      '<div class="rate-row">' +
+        rateBtn('diff', 'too_easy',   '太简单', st.diff) +
+        rateBtn('diff', 'just_right', '刚刚好', st.diff) +
+        rateBtn('diff', 'too_hard',   '太难了', st.diff) +
+      '</div>' +
+    '</div>' +
+    '<div class="rate-blk">' +
+      '<div class="rate-lbl">主题</div>' +
+      '<div class="rate-row">' +
+        rateBtn('topic', 'liked',    '喜欢',  st.topic) +
+        rateBtn('topic', 'meh',      '还好',  st.topic) +
+        rateBtn('topic', 'disliked', '不喜欢', st.topic) +
+      '</div>' +
+    '</div>';
+
+  el.querySelectorAll('.btn-rate').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var g = this.dataset.g, v = this.dataset.v;
+      var st2 = loadSt(S.curId);
+      if (g === 'diff') st2.diff = v; else st2.topic = v;
+      saveSt(S.curId, st2);
+      el.querySelectorAll('.btn-rate[data-g="' + g + '"]').forEach(function(b) {
+        b.classList.remove('sel');
+      });
+      this.classList.add('sel');
+      checkDone(st2);
+    });
+  });
+}
+
+function rateBtn(group, val, label, current) {
+  return '<button class="btn-rate' + (current === val ? ' sel' : '') +
+    '" data-g="' + group + '" data-v="' + val + '">' + label + '</button>';
+}
+
+function checkDone(st) {
+  if (st.diff && st.topic && !st.done) {
+    st.done = true;
+    saveSt(S.curId, st);
+    document.getElementById('done-banner').classList.add('vis');
+  }
+}
+
+/* ── navigation ─────────────────────────────────────────── */
+function goBack() {
+  closePanel();
+  document.getElementById('reading-view').classList.remove('open');
+  document.getElementById('week-view').style.display = '';
+  S.curId = null;
+  renderWeek();
+  window.scrollTo(0, 0);
+}
+
+/* ══ EXPORT ═════════════════════════════════════════════════ */
+function doExport() {
+  var arts = S.index.articles;
+  var loads = arts.map(function(a) {
+    if (S.art[a.id]) return Promise.resolve(S.art[a.id]);
+    return jfetch(weekDir() + '/' + a.id + '.json').then(function(d) {
+      S.art[a.id] = d; return d;
+    }).catch(function() { return null; });
+  });
+
+  Promise.all(loads).then(function(artDatas) {
+    var result = arts.map(function(a, i) {
+      var artData  = artDatas[i];
+      var st       = loadSt(a.id);
+      var tappable = artData ? artData.tokens.filter(function(t) { return !t.punct; }).length : 0;
+      var wordsTapped = [];
+      if (artData) {
+        st.unkns.forEach(function(idx) {
+          var tok = artData.tokens[idx];
+          if (tok && !tok.punct) wordsTapped.push({ t: tok.t, py: tok.py, g: tok.g });
+        });
+      }
+      return {
+        id:               a.id,
+        topic:            a.topic,
+        register:         a.register,
+        type:             a.type,
+        target_level:     a.target_level,
+        completed:        !!st.done,
+        difficulty_rating: st.diff  || null,
+        topic_rating:      st.topic || null,
+        comprehension:     st.comp  || null,
+        words_tapped:      wordsTapped,
+        unknown_rate:      tappable > 0
+          ? parseFloat((st.unkns.length / tappable).toFixed(4)) : 0,
+      };
+    });
+
+    var blob = { week: S.week, exported_at: new Date().toISOString(), articles: result };
+    var url  = URL.createObjectURL(
+      new Blob([JSON.stringify(blob, null, 2)], { type: 'application/json' })
+    );
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'week-' + S.week + '-feedback.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
+  });
+}
+
+/* ── wire up events ─────────────────────────────────────── */
+document.getElementById('btn-back').addEventListener('click', goBack);
+document.getElementById('btn-close-def').addEventListener('click', closePanel);
+document.getElementById('btn-export').addEventListener('click', doExport);
+
+// close panel on reading scroll
+document.getElementById('reading-view').addEventListener('scroll', function() {
+  if (S.defOpen) closePanel();
+}, { passive: true });
+
+// close panel when tapping blank space in article
+document.getElementById('art-text').addEventListener('click', function(e) {
+  if (e.target === this && S.defOpen) closePanel();
+});
+
+init();
+}());
+</script>
+</body>
+</html>

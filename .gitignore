@@ -1,0 +1,12 @@
+# Personal / internal files — not published to GitHub Pages
+memory.json
+CLAUDE.md
+.claude/
+
+# Feedback exports (stay local, fed back to Claude manually)
+*-feedback.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
