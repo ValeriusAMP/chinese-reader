@@ -465,7 +465,7 @@ function weekDir() {
   return '../weeks/week-' + String(S.week).padStart(2, '0');
 }
 function jfetch(url) {
-  return fetch(url).then(function(r) {
+  return fetch(url + '?t=' + Date.now()).then(function(r) {
     if (!r.ok) throw new Error('HTTP ' + r.status + ': ' + url);
     return r.json();
   });
