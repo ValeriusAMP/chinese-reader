@@ -32,7 +32,7 @@
     {"t": "。", "punct": true},
     {"t": "黑洞", "py": "hēidòng", "g": "black hole's"},
     {"t": "的", "py": "de", "g": "(particle)"},
-    {"t": ""边界"", "py": "biānjie", "g": "boundary"},
+    {"t": "“边界”", "py": "biānjie", "g": "boundary"},
     {"t": "被称为", "py": "bèichēngwéi", "g": "is called"},
     {"t": "事件视界", "py": "shìjiànshìjiè", "g": "event horizon"},
     {"t": "——", "punct": true},
