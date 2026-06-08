@@ -301,6 +301,7 @@ ruby.word-name rt { color: var(--accent-2); }
 }
 
 .punct { display: inline; }
+.plain { display: inline; }
 
 /* ══ COMPREHENSION ════════════════════════════════════════ */
 .comp-block {
@@ -748,6 +749,15 @@ function buildText(tokens, unknArr) {
       return;
     }
 
+    /* plain token: no py/g and not a name — render as non-tappable text */
+    if (!tok.py && !tok.g && !tok.name) {
+      var sp = document.createElement('span');
+      sp.className   = 'plain';
+      sp.textContent = tok.t;
+      frag.appendChild(sp);
+      return;
+    }
+
     var isName  = !!tok.name;
     var isFirst = !!tok.first;   /* first occurrence of a name → always show pinyin */
     var isUnk   = unkSet.has(i);
@@ -1107,7 +1117,7 @@ function buildExportData() {
       var artData     = artDatas[i];
       var st          = loadSt(a.id);
       var tappable    = artData
-        ? artData.tokens.filter(function(t) { return !t.punct && !t.name; }).length : 0;
+        ? artData.tokens.filter(function(t) { return !t.punct && !t.name && (t.py || t.g); }).length : 0;
 
       var wordsTapped = [];
       if (artData) {
