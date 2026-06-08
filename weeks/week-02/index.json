@@ -1,0 +1,12 @@
+{
+  "week": 2,
+  "articles": [
+    {"id":"w2d1","day":1,"type":"dialogue","topic":"philosophy","title":"知道自己不知道","target_level":"HSK4"},
+    {"id":"w2d2","day":2,"type":"article","topic":"finance","title":"央行加息的逻辑","target_level":"HSK5"},
+    {"id":"w2d3","day":3,"type":"article","topic":"history","title":"丝绸之路上的商人","target_level":"HSK5"},
+    {"id":"w2d4","day":4,"type":"article","topic":"high technology","title":"大模型改变了什么","target_level":"HSK5"},
+    {"id":"w2d5","day":5,"type":"article","topic":"geopolitics","title":"数字时代的地缘博弈","target_level":"HSK5"},
+    {"id":"w2d6","day":6,"type":"dialogue","topic":"psychology","title":"记忆是怎么工作的？","target_level":"HSK4"},
+    {"id":"w2d7","day":7,"type":"story","topic":"philosophy/history","title":"《时间的裂缝》第二章：苏格拉底的问题","target_level":"HSK6"}
+  ]
+}
