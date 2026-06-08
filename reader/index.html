@@ -44,10 +44,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 0 22px;
+  padding: 32px 0 16px;
   position: relative;
 }
-/* Faint radial glow behind the header */
 .wk-hdr::before {
   content: '';
   position: absolute;
@@ -66,6 +65,33 @@ body {
   padding: 4px 13px;
   border-radius: 20px;
   font-family: var(--en);
+}
+
+/* Week picker */
+.week-picker {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.btn-week {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-muted);
+  font-family: var(--zh);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: border-color .2s, color .2s;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-week:hover { border-color: rgba(139,124,246,0.3); color: var(--text); }
+.btn-week.active {
+  background: rgba(139,124,246,0.15);
+  border-color: rgba(139,124,246,0.4);
+  color: var(--accent);
 }
 
 .day-list { display: flex; flex-direction: column; gap: 10px; }
@@ -142,7 +168,8 @@ body {
 .wk-foot {
   position: fixed; bottom: 0; left: 0; right: 0;
   padding: 12px 16px 20px;
-  display: flex; justify-content: center;
+  display: flex; justify-content: center; align-items: center;
+  gap: 10px; flex-wrap: wrap;
   background: linear-gradient(to top, var(--bg) 70%, transparent);
   pointer-events: none;
 }
@@ -152,7 +179,7 @@ body {
   background: var(--accent-grad);
   color: #fff;
   border: none; border-radius: 30px;
-  padding: 13px 30px;
+  padding: 13px 28px;
   font-size: 15px; font-family: var(--zh); font-weight: 600;
   cursor: pointer;
   box-shadow: 0 2px 18px rgba(139,124,246,0.38);
@@ -160,6 +187,19 @@ body {
 }
 .btn-export:hover { box-shadow: 0 4px 28px rgba(139,124,246,0.55); }
 .btn-export:active { opacity: .85; transform: scale(.97); }
+
+.btn-copy {
+  background: var(--surface);
+  color: var(--accent);
+  border: 1.5px solid rgba(139,124,246,0.35);
+  border-radius: 30px;
+  padding: 12px 20px;
+  font-size: 14px; font-family: var(--zh); font-weight: 600;
+  cursor: pointer;
+  transition: border-color .2s, box-shadow .2s, opacity .15s, transform .1s;
+}
+.btn-copy:hover { border-color: rgba(139,124,246,0.55); box-shadow: 0 2px 12px rgba(139,124,246,0.18); }
+.btn-copy:active { opacity: .85; transform: scale(.97); }
 
 .loading { text-align: center; padding: 48px 0; color: var(--text-muted); font-size: 16px; }
 .err     { color: #ff6b6b; padding: 24px; text-align: center; font-size: 15px; }
@@ -200,7 +240,7 @@ body {
 .art-wrap {
   max-width: 660px;
   margin: 0 auto;
-  padding: 24px 20px 200px;
+  padding: 24px 20px 220px;
 }
 
 .art-title {
@@ -209,14 +249,30 @@ body {
   color: var(--text);
 }
 
+/* Ruby / pinyin — generous line-height to accommodate rt above characters */
 .art-text {
   font-size: 20px;
-  line-height: 1.95;
+  line-height: 2.7;
   color: var(--text);
   word-break: normal;
   overflow-wrap: break-word;
 }
 @media (max-width: 380px) { .art-text { font-size: 18px; } }
+
+ruby { display: inline; }
+rt {
+  font-size: 0;       /* hidden by default — no height impact */
+  line-height: 0;
+  color: var(--accent);
+  font-family: var(--en);
+  letter-spacing: 0.01em;
+  display: block;
+}
+ruby.py-on rt {
+  font-size: 0.5em;
+  line-height: 1.1;
+}
+ruby.word-name rt { color: var(--accent-2); }
 
 .word {
   display: inline;
@@ -233,9 +289,20 @@ body {
   text-shadow: 0 0 14px rgba(139,124,246,0.55);
 }
 
+/* Name tokens */
+.word.word-name {
+  color: var(--accent-2);
+}
+.word.word-name:hover { background: rgba(110,168,254,0.11); }
+.word.word-name.unk {
+  color: var(--accent);
+  background: rgba(139,124,246,0.15);
+  border-bottom: 2px solid var(--accent);
+}
+
 .punct { display: inline; }
 
-/* Comprehension block */
+/* ══ COMPREHENSION ════════════════════════════════════════ */
 .comp-block {
   margin-top: 40px;
   background: var(--surface);
@@ -244,9 +311,10 @@ body {
   box-shadow: 0 2px 14px rgba(0,0,0,.35);
   padding: 18px;
 }
+.comp-q + .comp-q { margin-top: 20px; border-top: 1px solid var(--border); padding-top: 20px; }
 .blk-lbl {
   font-size: 11px; font-weight: 700; letter-spacing: .07em;
-  color: var(--text-muted); text-transform: uppercase; margin-bottom: 10px;
+  color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px;
   font-family: var(--en);
 }
 .q-text { font-size: 17px; line-height: 1.75; margin-bottom: 12px; color: var(--text); }
@@ -277,6 +345,7 @@ body {
 
 .comp-btns { display: none; gap: 8px; margin-top: 12px; }
 .comp-btns.vis { display: flex; }
+.comp-btns.col { flex-direction: column; }
 
 .btn-comp {
   flex: 1; padding: 10px 6px;
@@ -287,6 +356,8 @@ body {
   cursor: pointer; text-align: center;
   transition: all .15s;
 }
+.btn-comp:disabled { cursor: default; }
+.comp-btns.col .btn-comp { text-align: left; padding: 10px 12px; }
 .btn-comp.ok {
   background: rgba(139,124,246,0.12);
   border-color: rgba(139,124,246,0.4);
@@ -300,7 +371,7 @@ body {
   font-weight: 600;
 }
 
-/* Ratings */
+/* ══ RATINGS + COMMENT ════════════════════════════════════ */
 .rates { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
 
 .rate-blk {
@@ -331,6 +402,33 @@ body {
   color: #fff; font-weight: 600;
   box-shadow: 0 0 18px rgba(139,124,246,0.38);
 }
+
+/* Comment block */
+.comment-blk {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 16px 18px;
+}
+.comment-blk textarea {
+  width: 100%;
+  min-height: 78px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: var(--zh);
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 10px 12px;
+  resize: vertical;
+  outline: none;
+  margin-top: 8px;
+  transition: border-color .2s;
+  display: block;
+}
+.comment-blk textarea:focus { border-color: rgba(139,124,246,0.4); }
+.comment-blk textarea::placeholder { color: var(--text-muted); }
 
 .done-banner {
   display: none; margin-top: 14px;
@@ -389,14 +487,16 @@ body {
 <!-- ══ WEEK VIEW ═══════════════════════════════════════════ -->
 <div id="week-view">
   <div class="wk-hdr">
-    <h1 id="wk-title">第 — 周</h1>
-    <span class="pill" id="wk-pill">— / 7</span>
+    <h1 id="wk-title">中文阅读器</h1>
+    <span class="pill" id="wk-pill">— / —</span>
   </div>
+  <div class="week-picker" id="week-picker"></div>
   <div class="day-list" id="day-list">
     <div class="loading">加载中…</div>
   </div>
   <div class="wk-foot">
     <button class="btn-export" id="btn-export">导出本周反馈</button>
+    <button class="btn-copy"   id="btn-copy">复制反馈</button>
   </div>
 </div>
 
@@ -433,29 +533,43 @@ body {
 'use strict';
 
 /* ── constants ──────────────────────────────────────────── */
-const TYPE_ZH = { article: '文章', dialogue: '对话', story: '故事' };
+var TYPE_ZH = { article: '文章', dialogue: '对话', story: '故事' };
 
 /* ── shared state ───────────────────────────────────────── */
 var S = {
-  week:    1,
-  index:   null,
-  art:     {},      // id → article JSON
-  curId:   null,
-  tokens:  [],      // current article tokens
-  defOpen: false,
+  week:     1,
+  manifest: { weeks: [1], latest: 1 },
+  index:    null,
+  art:      {},
+  curId:    null,
+  tokens:   [],
+  defOpen:  false,
 };
 
 /* ── localStorage ───────────────────────────────────────── */
-function lsKey(id)    { return 'cr_w' + S.week + '_' + id; }
-function blank()      { return { unkns: [], diff: null, topic: null, comp: null, done: false }; }
+function lsKey(id) { return 'cr_w' + S.week + '_' + id; }
+
+function blank() {
+  return { unkns: [], diff: null, topic: null, comp: [], done: false, comment: '' };
+}
 
 function loadSt(id) {
   try {
     var r = localStorage.getItem(lsKey(id));
     if (!r) return blank();
-    return Object.assign(blank(), JSON.parse(r));
+    var parsed = JSON.parse(r);
+    var st = Object.assign(blank(), parsed);
+    /* migrate old comp: string → [{correct}] */
+    if (typeof st.comp === 'string') {
+      st.comp = [{ correct: st.comp === 'got_it' }];
+    } else if (!Array.isArray(st.comp)) {
+      st.comp = [];
+    }
+    if (typeof st.comment !== 'string') st.comment = '';
+    return st;
   } catch(e) { return blank(); }
 }
+
 function saveSt(id, st) {
   try { localStorage.setItem(lsKey(id), JSON.stringify(st)); } catch(e) {}
 }
@@ -464,6 +578,7 @@ function saveSt(id, st) {
 function weekDir() {
   return '../weeks/week-' + String(S.week).padStart(2, '0');
 }
+
 function jfetch(url) {
   return fetch(url + '?t=' + Date.now()).then(function(r) {
     if (!r.ok) throw new Error('HTTP ' + r.status + ': ' + url);
@@ -481,9 +596,57 @@ function h(s) {
 /* ══ INIT ═══════════════════════════════════════════════════ */
 function init() {
   var p = new URLSearchParams(location.search);
-  S.week = Math.max(1, parseInt(p.get('week') || '1', 10) || 1);
-  document.getElementById('wk-title').textContent = '第 ' + S.week + ' 周';
+  var weekParam = p.get('week');
 
+  jfetch('../weeks/manifest.json').then(function(manifest) {
+    S.manifest = manifest;
+    S.week = weekParam
+      ? Math.max(1, parseInt(weekParam, 10) || 1)
+      : (manifest.latest || 1);
+    afterManifest();
+  }).catch(function() {
+    /* no manifest — fall back to week 1 */
+    S.week = weekParam ? Math.max(1, parseInt(weekParam, 10) || 1) : 1;
+    afterManifest();
+  });
+}
+
+function afterManifest() {
+  renderWeekPicker();
+  document.getElementById('wk-title').textContent = '第 ' + S.week + ' 周';
+  loadWeekIndex();
+}
+
+/* ══ WEEK PICKER ════════════════════════════════════════════ */
+function renderWeekPicker() {
+  var picker = document.getElementById('week-picker');
+  picker.innerHTML = '';
+  (S.manifest.weeks || [1]).forEach(function(w) {
+    var btn = document.createElement('button');
+    btn.className = 'btn-week' + (w === S.week ? ' active' : '');
+    btn.textContent = '第' + w + '周';
+    btn.addEventListener('click', function() {
+      if (w === S.week) return;
+      switchWeek(w);
+    });
+    picker.appendChild(btn);
+  });
+}
+
+function switchWeek(w) {
+  S.week = w;
+  S.art  = {};
+  S.index = null;
+  history.replaceState(null, '', '?week=' + w);
+  document.getElementById('wk-title').textContent = '第 ' + w + ' 周';
+  document.querySelectorAll('.btn-week').forEach(function(btn) {
+    btn.classList.toggle('active', btn.textContent === '第' + w + '周');
+  });
+  document.getElementById('day-list').innerHTML = '<div class="loading">加载中…</div>';
+  loadWeekIndex();
+}
+
+function loadWeekIndex() {
   jfetch(weekDir() + '/index.json').then(function(idx) {
     S.index = idx;
     renderWeek();
@@ -498,6 +661,7 @@ function renderWeek() {
   var list = document.getElementById('day-list');
   list.innerHTML = '';
   var done = 0;
+  var total = S.index.articles.length;
 
   S.index.articles.forEach(function(a) {
     var st = loadSt(a.id);
@@ -505,7 +669,7 @@ function renderWeek() {
     list.appendChild(makeCard(a, st));
   });
 
-  document.getElementById('wk-pill').textContent = done + ' / 7';
+  document.getElementById('wk-pill').textContent = done + ' / ' + total;
 }
 
 function makeCard(a, st) {
@@ -546,20 +710,17 @@ function openArt(id) {
 
     var st = loadSt(id);
 
-    // switch views
     document.getElementById('week-view').style.display = 'none';
     var rv = document.getElementById('reading-view');
     rv.classList.add('open');
     rv.scrollTop = 0;
 
-    // header meta
     document.getElementById('art-title').textContent = art.title;
     document.getElementById('rd-tags').innerHTML =
       '<span class="tag">' + h(TYPE_ZH[art.type] || art.type) + '</span>' +
       '<span class="tag">' + h(art.topic) + '</span>' +
       '<span class="tag lvl">' + h(art.target_level) + '</span>';
 
-    // content
     buildText(art.tokens, st.unkns);
     buildComp(art.comprehension || [], st);
     buildRatings(st);
@@ -571,57 +732,97 @@ function openArt(id) {
   });
 }
 
-/* ── token rendering ────────────────────────────────────── */
+/* ── token rendering with ruby ──────────────────────────── */
 function buildText(tokens, unknArr) {
   var unkSet = new Set(unknArr);
   var el = document.getElementById('art-text');
+  el.innerHTML = '';
   var frag = document.createDocumentFragment();
 
   tokens.forEach(function(tok, i) {
-    var s = document.createElement('span');
     if (tok.punct) {
+      var s = document.createElement('span');
       s.className   = 'punct';
       s.textContent = tok.t;
-    } else {
-      s.className   = 'word' + (unkSet.has(i) ? ' unk' : '');
-      s.textContent = tok.t;
-      s.dataset.i   = i;
-      s.addEventListener('click', onWordTap);
+      frag.appendChild(s);
+      return;
     }
-    frag.appendChild(s);
+
+    var isName  = !!tok.name;
+    var isFirst = !!tok.first;   /* first occurrence of a name → always show pinyin */
+    var isUnk   = unkSet.has(i);
+    var showPy  = isUnk || isFirst;
+
+    var ruby = document.createElement('ruby');
+    var cls = 'word';
+    if (isName)  cls += ' word-name';
+    if (isUnk)   cls += ' unk';
+    if (showPy)  cls += ' py-on';
+    ruby.className = cls;
+    ruby.dataset.i = i;
+    ruby.addEventListener('click', onWordTap);
+
+    ruby.appendChild(document.createTextNode(tok.t));
+
+    var rt = document.createElement('rt');
+    rt.textContent = showPy ? (tok.py || '') : '';
+    ruby.appendChild(rt);
+
+    frag.appendChild(ruby);
   });
 
-  el.innerHTML = '';
   el.appendChild(frag);
 }
 
 function onWordTap() {
   var idx = parseInt(this.dataset.i, 10);
+  var tok = S.tokens[idx];
+
+  /* name tokens: show panel only, don't add to unkns */
+  if (tok.name) {
+    showPanel(tok, false, true);
+    return;
+  }
+
   var st  = loadSt(S.curId);
   var unk = new Set(st.unkns);
-  var tok = S.tokens[idx];
+  var rt  = this.querySelector('rt');
 
   if (unk.has(idx)) {
     unk.delete(idx);
     this.classList.remove('unk');
+    /* only hide pinyin if not a first-occurrence name token */
+    if (!tok.first) {
+      this.classList.remove('py-on');
+      if (rt) rt.textContent = '';
+    }
   } else {
     unk.add(idx);
     this.classList.add('unk');
+    this.classList.add('py-on');
+    if (rt) rt.textContent = tok.py || '';
   }
 
   st.unkns = Array.from(unk);
   saveSt(S.curId, st);
-  showPanel(tok, unk.has(idx));
+  showPanel(tok, unk.has(idx), false);
 }
 
 /* ── definition panel ───────────────────────────────────── */
-function showPanel(tok, isUnk) {
-  document.getElementById('def-zh').textContent   = tok.t;
-  document.getElementById('def-py').textContent   = tok.py  || '';
-  document.getElementById('def-gl').textContent   = tok.g   || '';
-  document.getElementById('def-hint').textContent = isUnk
-    ? '已标记为生词 · 再次点击可取消标记'
-    : '已取消标记 · 点击词语可重新标记';
+function showPanel(tok, isUnk, isName) {
+  document.getElementById('def-zh').textContent = tok.t;
+  document.getElementById('def-py').textContent = tok.py || '';
+  document.getElementById('def-gl').textContent = tok.g  || '';
+
+  var hint = '';
+  if (isName) {
+    hint = '专有名词';
+  } else if (isUnk) {
+    hint = '已标记为生词 · 再次点击可取消标记';
+  } else {
+    hint = '已取消标记 · 点击词语可重新标记';
+  }
+  document.getElementById('def-hint').textContent = hint;
   document.getElementById('def-panel').classList.add('open');
   S.defOpen = true;
 }
@@ -632,47 +833,189 @@ function closePanel() {
 }
 
 /* ── comprehension ──────────────────────────────────────── */
+/*
+ * Handles three question shapes:
+ *   legacy open:      { q, a }                           — show/hide answer + self-assess
+ *   true_false:       { type:"true_false",  q, answer }  — 对/错 buttons
+ *   multiple_choice:  { type:"multiple_choice", q, options:[], answer:N }
+ */
 function buildComp(items, st) {
   var el = document.getElementById('comp-sec');
-  if (!items.length) { el.innerHTML = ''; return; }
+  el.innerHTML = '';
+  if (!items.length) return;
 
-  var q      = items[0];
-  var shown  = st.comp !== null;
+  var block = document.createElement('div');
+  block.className = 'comp-block';
 
-  el.innerHTML =
-    '<div class="comp-block">' +
-      '<div class="blk-lbl">理解问题</div>' +
-      '<p class="q-text">' + h(q.q) + '</p>' +
-      (shown ? '' : '<button class="btn-show" id="btn-show">显示答案</button>') +
-      '<div class="ans-text' + (shown ? ' vis' : '') + '" id="ans-text">' + h(q.a) + '</div>' +
-      '<div class="comp-btns' + (shown ? ' vis' : '') + '" id="comp-btns">' +
-        '<button class="btn-comp' + (st.comp === 'got_it' ? ' ok'  : '') + '" data-v="got_it">✓ 答对了</button>' +
-        '<button class="btn-comp' + (st.comp === 'missed' ? ' nok' : '') + '" data-v="missed">✗ 没答对</button>' +
-      '</div>' +
-    '</div>';
+  var lbl = document.createElement('div');
+  lbl.className = 'blk-lbl';
+  lbl.textContent = '理解问题';
+  block.appendChild(lbl);
 
-  var btnShow = document.getElementById('btn-show');
-  if (btnShow) {
-    btnShow.addEventListener('click', function() {
+  items.forEach(function(q, qi) {
+    var entry    = st.comp && st.comp[qi] != null ? st.comp[qi] : null;
+    var answered = entry !== null;
+    var type     = q.type || 'open';
+
+    var qDiv = document.createElement('div');
+    qDiv.className = 'comp-q';
+
+    var qText = document.createElement('p');
+    qText.className = 'q-text';
+    qText.textContent = q.q;
+    qDiv.appendChild(qText);
+
+    if (type === 'open') {
+      buildOpenQ(qDiv, q, qi, answered, entry);
+    } else if (type === 'true_false') {
+      buildTFQ(qDiv, q, qi, answered, entry);
+    } else if (type === 'multiple_choice') {
+      buildMCQ(qDiv, q, qi, answered, entry);
+    }
+
+    block.appendChild(qDiv);
+  });
+
+  el.appendChild(block);
+}
+
+function buildOpenQ(qDiv, q, qi, answered, entry) {
+  if (!answered) {
+    var btnShow = document.createElement('button');
+    btnShow.className = 'btn-show';
+    btnShow.textContent = '显示答案';
+    qDiv.appendChild(btnShow);
+  }
+
+  var ansEl = document.createElement('div');
+  ansEl.className = 'ans-text' + (answered ? ' vis' : '');
+  ansEl.textContent = q.a;
+  qDiv.appendChild(ansEl);
+
+  var btnsEl = document.createElement('div');
+  btnsEl.className = 'comp-btns' + (answered ? ' vis' : '');
+
+  var gotIt  = makeCompBtn('✓ 答对了', answered && entry && entry.correct  ? 'ok'  : '');
+  gotIt.dataset.v = 'true';
+  var missed = makeCompBtn('✗ 没答对',  answered && entry && !entry.correct ? 'nok' : '');
+  missed.dataset.v = 'false';
+
+  btnsEl.appendChild(gotIt);
+  btnsEl.appendChild(missed);
+  qDiv.appendChild(btnsEl);
+
+  if (!answered) {
+    qDiv.querySelector('.btn-show').addEventListener('click', function() {
       this.style.display = 'none';
-      document.getElementById('ans-text').classList.add('vis');
-      document.getElementById('comp-btns').classList.add('vis');
+      ansEl.classList.add('vis');
+      btnsEl.classList.add('vis');
     });
   }
 
-  el.querySelectorAll('.btn-comp').forEach(function(btn) {
+  btnsEl.querySelectorAll('.btn-comp').forEach(function(btn) {
     btn.addEventListener('click', function() {
-      var v   = this.dataset.v;
-      var st2 = loadSt(S.curId);
-      st2.comp = v;
-      saveSt(S.curId, st2);
-      el.querySelectorAll('.btn-comp').forEach(function(b) { b.className = 'btn-comp'; });
-      this.className = 'btn-comp ' + (v === 'got_it' ? 'ok' : 'nok');
+      if (answered) return;
+      var isCorrect = this.dataset.v === 'true';
+      saveComp(qi, { correct: isCorrect });
+      answered = true;
+      btnsEl.querySelectorAll('.btn-comp').forEach(function(b) { b.className = 'btn-comp'; });
+      this.className = 'btn-comp ' + (isCorrect ? 'ok' : 'nok');
     });
   });
 }
 
-/* ── ratings ────────────────────────────────────────────── */
+function buildTFQ(qDiv, q, qi, answered, entry) {
+  var btnsEl = document.createElement('div');
+  btnsEl.className = 'comp-btns vis';
+
+  ['对', '错'].forEach(function(opt) {
+    var isCorrect = opt === q.answer;
+    var cls = '';
+    if (answered) {
+      if (entry && ((opt === '对') === entry.correct) && isCorrect) cls = 'ok';
+      else if (answered && entry && ((opt === '对') !== entry.correct) && !isCorrect) cls = '';
+      /* highlight: correct answer = ok; if they chose wrong, chosen = nok, correct = ok */
+      var theyChose = entry && entry.selected === opt;
+      if (theyChose && entry.correct)  cls = 'ok';
+      else if (theyChose && !entry.correct) cls = 'nok';
+      else if (isCorrect && answered && !entry.correct) cls = 'ok';
+      else cls = '';
+    }
+    var btn = makeCompBtn(opt, cls);
+    if (answered) btn.disabled = true;
+    btn.addEventListener('click', function() {
+      if (answered) return;
+      var correct = (opt === q.answer);
+      saveComp(qi, { correct: correct, selected: opt });
+      answered = true;
+      btnsEl.querySelectorAll('.btn-comp').forEach(function(b) {
+        b.disabled = true;
+        b.className = 'btn-comp';
+      });
+      btn.className = 'btn-comp ' + (correct ? 'ok' : 'nok');
+      if (!correct) {
+        btnsEl.querySelectorAll('.btn-comp').forEach(function(b) {
+          if (b.textContent === q.answer) b.className = 'btn-comp ok';
+        });
+      }
+    });
+    btnsEl.appendChild(btn);
+  });
+
+  qDiv.appendChild(btnsEl);
+}
+
+function buildMCQ(qDiv, q, qi, answered, entry) {
+  var btnsEl = document.createElement('div');
+  btnsEl.className = 'comp-btns vis col';
+
+  (q.options || []).forEach(function(opt, oi) {
+    var isCorrect = oi === q.answer;
+    var cls = '';
+    if (answered) {
+      var theyChoseThis = entry && entry.selected === oi;
+      if (theyChoseThis && entry.correct)  cls = 'ok';
+      else if (theyChoseThis && !entry.correct) cls = 'nok';
+      else if (isCorrect && answered && entry && !entry.correct) cls = 'ok';
+    }
+    var btn = makeCompBtn(opt, cls);
+    if (answered) btn.disabled = true;
+    btn.addEventListener('click', function() {
+      if (answered) return;
+      var correct = (oi === q.answer);
+      saveComp(qi, { correct: correct, selected: oi });
+      answered = true;
+      btnsEl.querySelectorAll('.btn-comp').forEach(function(b) {
+        b.disabled = true;
+        b.className = 'btn-comp';
+      });
+      btn.className = 'btn-comp ' + (correct ? 'ok' : 'nok');
+      if (!correct) {
+        btnsEl.querySelectorAll('.btn-comp')[q.answer].className = 'btn-comp ok';
+      }
+    });
+    btnsEl.appendChild(btn);
+  });
+
+  qDiv.appendChild(btnsEl);
+}
+
+function makeCompBtn(text, extraCls) {
+  var btn = document.createElement('button');
+  btn.className = 'btn-comp' + (extraCls ? ' ' + extraCls : '');
+  btn.textContent = text;
+  return btn;
+}
+
+function saveComp(qi, val) {
+  var st2 = loadSt(S.curId);
+  if (!Array.isArray(st2.comp)) st2.comp = [];
+  while (st2.comp.length <= qi) st2.comp.push(null);
+  st2.comp[qi] = val;
+  saveSt(S.curId, st2);
+}
+
+/* ── ratings + comment ──────────────────────────────────── */
 function buildRatings(st) {
   var el = document.getElementById('rates-sec');
 
@@ -692,6 +1035,12 @@ function buildRatings(st) {
         rateBtn('topic', 'meh',      '还好',  st.topic) +
         rateBtn('topic', 'disliked', '不喜欢', st.topic) +
       '</div>' +
+    '</div>' +
+    '<div class="comment-blk">' +
+      '<div class="rate-lbl">感想（用中文写，可选）</div>' +
+      '<textarea id="art-comment" placeholder="写下你的感想…">' +
+        h(st.comment || '') +
+      '</textarea>' +
     '</div>';
 
   el.querySelectorAll('.btn-rate').forEach(function(btn) {
@@ -706,6 +1055,13 @@ function buildRatings(st) {
       this.classList.add('sel');
       checkDone(st2);
     });
+  });
+
+  var ta = document.getElementById('art-comment');
+  ta.addEventListener('input', function() {
+    var st2 = loadSt(S.curId);
+    st2.comment = this.value;
+    saveSt(S.curId, st2);
   });
 }
 
@@ -732,9 +1088,9 @@ function goBack() {
   window.scrollTo(0, 0);
 }
 
-/* ══ EXPORT ═════════════════════════════════════════════════ */
-function doExport() {
-  var arts = S.index.articles;
+/* ══ EXPORT / COPY ══════════════════════════════════════════ */
+function buildExportData() {
+  var arts  = S.index.articles;
   var loads = arts.map(function(a) {
     if (S.art[a.id]) return Promise.resolve(S.art[a.id]);
     return jfetch(weekDir() + '/' + a.id + '.json').then(function(d) {
@@ -742,18 +1098,30 @@ function doExport() {
     }).catch(function() { return null; });
   });
 
-  Promise.all(loads).then(function(artDatas) {
-    var result = arts.map(function(a, i) {
-      var artData  = artDatas[i];
-      var st       = loadSt(a.id);
-      var tappable = artData ? artData.tokens.filter(function(t) { return !t.punct; }).length : 0;
+  return Promise.all(loads).then(function(artDatas) {
+    var articles = arts.map(function(a, i) {
+      var artData     = artDatas[i];
+      var st          = loadSt(a.id);
+      var tappable    = artData
+        ? artData.tokens.filter(function(t) { return !t.punct && !t.name; }).length : 0;
+
       var wordsTapped = [];
       if (artData) {
         st.unkns.forEach(function(idx) {
           var tok = artData.tokens[idx];
-          if (tok && !tok.punct) wordsTapped.push({ t: tok.t, py: tok.py, g: tok.g });
+          if (tok && !tok.punct) wordsTapped.push({ t: tok.t, py: tok.py || '', g: tok.g || '' });
         });
       }
+
+      var compItems = (artData && artData.comprehension) ? artData.comprehension : [];
+      var comprehension = compItems.map(function(q, qi) {
+        var entry = st.comp && st.comp[qi] != null ? st.comp[qi] : null;
+        return {
+          type:    q.type || 'open',
+          correct: entry !== null ? !!entry.correct : null,
+        };
+      });
+
       return {
         id:               a.id,
         topic:            a.topic,
@@ -763,15 +1131,21 @@ function doExport() {
         completed:        !!st.done,
         difficulty_rating: st.diff  || null,
         topic_rating:      st.topic || null,
-        comprehension:     st.comp  || null,
+        comprehension:     comprehension,
+        comment:           st.comment || '',
         words_tapped:      wordsTapped,
         unknown_rate:      tappable > 0
           ? parseFloat((st.unkns.length / tappable).toFixed(4)) : 0,
       };
     });
 
-    var blob = { week: S.week, exported_at: new Date().toISOString(), articles: result };
-    var url  = URL.createObjectURL(
+    return { week: S.week, exported_at: new Date().toISOString(), articles: articles };
+  });
+}
+
+function doExport() {
+  buildExportData().then(function(blob) {
+    var url = URL.createObjectURL(
       new Blob([JSON.stringify(blob, null, 2)], { type: 'application/json' })
     );
     var a = document.createElement('a');
@@ -784,17 +1158,44 @@ function doExport() {
   });
 }
 
+function doCopy() {
+  buildExportData().then(function(blob) {
+    var text = JSON.stringify(blob, null, 2);
+    var btn  = document.getElementById('btn-copy');
+
+    function flash() {
+      btn.textContent = '✓ 已复制';
+      setTimeout(function() { btn.textContent = '复制反馈'; }, 2200);
+    }
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(flash).catch(fallback);
+    } else {
+      fallback();
+    }
+
+    function fallback() {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;top:-9999px;left:0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); flash(); } catch(e) {}
+      document.body.removeChild(ta);
+    }
+  });
+}
+
 /* ── wire up events ─────────────────────────────────────── */
 document.getElementById('btn-back').addEventListener('click', goBack);
 document.getElementById('btn-close-def').addEventListener('click', closePanel);
 document.getElementById('btn-export').addEventListener('click', doExport);
+document.getElementById('btn-copy').addEventListener('click', doCopy);
 
-// close panel on reading scroll
 document.getElementById('reading-view').addEventListener('scroll', function() {
   if (S.defOpen) closePanel();
 }, { passive: true });
 
-// close panel when tapping blank space in article
 document.getElementById('art-text').addEventListener('click', function(e) {
   if (e.target === this && S.defOpen) closePanel();
 });
