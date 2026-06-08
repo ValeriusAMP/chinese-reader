@@ -927,9 +927,11 @@ function buildOpenQ(qDiv, q, qi, answered, entry) {
 function buildTFQ(qDiv, q, qi, answered, entry) {
   var btnsEl = document.createElement('div');
   btnsEl.className = 'comp-btns vis';
+  /* answer may be a boolean (true=对, false=错) or already a string */
+  var correctAns = q.answer === true ? '对' : q.answer === false ? '错' : q.answer;
 
   ['对', '错'].forEach(function(opt) {
-    var isCorrect = opt === q.answer;
+    var isCorrect = opt === correctAns;
     var cls = '';
     if (answered) {
       if (entry && ((opt === '对') === entry.correct) && isCorrect) cls = 'ok';
@@ -945,7 +947,7 @@ function buildTFQ(qDiv, q, qi, answered, entry) {
     if (answered) btn.disabled = true;
     btn.addEventListener('click', function() {
       if (answered) return;
-      var correct = (opt === q.answer);
+      var correct = (opt === correctAns);
       saveComp(qi, { correct: correct, selected: opt });
       answered = true;
       btnsEl.querySelectorAll('.btn-comp').forEach(function(b) {
@@ -955,7 +957,7 @@ function buildTFQ(qDiv, q, qi, answered, entry) {
       btn.className = 'btn-comp ' + (correct ? 'ok' : 'nok');
       if (!correct) {
         btnsEl.querySelectorAll('.btn-comp').forEach(function(b) {
-          if (b.textContent === q.answer) b.className = 'btn-comp ok';
+          if (b.textContent === correctAns) b.className = 'btn-comp ok';
         });
       }
     });
@@ -968,9 +970,11 @@ function buildTFQ(qDiv, q, qi, answered, entry) {
 function buildMCQ(qDiv, q, qi, answered, entry) {
   var btnsEl = document.createElement('div');
   btnsEl.className = 'comp-btns vis col';
+  /* support both answer_index (new) and answer (legacy) field names */
+  var correctIdx = q.answer_index !== undefined ? q.answer_index : q.answer;
 
   (q.options || []).forEach(function(opt, oi) {
-    var isCorrect = oi === q.answer;
+    var isCorrect = oi === correctIdx;
     var cls = '';
     if (answered) {
       var theyChoseThis = entry && entry.selected === oi;
@@ -982,7 +986,7 @@ function buildMCQ(qDiv, q, qi, answered, entry) {
     if (answered) btn.disabled = true;
     btn.addEventListener('click', function() {
       if (answered) return;
-      var correct = (oi === q.answer);
+      var correct = (oi === correctIdx);
       saveComp(qi, { correct: correct, selected: oi });
       answered = true;
       btnsEl.querySelectorAll('.btn-comp').forEach(function(b) {
@@ -991,7 +995,7 @@ function buildMCQ(qDiv, q, qi, answered, entry) {
       });
       btn.className = 'btn-comp ' + (correct ? 'ok' : 'nok');
       if (!correct) {
-        btnsEl.querySelectorAll('.btn-comp')[q.answer].className = 'btn-comp ok';
+        btnsEl.querySelectorAll('.btn-comp')[correctIdx].className = 'btn-comp ok';
       }
     });
     btnsEl.appendChild(btn);
