@@ -259,14 +259,16 @@ body {
 }
 @media (max-width: 380px) { .art-text { font-size: 18px; } }
 
-ruby { display: inline; }
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before; /* Safari legacy: 'before' = above */
+}
 rt {
   font-size: 0;       /* hidden by default — no height impact */
   line-height: 0;
   color: var(--accent);
   font-family: var(--en);
   letter-spacing: 0.01em;
-  display: block;
 }
 ruby.py-on rt {
   font-size: 0.5em;
@@ -275,7 +277,6 @@ ruby.py-on rt {
 ruby.word-name rt { color: var(--accent-2); }
 
 .word {
-  display: inline;
   cursor: pointer;
   border-radius: 3px;
   padding: 2px 1px;
