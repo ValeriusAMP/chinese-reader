@@ -1,0 +1,43 @@
+{
+  "id": "w3d1",
+  "week": 3,
+  "day": 1,
+  "type": "dialogue",
+  "topic": "philosophy",
+  "register": "informal",
+  "target_level": "HSK5",
+  "title": "命运还是选择？",
+  "tokens": [
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"你","py":"nǐ","g":"you"},{"t":"相信","py":"xiāngxìn","g":"believe"},{"t":"命运","py":"mìngyùn","g":"fate/destiny"},{"t":"吗","py":"ma","g":"(question)"},{"t":"？","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"什么叫","py":"shénme jiào","g":"what do you mean by"},{"t":"命运","py":"mìngyùn","g":"fate"},{"t":"？","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"就是","py":"jiùshì","g":"I mean"},{"t":"——","punct":true},{"t":"有些事","py":"yǒuxiē shì","g":"some things"},{"t":"，","punct":true},{"t":"不管","py":"bùguǎn","g":"no matter"},{"t":"你","py":"nǐ","g":"you"},{"t":"怎么","py":"zěnme","g":"however"},{"t":"选","py":"xuǎn","g":"choose"},{"t":"，","punct":true},{"t":"结果","py":"jiéguǒ","g":"outcome"},{"t":"都","py":"dōu","g":"all"},{"t":"一样","py":"yīyàng","g":"the same"},{"t":"。","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"那","py":"nà","g":"then"},{"t":"跟","py":"gēn","g":"with"},{"t":"自由意志","py":"zìyóu yìzhì","g":"free will"},{"t":"不就","py":"bùjiù","g":"doesn't that"},{"t":"矛盾","py":"máodùn","g":"contradict"},{"t":"了","py":"le","g":"(change)"},{"t":"吗","py":"ma","g":"(question)"},{"t":"？","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"可能吧","py":"kěnéng ba","g":"maybe"},{"t":"。","punct":true},{"t":"但","py":"dàn","g":"but"},{"t":"一个人","py":"yīgè rén","g":"a person"},{"t":"的","py":"de","g":"(particle)"},{"t":"选择","py":"xuǎnzé","g":"choices"},{"t":"，","punct":true},{"t":"不都是","py":"bùdōushì","g":"aren't they all"},{"t":"受","py":"shòu","g":"influenced by"},{"t":"成长","py":"chéngzhǎng","g":"upbringing"},{"t":"环境","py":"huánjìng","g":"environment"},{"t":"和","py":"hé","g":"and"},{"t":"性格","py":"xìnggé","g":"personality"},{"t":"的","py":"de","g":"(particle)"},{"t":"影响","py":"yǐngxiǎng","g":"influence"},{"t":"吗","py":"ma","g":"(question)"},{"t":"？","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"受影响","py":"shòu yǐngxiǎng","g":"to be influenced"},{"t":"是","py":"shì","g":"is"},{"t":"受影响","py":"shòu yǐngxiǎng","g":"influenced"},{"t":"，","punct":true},{"t":"但","py":"dàn","g":"but"},{"t":"在","py":"zài","g":"within"},{"t":"那个","py":"nàge","g":"those"},{"t":"条件","py":"tiáojiàn","g":"conditions"},{"t":"下","py":"xià","g":"under"},{"t":"做出的","py":"zuòchū de","g":"made"},{"t":"选择","py":"xuǎnzé","g":"choice"},{"t":"，","punct":true},{"t":"还是","py":"háishi","g":"still"},{"t":"你","py":"nǐ","g":"you"},{"t":"自己","py":"zìjǐ","g":"yourself"},{"t":"做的","py":"zuò de","g":"made"},{"t":"。","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"感觉","py":"gǎnjué","g":"feels like"},{"t":"像","py":"xiàng","g":"like"},{"t":"在","py":"zài","g":"(in progress)"},{"t":"绕圈子","py":"rào quānzi","g":"going in circles"},{"t":"。","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"是","py":"shì","g":"yes"},{"t":"有点儿","py":"yǒudiǎnr","g":"a bit"},{"t":"绕","py":"rào","g":"convoluted"},{"t":"。","punct":true},{"t":"但","py":"dàn","g":"but"},{"t":"你","py":"nǐ","g":"you"},{"t":"想想","py":"xiǎngxiǎng","g":"think about it"},{"t":"——","punct":true},{"t":"如果","py":"rúguǒ","g":"if"},{"t":"一切","py":"yīqiè","g":"everything"},{"t":"都","py":"dōu","g":"are all"},{"t":"是","py":"shì","g":"is"},{"t":"命中注定","py":"mìngzhōng zhùdìng","g":"destined"},{"t":"，","punct":true},{"t":"你","py":"nǐ","g":"you"},{"t":"还会","py":"hái huì","g":"would still"},{"t":"努力","py":"nǔlì","g":"work hard"},{"t":"吗","py":"ma","g":"(question)"},{"t":"？","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"……","punct":true},{"t":"应该","py":"yīnggāi","g":"probably"},{"t":"还是","py":"háishi","g":"still"},{"t":"会","py":"huì","g":"would"},{"t":"。","punct":true},{"t":"不努力","py":"bù nǔlì","g":"not working hard"},{"t":"，","punct":true},{"t":"心里","py":"xīnlǐ","g":"inside"},{"t":"不踏实","py":"bù tāshi","g":"uneasy"},{"t":"。","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"那","py":"nà","g":"then"},{"t":"不就","py":"bùjiù","g":"isn't that"},{"t":"行了","py":"xíng le","g":"enough"},{"t":"。","punct":true},{"t":"不管","py":"bùguǎn","g":"regardless"},{"t":"有没有","py":"yǒu méi yǒu","g":"whether or not there is"},{"t":"自由意志","py":"zìyóu yìzhì","g":"free will"},{"t":"，","punct":true},{"t":"该做的事","py":"gāi zuò de shì","g":"what needs doing"},{"t":"还是","py":"háishi","g":"still"},{"t":"要做","py":"yào zuò","g":"must be done"},{"t":"。","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"哲学","py":"zhéxué","g":"philosophy"},{"t":"讨论","py":"tǎolùn","g":"debate"},{"t":"到","py":"dào","g":"to"},{"t":"最后","py":"zuìhòu","g":"the end"},{"t":"，","punct":true},{"t":"结论","py":"jiélùn","g":"conclusion"},{"t":"就是","py":"jiùshì","g":"is simply"},{"t":"「","punct":true},{"t":"好好","py":"hǎohǎo","g":"properly"},{"t":"干活","py":"gàn huó","g":"get to work"},{"t":"」","punct":true},{"t":"？","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"也算","py":"yě suàn","g":"you could say"},{"t":"是","py":"shì","g":"is"},{"t":"一种","py":"yīzhǒng","g":"a kind of"},{"t":"答案","py":"dá'àn","g":"answer"},{"t":"吧","py":"ba","g":"(softening)"},{"t":"。","punct":true}
+  ],
+  "stretch_words": ["自由意志", "命中注定", "矛盾", "踏实", "绕圈子", "条件"],
+  "review_words": ["哲学", "困惑"],
+  "comprehension": [
+    {"type":"true_false","q":"甲认为，一个人的选择完全是自己决定的，不受外部因素影响。","answer":false},
+    {"type":"multiple_choice","q":"乙问甲"如果一切都是命中注定，你还会努力吗"，目的是什么？","options":["批评甲太懒惰","说明无论如何都应该努力","证明命运是真实存在的"],"answer_index":1},
+    {"type":"multiple_choice","q":"甲最后说"好好干活"，这句话表达了什么意思？","options":["放弃了对哲学问题的思考","认为哲学讨论毫无意义","不管答案如何，该努力还是要努力"],"answer_index":2}
+  ]
+}

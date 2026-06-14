@@ -1,0 +1,35 @@
+{
+  "id": "w3d7",
+  "week": 3,
+  "day": 7,
+  "type": "story",
+  "topic": "science/space",
+  "register": "narrative",
+  "target_level": "HSK5",
+  "title": "《星际漂流》第一章：来自深空的信号",
+  "story_meta": {
+    "series_title": "《星际漂流》",
+    "genre": "science/space",
+    "chapter": 1,
+    "total_chapters": 4,
+    "synopsis": "公元2187年，领航员林晓晨在执行例行深空任务时，收到了一个来自未知方向的神秘信号。信号每隔十三秒重复一次，结构规律，绝非自然现象。她必须做出决定：继续任务，还是追踪信号的来源？"
+  },
+  "tokens": [
+    {"t":"公元","py":"gōngyuán","g":"CE"},{"t":"2187年","py":"2187 nián","g":"2187"},{"t":"，","punct":true},{"t":"「","punct":true},{"t":"天启号","py":"Tiānqǐ hào","g":"Tiānqǐ","name":true,"first":true},{"t":"」","punct":true},{"t":"探测","py":"tàncè","g":"exploration"},{"t":"飞船","py":"fēichuán","g":"spacecraft"},{"t":"在","py":"zài","g":"at"},{"t":"距","py":"jù","g":"from"},{"t":"地球","py":"dìqiú","g":"Earth"},{"t":"三","py":"sān","g":"three"},{"t":"光年","py":"guāngnián","g":"light-years"},{"t":"之外","py":"zhīwài","g":"away"},{"t":"的","py":"de","g":"(particle)"},{"t":"星域","py":"xīngyù","g":"star region"},{"t":"执行","py":"zhíxíng","g":"carrying out"},{"t":"例行","py":"lìxíng","g":"routine"},{"t":"任务","py":"rènwù","g":"mission"},{"t":"。","punct":true},
+    {"t":"驾驶舱","py":"jiàshǐcāng","g":"cockpit"},{"t":"里","py":"lǐ","g":"inside"},{"t":"，","punct":true},{"t":"领航员","py":"lǐngháng yuán","g":"navigator"},{"t":"林晓晨","py":"Lín Xiǎochén","g":"Lin Xiaochén","name":true,"first":true},{"t":"盯着","py":"dīngzhe","g":"staring at"},{"t":"屏幕","py":"píngmù","g":"screen"},{"t":"，","punct":true},{"t":"已经","py":"yǐjīng","g":"already"},{"t":"连续","py":"liánxù","g":"continuously"},{"t":"工作","py":"gōngzuò","g":"worked"},{"t":"了","py":"le","g":"(duration)"},{"t":"十六个","py":"shíliù gè","g":"sixteen"},{"t":"小时","py":"xiǎoshí","g":"hours"},{"t":"。","punct":true},{"t":"任务","py":"rènwù","g":"the mission"},{"t":"本应","py":"běn yīng","g":"should have been"},{"t":"平静","py":"píngjìng","g":"uneventful"},{"t":"——","punct":true},{"t":"采集","py":"cǎijí","g":"collecting"},{"t":"宇宙","py":"yǔzhòu","g":"cosmic"},{"t":"尘埃","py":"chén'āi","g":"dust"},{"t":"样本","py":"yàngběn","g":"samples"},{"t":"，","punct":true},{"t":"记录","py":"jìlù","g":"recording"},{"t":"辐射","py":"fúshè","g":"radiation"},{"t":"数据","py":"shùjù","g":"data"},{"t":"，","punct":true},{"t":"然后","py":"ránhòu","g":"then"},{"t":"返回","py":"fǎnhuí","g":"return to"},{"t":"地球","py":"dìqiú","g":"Earth"},{"t":"轨道","py":"guǐdào","g":"orbit"},{"t":"。","punct":true},
+    {"t":"就在","py":"jiùzài","g":"just when"},{"t":"即将","py":"jíjiāng","g":"about to"},{"t":"结束","py":"jiéshù","g":"finish"},{"t":"最后","py":"zuìhòu","g":"the last"},{"t":"一次","py":"yīcì","g":"one"},{"t":"扫描","py":"sǎomiáo","g":"scan"},{"t":"时","py":"shí","g":"(time)"},{"t":"，","punct":true},{"t":"设备","py":"shèbèi","g":"equipment"},{"t":"突然","py":"tūrán","g":"suddenly"},{"t":"发出","py":"fāchū","g":"emitted"},{"t":"警报","py":"jǐngbào","g":"an alarm"},{"t":"。","punct":true},
+    {"t":"「","punct":true},{"t":"收到","py":"shōudào","g":"receiving"},{"t":"信号","py":"xìnhào","g":"a signal"},{"t":"，","punct":true},{"t":"」","punct":true},{"t":"她","py":"tā","g":"she"},{"t":"低声","py":"dīshēng","g":"quietly"},{"t":"说","py":"shuō","g":"said"},{"t":"，","punct":true},{"t":"「","punct":true},{"t":"来自","py":"láizì","g":"from"},{"t":"正前方","py":"zhèng qiánfāng","g":"directly ahead"},{"t":"，","punct":true},{"t":"距离","py":"jùlí","g":"distance"},{"t":"约","py":"yuē","g":"approximately"},{"t":"零点四","py":"líng diǎn sì","g":"0.4"},{"t":"光年","py":"guāngnián","g":"light-years"},{"t":"。","punct":true},{"t":"」","punct":true},
+    {"t":"这","py":"zhè","g":"this"},{"t":"没有","py":"méiyǒu","g":"had"},{"t":"任何","py":"rènhé","g":"any"},{"t":"道理","py":"dàolǐ","g":"logic"},{"t":"。","punct":true},{"t":"那个","py":"nàge","g":"that"},{"t":"方向","py":"fāngxiàng","g":"direction"},{"t":"，","punct":true},{"t":"任何","py":"rènhé","g":"any"},{"t":"已知","py":"yǐzhī","g":"known"},{"t":"文明","py":"wénmíng","g":"civilization"},{"t":"都","py":"dōu","g":"all"},{"t":"不","py":"bù","g":"not"},{"t":"可能","py":"kěnéng","g":"possibly"},{"t":"存在","py":"cúnzài","g":"exist"},{"t":"。","punct":true},
+    {"t":"信号","py":"xìnhào","g":"the signal"},{"t":"每隔","py":"měi gé","g":"every"},{"t":"十三秒","py":"shísān miǎo","g":"thirteen seconds"},{"t":"重复","py":"chóngfù","g":"repeated"},{"t":"一次","py":"yīcì","g":"once"},{"t":"，","punct":true},{"t":"结构","py":"jiégòu","g":"structure"},{"t":"规律","py":"guīlǜ","g":"regular"},{"t":"，","punct":true},{"t":"绝非","py":"juéfēi","g":"absolutely not"},{"t":"随机","py":"suíjī","g":"random"},{"t":"噪声","py":"zàoshēng","g":"noise"},{"t":"。","punct":true},{"t":"林晓晨","py":"Lín Xiǎochén","g":"Lin Xiaochén"},{"t":"快速","py":"kuàisù","g":"quickly"},{"t":"回放","py":"huífàng","g":"replayed it"},{"t":"了","py":"le","g":"(completion)"},{"t":"三遍","py":"sān biàn","g":"three times"},{"t":"确认","py":"quèrèn","g":"to confirm"},{"t":"，","punct":true},{"t":"双手","py":"shuāngshǒu","g":"her hands"},{"t":"微微","py":"wēiwēi","g":"slightly"},{"t":"发抖","py":"fādǒu","g":"trembling"},{"t":"——","punct":true},{"t":"不是","py":"bùshì","g":"not"},{"t":"因为","py":"yīnwèi","g":"because of"},{"t":"紧张","py":"jǐngzhāng","g":"nerves"},{"t":"，","punct":true},{"t":"而是","py":"érshì","g":"but because"},{"t":"因为","py":"yīnwèi","g":"because"},{"t":"她","py":"tā","g":"she"},{"t":"意识到","py":"yìshí dào","g":"realized"},{"t":"，","punct":true},{"t":"这个","py":"zhège","g":"this"},{"t":"信号","py":"xìnhào","g":"signal"},{"t":"，","punct":true},{"t":"不像是","py":"bú xiàng shì","g":"does not look like"},{"t":"自然","py":"zìrán","g":"natural"},{"t":"现象","py":"xiànxiàng","g":"phenomenon"},{"t":"。","punct":true},
+    {"t":"她","py":"tā","g":"she"},{"t":"打开","py":"dǎkāi","g":"opened"},{"t":"通讯","py":"tōngxùn","g":"communication"},{"t":"频道","py":"píndào","g":"channel"},{"t":"，","punct":true},{"t":"对着","py":"duìzhe","g":"toward"},{"t":"麦克风","py":"màikèfēng","g":"the microphone"},{"t":"说了","py":"shuōle","g":"said"},{"t":"四个字","py":"sì gè zì","g":"four words"},{"t":"：","punct":true},
+    {"t":"「","punct":true},{"t":"地球","py":"dìqiú","g":"Earth"},{"t":"，","punct":true},{"t":"我","py":"wǒ","g":"I"},{"t":"需要","py":"xūyào","g":"need"},{"t":"指令","py":"zhǐlìng","g":"instructions"},{"t":"。","punct":true},{"t":"」","punct":true},
+    {"t":"那一刻","py":"nà yī kè","g":"at that moment"},{"t":"，","punct":true},{"t":"沉默","py":"chénmò","g":"silence"},{"t":"充满","py":"chōngmǎn","g":"filled"},{"t":"了","py":"le","g":"(completion)"},{"t":"整个","py":"zhěnggè","g":"the whole"},{"t":"舱室","py":"cāngshì","g":"cabin"},{"t":"。","punct":true}
+  ],
+  "stretch_words": ["星域", "领航员", "驾驶舱", "扫描", "警报", "绝非", "噪声", "指令", "舱室"],
+  "review_words": ["宇宙", "尘埃", "辐射", "轨道", "存在", "连续"],
+  "comprehension": [
+    {"type":"true_false","q":"林晓晨在执行任务时突然收到了一个来自已知文明的信号。","answer":false},
+    {"type":"multiple_choice","q":"林晓晨双手发抖，原因是什么？","options":["太累了，连续工作了十六个小时","任务失败了，她感到恐惧","她意识到这个信号不像是自然现象"],"answer_index":2},
+    {"type":"multiple_choice","q":"信号的特征是什么？","options":["信号来自地球方向","每隔十三秒重复，结构规律","信号很微弱，几乎无法识别"],"answer_index":1}
+  ]
+}

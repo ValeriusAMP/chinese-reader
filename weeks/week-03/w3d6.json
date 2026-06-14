@@ -1,0 +1,41 @@
+{
+  "id": "w3d6",
+  "week": 3,
+  "day": 6,
+  "type": "dialogue",
+  "topic": "boxing",
+  "register": "informal",
+  "target_level": "HSK4",
+  "title": "第一次戴手套",
+  "tokens": [
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"今天","py":"jīntiān","g":"today"},{"t":"练完","py":"liàn wán","g":"after training"},{"t":"，","punct":true},{"t":"手腕","py":"shǒuwàn","g":"wrist"},{"t":"有点","py":"yǒudiǎn","g":"a bit"},{"t":"酸","py":"suān","g":"aching"},{"t":"，","punct":true},{"t":"怎么回事","py":"zěnme huí shì","g":"what's going on"},{"t":"？","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"你","py":"nǐ","g":"you"},{"t":"出拳","py":"chūquán","g":"throwing punches"},{"t":"的","py":"de","g":"(particle)"},{"t":"时候","py":"shíhòu","g":"when"},{"t":"手腕","py":"shǒuwàn","g":"wrist"},{"t":"没","py":"méi","g":"didn't"},{"t":"锁紧","py":"suǒjǐn","g":"lock tight"},{"t":"吧","py":"ba","g":"(guess)"},{"t":"？","punct":true},{"t":"新手","py":"xīnshǒu","g":"beginners"},{"t":"都","py":"dōu","g":"all"},{"t":"容易","py":"róngyì","g":"tend to"},{"t":"这样","py":"zhèyàng","g":"do this"},{"t":"。","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"锁紧","py":"suǒjǐn","g":"lock tight"},{"t":"是什么","py":"shì shénme","g":"what does"},{"t":"意思","py":"yìsi","g":"mean"},{"t":"？","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"就是","py":"jiùshì","g":"basically"},{"t":"出拳","py":"chūquán","g":"punching"},{"t":"的","py":"de","g":"(particle)"},{"t":"时候","py":"shíhòu","g":"when"},{"t":"，","punct":true},{"t":"手腕","py":"shǒuwàn","g":"wrist"},{"t":"要","py":"yào","g":"must"},{"t":"跟","py":"gēn","g":"with"},{"t":"前臂","py":"qiánbì","g":"forearm"},{"t":"保持","py":"bǎochí","g":"keep"},{"t":"一条","py":"yī tiáo","g":"one"},{"t":"直线","py":"zhíxiàn","g":"straight line"},{"t":"，","punct":true},{"t":"不能","py":"bùnéng","g":"cannot"},{"t":"弯","py":"wān","g":"bend"},{"t":"。","punct":true},{"t":"不然","py":"bùrán","g":"otherwise"},{"t":"力量","py":"lìliàng","g":"force"},{"t":"传","py":"chuán","g":"transfers"},{"t":"不","py":"bù","g":"(negative)"},{"t":"进去","py":"jìnqù","g":"in"},{"t":"，","punct":true},{"t":"还","py":"hái","g":"also"},{"t":"容易","py":"róngyì","g":"easily"},{"t":"受伤","py":"shòushāng","g":"get injured"},{"t":"。","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"原来如此","py":"yuánlái rúcǐ","g":"I see"},{"t":"。","punct":true},{"t":"教练","py":"jiàoliàn","g":"coach"},{"t":"也","py":"yě","g":"also"},{"t":"说过","py":"shuō guò","g":"mentioned"},{"t":"这个","py":"zhège","g":"this"},{"t":"，","punct":true},{"t":"我","py":"wǒ","g":"I"},{"t":"一紧张","py":"yī jǐngzhāng","g":"when nervous"},{"t":"就","py":"jiù","g":"then"},{"t":"忘了","py":"wàngle","g":"forget"},{"t":"。","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"所以","py":"suǒyǐ","g":"so"},{"t":"要","py":"yào","g":"need to"},{"t":"慢慢打","py":"màn man dǎ","g":"punch slowly"},{"t":"，","punct":true},{"t":"先","py":"xiān","g":"first"},{"t":"把","py":"bǎ","g":"(disposal)"},{"t":"动作","py":"dòngzuò","g":"movement"},{"t":"固定","py":"gùdìng","g":"lock in"},{"t":"下来","py":"xiàlái","g":"(completion)"},{"t":"，","punct":true},{"t":"再","py":"zài","g":"then"},{"t":"追求","py":"zhuīqiú","g":"pursue"},{"t":"速度","py":"sùdù","g":"speed"},{"t":"和","py":"hé","g":"and"},{"t":"力量","py":"lìliàng","g":"power"},{"t":"。","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"听起来","py":"tīngqǐlái","g":"sounds"},{"t":"容易","py":"róngyì","g":"easy"},{"t":"，","punct":true},{"t":"做起来","py":"zuòqǐlái","g":"doing it"},{"t":"真的","py":"zhēnde","g":"really"},{"t":"难","py":"nán","g":"hard"},{"t":"。","punct":true},{"t":"光是","py":"guāngshì","g":"just"},{"t":"站姿","py":"zhànzī","g":"stance"},{"t":"，","punct":true},{"t":"我","py":"wǒ","g":"I"},{"t":"练了","py":"liànle","g":"practiced for"},{"t":"两个","py":"liǎnggè","g":"two"},{"t":"星期","py":"xīngqī","g":"weeks"},{"t":"才","py":"cái","g":"only then"},{"t":"稍微","py":"shāowēi","g":"a little"},{"t":"好","py":"hǎo","g":"better"},{"t":"了","py":"le","g":"(change)"},{"t":"一点","py":"yīdiǎn","g":"a bit"},{"t":"。","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"拳击","py":"quánjī","g":"boxing"},{"t":"就是","py":"jiùshì","g":"is"},{"t":"这样","py":"zhèyàng","g":"like this"},{"t":"，","punct":true},{"t":"细节","py":"xìjié","g":"details"},{"t":"特别","py":"tèbié","g":"especially"},{"t":"多","py":"duō","g":"many"},{"t":"，","punct":true},{"t":"每个","py":"měigè","g":"every"},{"t":"动作","py":"dòngzuò","g":"movement"},{"t":"背后","py":"bèihòu","g":"behind"},{"t":"都有","py":"dōu yǒu","g":"all have"},{"t":"道理","py":"dàolǐ","g":"reason"},{"t":"。","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"你","py":"nǐ","g":"you"},{"t":"练了","py":"liànle","g":"have trained for"},{"t":"多久","py":"duōjiǔ","g":"how long"},{"t":"了","py":"le","g":"(duration)"},{"t":"？","punct":true},
+    {"t":"乙","py":"yǐ","g":"Person B"},{"t":"：","punct":true},
+    {"t":"三年多","py":"sān nián duō","g":"over three years"},{"t":"了","py":"le","g":"(duration)"},{"t":"。","punct":true},{"t":"一开始","py":"yī kāishǐ","g":"at first"},{"t":"也","py":"yě","g":"also"},{"t":"觉得","py":"juéde","g":"felt"},{"t":"难","py":"nán","g":"hard"},{"t":"，","punct":true},{"t":"现在","py":"xiànzài","g":"now"},{"t":"反而","py":"fǎn'ér","g":"instead"},{"t":"越打越","py":"yuè dǎ yuè","g":"the more I box, the more"},{"t":"上瘾","py":"shàngyǐn","g":"addicted"},{"t":"。","punct":true},
+    {"t":"甲","py":"jiǎ","g":"Person A"},{"t":"：","punct":true},
+    {"t":"我","py":"wǒ","g":"I"},{"t":"明白","py":"míngbái","g":"understand"},{"t":"那种","py":"nà zhǒng","g":"that kind of"},{"t":"感觉","py":"gǎnjué","g":"feeling"},{"t":"，","punct":true},{"t":"流","py":"liú","g":"pour out"},{"t":"一身汗","py":"yī shēn hàn","g":"a whole body of sweat"},{"t":"出来","py":"chūlái","g":"(completion)"},{"t":"，","punct":true},{"t":"整个人","py":"zhěnggè rén","g":"whole person"},{"t":"都","py":"dōu","g":"all"},{"t":"轻松","py":"qīngsōng","g":"relaxed"},{"t":"了","py":"le","g":"(change)"},{"t":"。","punct":true}
+  ],
+  "stretch_words": ["手腕", "前臂", "出拳", "锁紧", "固定动作", "直线"],
+  "review_words": ["拳击", "站姿", "教练", "上瘾", "反而"],
+  "comprehension": [
+    {"type":"true_false","q":"乙认为新手的手腕问题是因为手套尺寸不对。","answer":false},
+    {"type":"multiple_choice","q":"乙说出拳时手腕「锁紧」是什么意思？","options":["戴手套时要绑紧","手腕要与前臂保持一条直线","出拳后立刻收回手腕"],"answer_index":1},
+    {"type":"multiple_choice","q":"甲觉得打拳击的感觉如何？","options":["太累了，想放弃","虽然难，但流汗之后感觉很轻松","觉得自己进步很快，很有信心"],"answer_index":1}
+  ]
+}

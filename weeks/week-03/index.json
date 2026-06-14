@@ -1,0 +1,12 @@
+{
+  "week": 3,
+  "articles": [
+    {"id":"w3d1","day":1,"type":"dialogue","topic":"philosophy","title":"命运还是选择？","target_level":"HSK5"},
+    {"id":"w3d2","day":2,"type":"article","topic":"venture capital","title":"从车库到独角兽","target_level":"HSK5"},
+    {"id":"w3d3","day":3,"type":"article","topic":"history","title":"世界上最早的纸币","target_level":"HSK5"},
+    {"id":"w3d4","day":4,"type":"article","topic":"astrophysics","title":"看不见的宇宙","target_level":"HSK5"},
+    {"id":"w3d5","day":5,"type":"article","topic":"geopolitics","title":"新丝绸之路的逻辑","target_level":"HSK5"},
+    {"id":"w3d6","day":6,"type":"dialogue","topic":"boxing","title":"第一次戴手套","target_level":"HSK4"},
+    {"id":"w3d7","day":7,"type":"story","topic":"science/space","title":"《星际漂流》第一章：来自深空的信号","target_level":"HSK5"}
+  ]
+}
