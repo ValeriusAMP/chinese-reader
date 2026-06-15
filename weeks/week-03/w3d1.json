@@ -37,7 +37,7 @@
   "review_words": ["哲学", "困惑"],
   "comprehension": [
     {"type":"true_false","q":"甲认为，一个人的选择完全是自己决定的，不受外部因素影响。","answer":false},
-    {"type":"multiple_choice","q":"乙问甲"如果一切都是命中注定，你还会努力吗"，目的是什么？","options":["批评甲太懒惰","说明无论如何都应该努力","证明命运是真实存在的"],"answer_index":1},
-    {"type":"multiple_choice","q":"甲最后说"好好干活"，这句话表达了什么意思？","options":["放弃了对哲学问题的思考","认为哲学讨论毫无意义","不管答案如何，该努力还是要努力"],"answer_index":2}
+    {"type":"multiple_choice","q":"乙问甲“如果一切都是命中注定，你还会努力吗”，目的是什么？","options":["批评甲太懒惰","说明无论如何都应该努力","证明命运是真实存在的"],"answer_index":1},
+    {"type":"multiple_choice","q":"甲最后说“好好干活”，这句话表达了什么意思？","options":["放弃了对哲学问题的思考","认为哲学讨论毫无意义","不管答案如何，该努力还是要努力"],"answer_index":2}
   ]
 }
