@@ -1,0 +1,12 @@
+{
+  "week": 4,
+  "articles": [
+    {"id":"w4d1","day":1,"type":"dialogue","topic":"philosophy","title":"行为与内心","target_level":"HSK5"},
+    {"id":"w4d2","day":2,"type":"article","topic":"venture capital","title":"一个年轻人的第一次创业","target_level":"HSK4"},
+    {"id":"w4d3","day":3,"type":"article","topic":"history","title":"丝绸之路上的商人","target_level":"HSK5"},
+    {"id":"w4d4","day":4,"type":"article","topic":"astrophysics","title":"星星为什么会发光","target_level":"HSK4"},
+    {"id":"w4d5","day":5,"type":"article","topic":"geopolitics","title":"东南亚：海上贸易的十字路口","target_level":"HSK5"},
+    {"id":"w4d6","day":6,"type":"dialogue","topic":"boxing","title":"第一次实战","target_level":"HSK4"},
+    {"id":"w4d7","day":7,"type":"story","topic":"science/space","title":"《星际漂流》第二章：决定","target_level":"HSK4"}
+  ]
+}
