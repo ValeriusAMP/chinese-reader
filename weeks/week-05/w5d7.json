@@ -1,0 +1,115 @@
+{
+  "id": "w5d7",
+  "week": 5,
+  "day": 7,
+  "type": "review",
+  "title": "复习",
+  "eligible_word_count": 139,
+  "items": [
+    {
+      "format": "matching",
+      "pairs": [
+        {"t":"格局","py":"géjú","g":"balance of power / geopolitical order"},
+        {"t":"博弈","py":"bóyì","g":"strategic contest / game theory rivalry"},
+        {"t":"战略","py":"zhànlüè","g":"strategy / strategic"},
+        {"t":"崛起","py":"juéqǐ","g":"rise / emergence"}
+      ]
+    },
+    {
+      "format": "recognition_mc",
+      "word": {"t":"将","py":"jiāng","g":"(formal object marker, like 把)"},
+      "prompt": "将 的意思是：",
+      "options": ["把（正式用法）", "未来", "再次", "因为"],
+      "answer_index": 0
+    },
+    {
+      "format": "recognition_mc",
+      "word": {"t":"宇宙","py":"yǔzhòu","g":"universe"},
+      "prompt": "宇宙 的意思是：",
+      "options": ["universe", "galaxy", "dark matter", "orbit"],
+      "answer_index": 0
+    },
+    {
+      "format": "recognition_mc",
+      "word": {"t":"机构","py":"jīgòu","g":"institution/organization"},
+      "prompt": "机构 的意思是：",
+      "options": ["institution / organization", "machine / mechanism", "opportunity", "department"],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {"t":"乃至","py":"nǎizhì","g":"even / even as far as"},
+      "prompt": "\"even / even as far as\" 用中文怎么说？",
+      "options": ["乃至", "因此", "然而", "以致"],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {"t":"超额","py":"chāoé","g":"excess / over-quota"},
+      "prompt": "\"excess amount / over-quota\" 用中文怎么说？",
+      "options": ["超额", "超越", "额外", "多余"],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {"t":"预测","py":"yùcè","g":"predict / forecast"},
+      "prompt": "\"predict / forecast\" 用中文怎么说？",
+      "options": ["预测", "预言", "推断", "估算"],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {"t":"命运","py":"mìngyùn","g":"fate / destiny"},
+      "sentence": "她相信，无论___多么艰难，努力本身就有意义。",
+      "options": ["命运", "时间", "方向", "结果"],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {"t":"增肌","py":"zēng jī","g":"muscle gain / build muscle"},
+      "sentence": "他的训练目标不是减肥，而是___，让自己变得更强壮。",
+      "options": ["增肌", "减肥", "拉伸", "恢复"],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {"t":"摄入","py":"shèrù","g":"intake / consume"},
+      "sentence": "运动后三十分钟内___足够的蛋白质，对肌肉恢复很有帮助。",
+      "options": ["摄入", "消耗", "燃烧", "增加"],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {"t":"预言","py":"yùyán","g":"predict / prophecy"},
+      "sentence": "科学家___，这颗彗星将在三十年后再次接近地球。",
+      "options": ["预言", "记录", "分析", "否认"],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {"t":"暗物质","py":"àn wùzhì","g":"dark matter"},
+      "sentence": "科学家认为，宇宙中大约百分之二十七由___组成，但我们无法直接看到它。",
+      "options": ["暗物质", "气体", "星系", "引力"],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {"t":"博弈","py":"bóyì","g":"strategic contest / rivalry"},
+      "sentence": "在这场大国___中，没有一个国家能完全置身事外。",
+      "options": ["博弈", "合作", "战争", "比赛"],
+      "answer_index": 0
+    },
+    {
+      "format": "flashcard_selfrate",
+      "word": {"t":"将","py":"jiāng","g":"(formal object marker, like 把)"},
+      "prompt": "将",
+      "back": "jiāng — 把的正式书面用法 (formal written object marker)"
+    },
+    {
+      "format": "flashcard_selfrate",
+      "word": {"t":"格局","py":"géjú","g":"balance of power / geopolitical order"},
+      "prompt": "格局",
+      "back": "géjú — 权力格局 balance of power / geopolitical order / pattern"
+    }
+  ]
+}

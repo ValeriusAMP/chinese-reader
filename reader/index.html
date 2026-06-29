@@ -482,6 +482,196 @@ ruby.word-name rt { color: var(--accent-2); }
   transition: color .15s;
 }
 .btn-close:hover { color: var(--text); }
+
+/* ══ REVIEW VIEW ══════════════════════════════════════════ */
+#rv-view {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--bg);
+  overflow-y: auto;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+#rv-view.open { display: block; }
+
+.rv-hdr {
+  position: sticky; top: 0; z-index: 5;
+  background: rgba(12,13,20,0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.rv-prog-text {
+  font-size: 13px; font-weight: 700;
+  color: var(--text-muted); font-family: var(--en);
+}
+.rv-prog-bar {
+  position: sticky; top: 41px; z-index: 4;
+  height: 3px; background: var(--surface-2);
+}
+.rv-prog-fill {
+  height: 100%;
+  background: var(--accent-grad);
+  transition: width .35s ease;
+}
+.rv-body {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 28px 20px 80px;
+}
+.rv-format-lbl {
+  font-size: 11px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; font-family: var(--en);
+  color: var(--text-muted); margin-bottom: 18px;
+}
+.rv-zh-large {
+  font-size: 56px; font-weight: 700;
+  color: var(--accent); text-align: center;
+  text-shadow: 0 0 28px rgba(139,124,246,0.4);
+  padding: 20px 0 6px;
+}
+.rv-zh-py {
+  font-size: 16px; color: var(--accent-2);
+  font-family: var(--en); text-align: center;
+  margin-bottom: 20px; letter-spacing: .02em;
+}
+.rv-prompt {
+  font-size: 18px; line-height: 1.75;
+  color: var(--text); margin-bottom: 18px;
+}
+.rv-cloze-sentence {
+  font-size: 19px; line-height: 2;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px; margin-bottom: 18px;
+}
+.rv-opts { display: flex; flex-direction: column; gap: 10px; }
+.rv-opt {
+  padding: 13px 16px;
+  border: 1.5px solid var(--border); border-radius: 10px;
+  background: var(--surface); color: var(--text);
+  font-family: var(--zh); font-size: 15px; text-align: left;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.rv-opt:hover:not(:disabled) {
+  border-color: rgba(139,124,246,0.3); background: var(--surface-2);
+}
+.rv-opt.ok {
+  border-color: rgba(80,200,120,0.55); background: rgba(80,200,120,0.08);
+  color: #6dca87; font-weight: 600;
+}
+.rv-opt.nok {
+  border-color: rgba(255,100,100,0.45); background: rgba(255,100,100,0.07);
+  color: #ff8080; font-weight: 600;
+}
+.rv-opt:disabled { cursor: default; }
+
+/* Matching */
+.rv-match-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.rv-match-col { display: flex; flex-direction: column; gap: 8px; }
+.rv-match-item {
+  padding: 12px 10px;
+  border: 1.5px solid var(--border); border-radius: 10px;
+  background: var(--surface); color: var(--text);
+  font-family: var(--zh); font-size: 14px; text-align: center;
+  cursor: pointer;
+  transition: border-color .15s, background .15s, color .15s;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+.rv-match-item:hover:not(.matched) { border-color: rgba(139,124,246,0.3); }
+.rv-match-item.sel {
+  border-color: var(--accent);
+  background: rgba(139,124,246,0.12); color: var(--accent);
+}
+.rv-match-item.matched {
+  border-color: rgba(80,200,120,0.5); background: rgba(80,200,120,0.07);
+  color: #6dca87; font-weight: 600; cursor: default;
+}
+.rv-match-item.wrong {
+  border-color: rgba(255,100,100,0.5); background: rgba(255,100,100,0.08);
+  color: #ff8080;
+}
+
+/* Flashcard */
+.rv-flashcard {
+  background: var(--surface);
+  border: 1.5px solid var(--border); border-radius: 16px;
+  padding: 40px 20px; text-align: center;
+  cursor: pointer; min-height: 190px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 8px;
+  box-shadow: 0 4px 28px rgba(0,0,0,.45);
+  transition: border-color .2s;
+  -webkit-tap-highlight-color: transparent;
+}
+.rv-flashcard:hover:not(.flipped) { border-color: rgba(139,124,246,0.28); }
+.rv-flashcard.flipped { cursor: default; }
+.rv-fc-back { display: none; }
+.rv-flashcard.flipped .rv-fc-back { display: block; }
+.rv-flashcard.flipped .rv-fc-tap-hint { display: none; }
+.rv-fc-tap-hint { font-size: 12px; color: var(--text-muted); font-family: var(--en); margin-top: 10px; }
+.rv-fc-py { font-size: 17px; color: var(--accent-2); font-family: var(--en); letter-spacing: .02em; margin-bottom: 6px; }
+.rv-fc-meaning { font-size: 16px; color: var(--text); }
+.rv-self-btns { display: none; gap: 12px; margin-top: 20px; }
+.rv-self-btns.vis { display: flex; }
+.rv-btn-gotit {
+  flex: 1; padding: 13px;
+  background: rgba(80,200,120,0.1); border: 1.5px solid rgba(80,200,120,0.4);
+  border-radius: 10px; color: #6dca87;
+  font-family: var(--zh); font-size: 15px; font-weight: 600;
+  cursor: pointer; transition: background .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.rv-btn-gotit:hover { background: rgba(80,200,120,0.18); }
+.rv-btn-missed {
+  flex: 1; padding: 13px;
+  background: rgba(255,100,100,0.08); border: 1.5px solid rgba(255,100,100,0.35);
+  border-radius: 10px; color: #ff8080;
+  font-family: var(--zh); font-size: 15px; font-weight: 600;
+  cursor: pointer; transition: background .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.rv-btn-missed:hover { background: rgba(255,100,100,0.15); }
+
+/* Summary */
+.rv-summary { text-align: center; padding: 10px 0 20px; }
+.rv-summary-title { font-size: 24px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.rv-summary-score {
+  font-size: 44px; font-weight: 700; color: var(--accent);
+  font-family: var(--en); margin: 16px 0 4px;
+  text-shadow: 0 0 20px rgba(139,124,246,0.4);
+}
+.rv-summary-sub { font-size: 14px; color: var(--text-muted); font-family: var(--en); margin-bottom: 24px; }
+.rv-summary-list {
+  text-align: left; background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--r);
+  overflow: hidden; margin-bottom: 16px;
+}
+.rv-si {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+.rv-si:last-child { border-bottom: none; }
+.rv-si-icon { font-size: 14px; flex-shrink: 0; width: 20px; }
+.rv-si-zh { font-weight: 600; color: var(--text); min-width: 52px; }
+.rv-si-py { font-size: 12px; color: var(--accent-2); font-family: var(--en); min-width: 80px; }
+.rv-si-g  { font-size: 13px; color: var(--text-muted); font-family: var(--en); flex: 1; }
+
+/* Review day card tag */
+.tag.review {
+  background: rgba(251,191,36,0.1);
+  color: #fbbf24;
+  border-color: rgba(251,191,36,0.25);
+}
 </style>
 </head>
 <body>
@@ -517,6 +707,16 @@ ruby.word-name rt { color: var(--accent-2); }
   </div>
 </div>
 
+<!-- ══ REVIEW VIEW ════════════════════════════════════════ -->
+<div id="rv-view">
+  <div class="rv-hdr">
+    <button class="btn-back" id="btn-back-rv">← 返回</button>
+    <span class="rv-prog-text" id="rv-prog-text"></span>
+  </div>
+  <div class="rv-prog-bar"><div class="rv-prog-fill" id="rv-prog-fill" style="width:0%"></div></div>
+  <div class="rv-body" id="rv-body"></div>
+</div>
+
 <!-- ══ DEFINITION PANEL ════════════════════════════════════ -->
 <div id="def-panel">
   <div class="def-row">
@@ -535,7 +735,7 @@ ruby.word-name rt { color: var(--accent-2); }
 'use strict';
 
 /* ── constants ──────────────────────────────────────────── */
-var TYPE_ZH = { article: '文章', dialogue: '对话', story: '故事' };
+var TYPE_ZH = { article: '文章', dialogue: '对话', story: '故事', review: '复习' };
 
 /* ── shared state ───────────────────────────────────────── */
 var S = {
@@ -546,6 +746,7 @@ var S = {
   curId:    null,
   tokens:   [],
   defOpen:  false,
+  review:   null,
 };
 
 /* ── localStorage ───────────────────────────────────────── */
@@ -680,15 +881,19 @@ function makeCard(a, st) {
 
   var typeLabel = TYPE_ZH[a.type] || a.type;
   var doneTag   = st.done ? '<span class="tag done">✓ 完成</span>' : '';
+  var isReview  = a.type === 'review';
+
+  var extraTags = isReview ? '' :
+    '<span class="tag">' + h(a.topic || '') + '</span>' +
+    '<span class="tag lvl">' + h(a.target_level || '') + '</span>';
 
   card.innerHTML =
     '<div class="day-num">' + a.day + '</div>' +
     '<div class="card-info">' +
       '<div class="card-title">' + h(a.title) + '</div>' +
       '<div class="card-tags">' +
-        '<span class="tag">' + h(typeLabel) + '</span>' +
-        '<span class="tag">' + h(a.topic) + '</span>' +
-        '<span class="tag lvl">' + h(a.target_level) + '</span>' +
+        '<span class="tag' + (isReview ? ' review' : '') + '">' + h(typeLabel) + '</span>' +
+        extraTags +
         doneTag +
       '</div>' +
     '</div>' +
@@ -707,6 +912,7 @@ function openArt(id) {
       });
 
   load.then(function(art) {
+    if (art.type === 'review') { openReview(art); return; }
     S.curId  = id;
     S.tokens = art.tokens;
 
@@ -1105,8 +1311,14 @@ function goBack() {
 
 /* ══ EXPORT / COPY ══════════════════════════════════════════ */
 function buildExportData() {
-  var arts  = S.index.articles;
-  var loads = arts.map(function(a) {
+  var allEntries  = S.index.articles;
+  var readingArts = allEntries.filter(function(a) { return a.type !== 'review'; });
+  var reviewEntry = null;
+  for (var ri = 0; ri < allEntries.length; ri++) {
+    if (allEntries[ri].type === 'review') { reviewEntry = allEntries[ri]; break; }
+  }
+
+  var loads = readingArts.map(function(a) {
     if (S.art[a.id]) return Promise.resolve(S.art[a.id]);
     return jfetch(weekDir() + '/' + a.id + '.json').then(function(d) {
       S.art[a.id] = d; return d;
@@ -1114,7 +1326,7 @@ function buildExportData() {
   });
 
   return Promise.all(loads).then(function(artDatas) {
-    var articles = arts.map(function(a, i) {
+    var articles = readingArts.map(function(a, i) {
       var artData     = artDatas[i];
       var st          = loadSt(a.id);
       var tappable    = artData
@@ -1154,7 +1366,28 @@ function buildExportData() {
       };
     });
 
-    return { week: S.week, exported_at: new Date().toISOString(), articles: articles };
+    var blob = { week: S.week, exported_at: new Date().toISOString(), articles: articles };
+
+    if (reviewEntry) {
+      var rv_raw;
+      try { rv_raw = localStorage.getItem(lsKey(reviewEntry.id)); } catch(e) { rv_raw = null; }
+      var rv_st = rv_raw ? JSON.parse(rv_raw) : { results: [] };
+      var review_results = [];
+      (rv_st.results || []).forEach(function(r) {
+        if (r.format === 'matching') {
+          (r.pairs || []).forEach(function(p) {
+            review_results.push({ word: p.t, format: 'matching', correct: true });
+          });
+        } else if (r.format === 'flashcard_selfrate') {
+          review_results.push({ word: r.word, format: r.format, self_rating: r.self_rating });
+        } else {
+          review_results.push({ word: r.word, format: r.format, correct: r.correct });
+        }
+      });
+      blob.review_results = review_results;
+    }
+
+    return blob;
   });
 }
 
@@ -1201,8 +1434,325 @@ function doCopy() {
   });
 }
 
+/* ══ REVIEW ══════════════════════════════════════════════════ */
+
+function mkEl(tag, cls, text) {
+  var el = document.createElement(tag);
+  if (cls) el.className = cls;
+  if (text !== undefined) el.textContent = text;
+  return el;
+}
+function shuffle(arr) {
+  var a = arr.slice();
+  for (var i = a.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+function range(n) { var a = []; for (var i = 0; i < n; i++) a.push(i); return a; }
+
+function loadRevSt() {
+  try {
+    var r = localStorage.getItem(lsKey(S.review.id));
+    if (!r) return { cur: 0, results: [], done: false };
+    return Object.assign({ cur: 0, results: [], done: false }, JSON.parse(r));
+  } catch(e) { return { cur: 0, results: [], done: false }; }
+}
+function saveRevSt(st) {
+  try { localStorage.setItem(lsKey(S.review.id), JSON.stringify(st)); } catch(e) {}
+}
+
+function openReview(art) {
+  S.review = { id: art.id, data: art };
+  var rv_st = loadRevSt();
+  document.getElementById('week-view').style.display = 'none';
+  var rv = document.getElementById('rv-view');
+  rv.classList.add('open');
+  rv.scrollTop = 0;
+  if (rv_st.done) {
+    renderReviewSummary(rv_st.results);
+  } else {
+    renderReviewCard(rv_st.cur);
+  }
+}
+
+function goBackFromReview() {
+  document.getElementById('rv-view').classList.remove('open');
+  document.getElementById('week-view').style.display = '';
+  S.review = null;
+  renderWeek();
+  window.scrollTo(0, 0);
+}
+
+function advanceReview(result) {
+  var rv_st = loadRevSt();
+  rv_st.results.push(result);
+  rv_st.cur++;
+  if (rv_st.cur >= S.review.data.items.length) rv_st.done = true;
+  saveRevSt(rv_st);
+  document.getElementById('rv-view').scrollTop = 0;
+  if (rv_st.done) {
+    renderReviewSummary(rv_st.results);
+  } else {
+    renderReviewCard(rv_st.cur);
+  }
+}
+
+function renderReviewCard(idx) {
+  var items = S.review.data.items;
+  var total = items.length;
+  var item  = items[idx];
+  document.getElementById('rv-prog-text').textContent = (idx + 1) + ' / ' + total;
+  document.getElementById('rv-prog-fill').style.width = (idx / total * 100).toFixed(1) + '%';
+  var body = document.getElementById('rv-body');
+  body.innerHTML = '';
+  var fmt = item.format;
+  if      (fmt === 'matching')           renderMatchingCard(body, item);
+  else if (fmt === 'recognition_mc')     renderMCCard(body, item);
+  else if (fmt === 'reverse_recall_mc')  renderMCCard(body, item);
+  else if (fmt === 'cloze')              renderClozeCard(body, item);
+  else if (fmt === 'flashcard_selfrate') renderFlashcardCard(body, item);
+}
+
+function renderMCCard(body, item) {
+  var fmt = item.format;
+  var lbl = fmt === 'recognition_mc' ? '选义 · MEANING' : '选词 · RECALL';
+  body.appendChild(mkEl('div', 'rv-format-lbl', lbl));
+
+  var pyEl = null;
+  if (fmt === 'recognition_mc') {
+    body.appendChild(mkEl('div', 'rv-zh-large', item.word.t));
+    pyEl = mkEl('div', 'rv-zh-py', item.word.py || '');
+    pyEl.style.visibility = 'hidden';
+    body.appendChild(pyEl);
+  }
+
+  body.appendChild(mkEl('p', 'rv-prompt', item.prompt));
+
+  var optsEl = mkEl('div', 'rv-opts');
+  var answered = false;
+  item.options.forEach(function(opt, oi) {
+    var btn = mkEl('button', 'rv-opt', opt);
+    btn.addEventListener('click', function() {
+      if (answered) return;
+      answered = true;
+      var correct = oi === item.answer_index;
+      optsEl.querySelectorAll('.rv-opt').forEach(function(b) { b.disabled = true; });
+      btn.className = 'rv-opt ' + (correct ? 'ok' : 'nok');
+      if (!correct) optsEl.querySelectorAll('.rv-opt')[item.answer_index].className = 'rv-opt ok';
+      if (fmt === 'recognition_mc' && pyEl) pyEl.style.visibility = '';
+      setTimeout(function() {
+        advanceReview({ format: fmt, word: item.word.t, correct: correct });
+      }, 950);
+    });
+    optsEl.appendChild(btn);
+  });
+  body.appendChild(optsEl);
+}
+
+function renderClozeCard(body, item) {
+  body.appendChild(mkEl('div', 'rv-format-lbl', '填空 · FILL-IN'));
+  body.appendChild(mkEl('div', 'rv-cloze-sentence', item.sentence));
+  var optsEl = mkEl('div', 'rv-opts');
+  var answered = false;
+  item.options.forEach(function(opt, oi) {
+    var btn = mkEl('button', 'rv-opt', opt);
+    btn.addEventListener('click', function() {
+      if (answered) return;
+      answered = true;
+      var correct = oi === item.answer_index;
+      optsEl.querySelectorAll('.rv-opt').forEach(function(b) { b.disabled = true; });
+      btn.className = 'rv-opt ' + (correct ? 'ok' : 'nok');
+      if (!correct) optsEl.querySelectorAll('.rv-opt')[item.answer_index].className = 'rv-opt ok';
+      setTimeout(function() {
+        advanceReview({ format: 'cloze', word: item.word.t, correct: correct });
+      }, 950);
+    });
+    optsEl.appendChild(btn);
+  });
+  body.appendChild(optsEl);
+}
+
+function renderMatchingCard(body, item) {
+  var pairs    = item.pairs;
+  var N        = pairs.length;
+  var leftOrd  = shuffle(range(N));
+  var rightOrd = shuffle(range(N));
+  var leftSel  = null;
+  var rightSel = null;
+  var matched  = new Array(N).fill(false);
+  var matchedCount = 0;
+
+  body.appendChild(mkEl('div', 'rv-format-lbl', '配对 · MATCHING'));
+
+  var cols     = mkEl('div', 'rv-match-cols');
+  var leftCol  = mkEl('div', 'rv-match-col');
+  var rightCol = mkEl('div', 'rv-match-col');
+  var leftEls  = new Array(N);
+  var rightEls = new Array(N);
+
+  leftOrd.forEach(function(pi, pos) {
+    var el = mkEl('div', 'rv-match-item', pairs[pi].t);
+    el.addEventListener('click', function() {
+      if (matched[pi]) return;
+      if (leftSel === pi) {
+        el.classList.remove('sel'); leftSel = null; return;
+      }
+      if (leftSel !== null) leftEls[leftOrd.indexOf(leftSel)].classList.remove('sel');
+      leftSel = pi; el.classList.add('sel');
+      tryMatch();
+    });
+    leftEls[pos] = el;
+    leftCol.appendChild(el);
+  });
+
+  rightOrd.forEach(function(pi, pos) {
+    var el = mkEl('div', 'rv-match-item', pairs[pi].g);
+    el.addEventListener('click', function() {
+      if (matched[pi]) return;
+      if (rightSel === pi) {
+        el.classList.remove('sel'); rightSel = null; return;
+      }
+      if (rightSel !== null) rightEls[rightOrd.indexOf(rightSel)].classList.remove('sel');
+      rightSel = pi; el.classList.add('sel');
+      tryMatch();
+    });
+    rightEls[pos] = el;
+    rightCol.appendChild(el);
+  });
+
+  function tryMatch() {
+    if (leftSel === null || rightSel === null) return;
+    if (leftSel === rightSel) {
+      matched[leftSel] = true; matchedCount++;
+      var lE = leftEls[leftOrd.indexOf(leftSel)];
+      var rE = rightEls[rightOrd.indexOf(rightSel)];
+      lE.classList.remove('sel'); lE.classList.add('matched');
+      rE.classList.remove('sel'); rE.classList.add('matched');
+      leftSel = null; rightSel = null;
+      if (matchedCount === N) {
+        setTimeout(function() {
+          advanceReview({ format: 'matching', pairs: pairs, correct: true });
+        }, 700);
+      }
+    } else {
+      var lE2 = leftEls[leftOrd.indexOf(leftSel)];
+      var rE2 = rightEls[rightOrd.indexOf(rightSel)];
+      lE2.classList.add('wrong'); rE2.classList.add('wrong');
+      var ls = leftSel, rs = rightSel;
+      leftSel = null; rightSel = null;
+      setTimeout(function() {
+        leftEls[leftOrd.indexOf(ls)].classList.remove('wrong', 'sel');
+        rightEls[rightOrd.indexOf(rs)].classList.remove('wrong', 'sel');
+      }, 600);
+    }
+  }
+
+  cols.appendChild(leftCol); cols.appendChild(rightCol);
+  body.appendChild(cols);
+}
+
+function renderFlashcardCard(body, item) {
+  body.appendChild(mkEl('div', 'rv-format-lbl', '闪卡 · FLASHCARD'));
+
+  var card = mkEl('div', 'rv-flashcard');
+  card.appendChild(mkEl('div', 'rv-zh-large', item.prompt));
+
+  var backEl = mkEl('div', 'rv-fc-back');
+  backEl.appendChild(mkEl('div', 'rv-fc-py', (item.word && item.word.py) || ''));
+  backEl.appendChild(mkEl('div', 'rv-fc-meaning', item.back || ''));
+  card.appendChild(backEl);
+  card.appendChild(mkEl('div', 'rv-fc-tap-hint', 'tap to reveal'));
+  body.appendChild(card);
+
+  var selfBtns = mkEl('div', 'rv-self-btns');
+  var gotItBtn = mkEl('button', 'rv-btn-gotit', '✓ 记住了');
+  var missedBtn = mkEl('button', 'rv-btn-missed', '✗ 没记住');
+  selfBtns.appendChild(gotItBtn); selfBtns.appendChild(missedBtn);
+  body.appendChild(selfBtns);
+
+  card.addEventListener('click', function() {
+    if (card.classList.contains('flipped')) return;
+    card.classList.add('flipped');
+    selfBtns.classList.add('vis');
+  });
+
+  function onRate(rating) {
+    gotItBtn.disabled = true; missedBtn.disabled = true;
+    gotItBtn.style.opacity  = rating === 'got_it' ? '1' : '0.35';
+    missedBtn.style.opacity = rating === 'missed'  ? '1' : '0.35';
+    setTimeout(function() {
+      advanceReview({ format: 'flashcard_selfrate',
+        word: item.word ? item.word.t : item.prompt, self_rating: rating });
+    }, 700);
+  }
+  gotItBtn.addEventListener('click', function() { onRate('got_it'); });
+  missedBtn.addEventListener('click', function() { onRate('missed'); });
+}
+
+function renderReviewSummary(results) {
+  var items = S.review.data.items;
+
+  /* score: 1 per item (matching = 1 item, always correct) */
+  var correct = 0;
+  results.forEach(function(r) {
+    if (r.format === 'matching') { correct++; }
+    else if (r.format === 'flashcard_selfrate') { if (r.self_rating === 'got_it') correct++; }
+    else if (r.correct) correct++;
+  });
+  var total = results.length;
+
+  /* word list for display */
+  var wordList = [];
+  results.forEach(function(r) {
+    if (r.format === 'matching') {
+      (r.pairs || []).forEach(function(p) {
+        wordList.push({ t: p.t, py: p.py || '', g: p.g || '', ok: true });
+      });
+    } else {
+      var item = null;
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].word && items[i].word.t === r.word) { item = items[i]; break; }
+      }
+      var ok = r.format === 'flashcard_selfrate' ? r.self_rating === 'got_it' : !!r.correct;
+      wordList.push({
+        t:  r.word,
+        py: item ? item.word.py : '',
+        g:  item ? item.word.g  : '',
+        ok: ok
+      });
+    }
+  });
+
+  document.getElementById('rv-prog-text').textContent = '完成';
+  document.getElementById('rv-prog-fill').style.width = '100%';
+
+  var body = document.getElementById('rv-body');
+  body.innerHTML = '';
+
+  var sum = mkEl('div', 'rv-summary');
+  sum.appendChild(mkEl('div', 'rv-summary-title', '复习完成'));
+  sum.appendChild(mkEl('div', 'rv-summary-score', correct + ' / ' + total));
+  var pct = total > 0 ? Math.round(correct / total * 100) : 0;
+  sum.appendChild(mkEl('div', 'rv-summary-sub', pct + '% correct this session'));
+
+  var list = mkEl('div', 'rv-summary-list');
+  wordList.forEach(function(w) {
+    var row = mkEl('div', 'rv-si');
+    row.appendChild(mkEl('span', 'rv-si-icon', w.ok ? '✓' : '✗'));
+    row.appendChild(mkEl('span', 'rv-si-zh', w.t));
+    row.appendChild(mkEl('span', 'rv-si-py', w.py));
+    row.appendChild(mkEl('span', 'rv-si-g', w.g));
+    list.appendChild(row);
+  });
+  sum.appendChild(list);
+  body.appendChild(sum);
+}
+
 /* ── wire up events ─────────────────────────────────────── */
 document.getElementById('btn-back').addEventListener('click', goBack);
+document.getElementById('btn-back-rv').addEventListener('click', goBackFromReview);
 document.getElementById('btn-close-def').addEventListener('click', closePanel);
 document.getElementById('btn-export').addEventListener('click', doExport);
 document.getElementById('btn-copy').addEventListener('click', doCopy);

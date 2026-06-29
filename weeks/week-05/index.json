@@ -1,0 +1,12 @@
+{
+  "week": 5,
+  "articles": [
+    {"id":"w5d1","day":1,"type":"dialogue","topic":"philosophy","title":"命运与选择","target_level":"HSK5"},
+    {"id":"w5d2","day":2,"type":"article","topic":"venture capital","title":"创业者的第一步","target_level":"HSK4"},
+    {"id":"w5d3","day":3,"type":"article","topic":"history","title":"长安城的大世界","target_level":"HSK5"},
+    {"id":"w5d4","day":4,"type":"dialogue","topic":"boxing","title":"虚实之间","target_level":"HSK5"},
+    {"id":"w5d5","day":5,"type":"article","topic":"geopolitics","title":"全球南方的新格局","target_level":"HSK5"},
+    {"id":"w5d6","day":6,"type":"story","topic":"science/space","title":"《星际漂流》第三章：坐标那边是什么","target_level":"HSK4"},
+    {"id":"w5d7","day":7,"type":"review","title":"复习"}
+  ]
+}
