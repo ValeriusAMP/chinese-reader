@@ -1,0 +1,231 @@
+{
+  "id": "w6d7",
+  "week": 6,
+  "day": 7,
+  "type": "review",
+  "title": "复习",
+  "eligible_word_count": 292,
+  "items": [
+    {
+      "format": "matching",
+      "pairs": [
+        {
+          "t": "将",
+          "py": "jiāng",
+          "g": "formal object marker, like 把"
+        },
+        {
+          "t": "机构",
+          "py": "jīgòu",
+          "g": "institution / organization"
+        },
+        {
+          "t": "摄入",
+          "py": "shèrù",
+          "g": "intake / consume"
+        },
+        {
+          "t": "暗物质",
+          "py": "àn wùzhì",
+          "g": "dark matter"
+        }
+      ]
+    },
+    {
+      "format": "recognition_mc",
+      "word": {
+        "t": "超额",
+        "py": "chāo'é",
+        "g": "excess / over-quota"
+      },
+      "prompt": "超额 的意思是：",
+      "options": [
+        "excess / over-quota",
+        "valuation",
+        "budget",
+        "equal amount"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "recognition_mc",
+      "word": {
+        "t": "话语权",
+        "py": "huàyǔquán",
+        "g": "discursive power / say in something"
+      },
+      "prompt": "话语权 的意思是：",
+      "options": [
+        "having a say / discursive power",
+        "public speech",
+        "translation right",
+        "private conversation"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "recognition_mc",
+      "word": {
+        "t": "注定",
+        "py": "zhùdìng",
+        "g": "destined / predetermined"
+      },
+      "prompt": "注定 的意思是：",
+      "options": [
+        "destined / predetermined",
+        "careful",
+        "registered",
+        "poured into"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {
+        "t": "预言",
+        "py": "yùyán",
+        "g": "prediction / prophecy"
+      },
+      "prompt": "\"prediction / prophecy\" 用中文怎么说？",
+      "options": [
+        "预言",
+        "预测",
+        "语言",
+        "预算"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {
+        "t": "坐标",
+        "py": "zuòbiāo",
+        "g": "coordinates"
+      },
+      "prompt": "\"coordinates\" 用中文怎么说？",
+      "options": [
+        "坐标",
+        "座位",
+        "指标",
+        "航线"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {
+        "t": "假动作",
+        "py": "jiǎdòngzuò",
+        "g": "feint / fake move"
+      },
+      "prompt": "\"feint / fake move\" 用中文怎么说？",
+      "options": [
+        "假动作",
+        "组合拳",
+        "姿势",
+        "防守"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "格局",
+        "py": "géjú",
+        "g": "order / pattern"
+      },
+      "sentence": "多个中等国家正在影响地区___，不再只是被动接受大国安排。",
+      "options": [
+        "格局",
+        "故事",
+        "利润",
+        "夜市"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "延迟",
+        "py": "yánchí",
+        "g": "delay / latency"
+      },
+      "sentence": "因为距离太远，飞船和基地之间的通讯出现了明显的___。",
+      "options": [
+        "延迟",
+        "利润",
+        "边界",
+        "牺牲"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "预测",
+        "py": "yùcè",
+        "g": "predict / forecast"
+      },
+      "sentence": "教练要求小刚先观察对手脚步，再___下一拳会从哪里来。",
+      "options": [
+        "预测",
+        "注入",
+        "牺牲",
+        "融资"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "博弈",
+        "py": "bóyì",
+        "g": "strategic contest"
+      },
+      "sentence": "在大国___中，中等国家常常通过平衡策略保护自己的利益。",
+      "options": [
+        "博弈",
+        "夜市",
+        "现金流",
+        "诉苦"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "摄入",
+        "py": "shèrù",
+        "g": "intake / consume"
+      },
+      "sentence": "训练后及时___蛋白质，有助于身体恢复。",
+      "options": [
+        "摄入",
+        "制裁",
+        "漂浮",
+        "选边"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "flashcard_selfrate",
+      "word": {
+        "t": "将",
+        "py": "jiāng",
+        "g": "formal object marker, like 把"
+      },
+      "prompt": "将",
+      "back": "jiāng — 把 的正式书面用法，例如：将问题解决。"
+    },
+    {
+      "format": "flashcard_selfrate",
+      "word": {
+        "t": "暗物质",
+        "py": "àn wùzhì",
+        "g": "dark matter"
+      },
+      "prompt": "暗物质",
+      "back": "àn wùzhì — dark matter, 看不见但可能影响宇宙结构的物质。"
+    }
+  ]
+}

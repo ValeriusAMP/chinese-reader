@@ -1,0 +1,59 @@
+{
+  "week": 6,
+  "articles": [
+    {
+      "id": "w6d1",
+      "day": 1,
+      "type": "dialogue",
+      "topic": "philosophy",
+      "title": "善意也需要边界",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w6d2",
+      "day": 2,
+      "type": "article",
+      "topic": "venture capital",
+      "title": "投资人为什么看现金流",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w6d3",
+      "day": 3,
+      "type": "article",
+      "topic": "history",
+      "title": "宋代城市的夜晚",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w6d4",
+      "day": 4,
+      "type": "article",
+      "topic": "geopolitics",
+      "title": "中等国家的选择",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w6d5",
+      "day": 5,
+      "type": "dialogue",
+      "topic": "boxing",
+      "title": "被逼到绳角时",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w6d6",
+      "day": 6,
+      "type": "story",
+      "topic": "science/space",
+      "title": "《星际漂流》第四章：回声",
+      "target_level": "HSK4"
+    },
+    {
+      "id": "w6d7",
+      "day": 7,
+      "type": "review",
+      "title": "复习"
+    }
+  ]
+}
