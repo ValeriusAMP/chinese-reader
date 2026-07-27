@@ -1,0 +1,59 @@
+{
+  "week": 7,
+  "articles": [
+    {
+      "id": "w7d1",
+      "day": 1,
+      "type": "dialogue",
+      "topic": "philosophy",
+      "title": "原谅以后，还要和解吗？",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w7d2",
+      "day": 2,
+      "type": "article",
+      "topic": "venture capital",
+      "title": "增长之前，先证明谁愿意付钱",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w7d3",
+      "day": 3,
+      "type": "article",
+      "topic": "history",
+      "title": "古代驿站：一封公文怎样跑过千里",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w7d4",
+      "day": 4,
+      "type": "article",
+      "topic": "geopolitics",
+      "title": "港口小国如何避免把未来押在一条航线上",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w7d5",
+      "day": 5,
+      "type": "dialogue",
+      "topic": "psychology",
+      "title": "为什么越想睡，反而越清醒？",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w7d6",
+      "day": 6,
+      "type": "story",
+      "topic": "fighter/martial-artist",
+      "title": "《逆风拳馆》第一章：最后一张报名表",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w7d7",
+      "day": 7,
+      "type": "review",
+      "title": "复习"
+    }
+  ]
+}

@@ -1,0 +1,1208 @@
+{
+  "id": "w7d4",
+  "week": 7,
+  "day": 4,
+  "type": "article",
+  "topic": "geopolitics",
+  "register": "formal",
+  "target_level": "HSK5",
+  "title": "港口小国如何避免把未来押在一条航线上",
+  "tokens": [
+    {
+      "t": "一个"
+    },
+    {
+      "t": "港口",
+      "py": "gǎngkǒu",
+      "g": "port",
+      "domain": true
+    },
+    {
+      "t": "小国",
+      "py": "xiǎoguó",
+      "g": "small state"
+    },
+    {
+      "t": "可能"
+    },
+    {
+      "t": "没有"
+    },
+    {
+      "t": "庞大",
+      "py": "pángdà",
+      "g": "enormous"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "国内",
+      "py": "guónèi",
+      "g": "domestic"
+    },
+    {
+      "t": "市场",
+      "py": "shìchǎng",
+      "g": "market"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "能"
+    },
+    {
+      "t": "因为"
+    },
+    {
+      "t": "重要"
+    },
+    {
+      "t": "航线",
+      "py": "hángxiàn",
+      "g": "shipping route",
+      "domain": true
+    },
+    {
+      "t": "而"
+    },
+    {
+      "t": "拥有",
+      "py": "yōngyǒu",
+      "g": "possess"
+    },
+    {
+      "t": "谈判",
+      "py": "tánpàn",
+      "g": "negotiate"
+    },
+    {
+      "t": "筹码",
+      "py": "chóumǎ",
+      "g": "bargaining chip"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "问题"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "如果"
+    },
+    {
+      "t": "出口",
+      "py": "chūkǒu",
+      "g": "export"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "进口",
+      "py": "jìnkǒu",
+      "g": "import"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "投资",
+      "py": "tóuzī",
+      "g": "investment"
+    },
+    {
+      "t": "都"
+    },
+    {
+      "t": "依赖",
+      "py": "yīlài",
+      "g": "dependence"
+    },
+    {
+      "t": "单一",
+      "py": "dānyī",
+      "g": "single"
+    },
+    {
+      "t": "伙伴",
+      "py": "huǒbàn",
+      "g": "partner"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "这种",
+      "py": "zhè zhǒng",
+      "g": "this kind"
+    },
+    {
+      "t": "优势",
+      "py": "yōushì",
+      "g": "advantage"
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "变成",
+      "py": "biànchéng",
+      "g": "turn into"
+    },
+    {
+      "t": "风险",
+      "py": "fēngxiǎn",
+      "g": "risk"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "对方",
+      "py": "duìfāng",
+      "g": "other party"
+    },
+    {
+      "t": "一旦",
+      "py": "yīdàn",
+      "g": "once"
+    },
+    {
+      "t": "提高",
+      "py": "tígāo",
+      "g": "raise"
+    },
+    {
+      "t": "关税",
+      "py": "guānshuì",
+      "g": "tariff",
+      "domain": true
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "中断",
+      "py": "zhōngduàn",
+      "g": "interrupt"
+    },
+    {
+      "t": "供应链",
+      "py": "gōngyìngliàn",
+      "g": "supply chain",
+      "domain": true
+    },
+    {
+      "t": "或"
+    },
+    {
+      "t": "扩大",
+      "py": "kuòdà",
+      "g": "expand"
+    },
+    {
+      "t": "制裁",
+      "py": "zhìcái",
+      "g": "sanctions",
+      "domain": true
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "小国",
+      "py": "xiǎoguó",
+      "g": "small state"
+    },
+    {
+      "t": "往往",
+      "py": "wǎngwǎng",
+      "g": "often"
+    },
+    {
+      "t": "缺少",
+      "py": "quēshǎo",
+      "g": "lack"
+    },
+    {
+      "t": "立即",
+      "py": "lìjí",
+      "g": "immediately"
+    },
+    {
+      "t": "替代",
+      "py": "tìdài",
+      "g": "alternative"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "路线",
+      "py": "lùxiàn",
+      "g": "route"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "因此",
+      "py": "yīncǐ",
+      "g": "therefore"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "分散",
+      "py": "fēnsàn",
+      "g": "diversify"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "在"
+    },
+    {
+      "t": "大国",
+      "py": "dàguó",
+      "g": "major power"
+    },
+    {
+      "t": "之间"
+    },
+    {
+      "t": "随意",
+      "py": "suíyì",
+      "g": "as one wishes/freely"
+    },
+    {
+      "t": "摇摆",
+      "py": "yáobǎi",
+      "g": "swing/waver"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "提前",
+      "py": "tíqián",
+      "g": "in advance"
+    },
+    {
+      "t": "建立",
+      "py": "jiànlì",
+      "g": "establish"
+    },
+    {
+      "t": "缓冲",
+      "py": "huǎnchōng",
+      "g": "buffer"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "政府",
+      "py": "zhèngfǔ",
+      "g": "government"
+    },
+    {
+      "t": "可以"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "多个",
+      "py": "duō ge",
+      "g": "multiple"
+    },
+    {
+      "t": "市场",
+      "py": "shìchǎng",
+      "g": "market"
+    },
+    {
+      "t": "签署",
+      "py": "qiānshǔ",
+      "g": "sign"
+    },
+    {
+      "t": "协议",
+      "py": "xiéyì",
+      "g": "agreement"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "企业",
+      "py": "qǐyè",
+      "g": "enterprise"
+    },
+    {
+      "t": "使用",
+      "py": "shǐyòng",
+      "g": "use"
+    },
+    {
+      "t": "不同",
+      "py": "bùtóng",
+      "g": "different"
+    },
+    {
+      "t": "航线",
+      "py": "hángxiàn",
+      "g": "shipping route",
+      "domain": true
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "同时",
+      "py": "tóngshí",
+      "g": "at the same time"
+    },
+    {
+      "t": "保留",
+      "py": "bǎoliú",
+      "g": "retain"
+    },
+    {
+      "t": "粮食",
+      "py": "liángshi",
+      "g": "grain"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "能源",
+      "py": "néngyuán",
+      "g": "energy"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "关键",
+      "py": "guānjiàn",
+      "g": "critical"
+    },
+    {
+      "t": "产品",
+      "py": "chǎnpǐn",
+      "g": "product"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "基本",
+      "py": "jīběn",
+      "g": "basic"
+    },
+    {
+      "t": "储备",
+      "py": "chǔbèi",
+      "g": "reserves"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这样"
+    },
+    {
+      "t": "做"
+    },
+    {
+      "t": "可能"
+    },
+    {
+      "t": "增加",
+      "py": "zēngjiā",
+      "g": "increase"
+    },
+    {
+      "t": "短期",
+      "py": "duǎnqī",
+      "g": "short term"
+    },
+    {
+      "t": "成本",
+      "py": "chéngběn",
+      "g": "cost"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "能"
+    },
+    {
+      "t": "在"
+    },
+    {
+      "t": "冲击",
+      "py": "chōngjī",
+      "g": "shock"
+    },
+    {
+      "t": "到来",
+      "py": "dàolái",
+      "g": "arrive"
+    },
+    {
+      "t": "时",
+      "py": "shí",
+      "g": "when"
+    },
+    {
+      "t": "维持",
+      "py": "wéichí",
+      "g": "maintain"
+    },
+    {
+      "t": "选择"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "更"
+    },
+    {
+      "t": "深",
+      "py": "shēn",
+      "g": "deeper"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "做法",
+      "py": "zuòfǎ",
+      "g": "approach"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "把"
+    },
+    {
+      "t": "港口",
+      "py": "gǎngkǒu",
+      "g": "port",
+      "domain": true
+    },
+    {
+      "t": "从"
+    },
+    {
+      "t": "一个"
+    },
+    {
+      "t": "经过",
+      "py": "jīngguò",
+      "g": "pass through"
+    },
+    {
+      "t": "货物",
+      "py": "huòwù",
+      "g": "goods"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "地方"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "变成",
+      "py": "biànchéng",
+      "g": "turn into"
+    },
+    {
+      "t": "提供",
+      "py": "tígōng",
+      "g": "provide"
+    },
+    {
+      "t": "仓库",
+      "py": "cāngkù",
+      "g": "warehouse"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "加工",
+      "py": "jiāgōng",
+      "g": "processing"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "金融",
+      "py": "jīnróng",
+      "g": "financial"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "物流",
+      "py": "wùliú",
+      "g": "logistics"
+    },
+    {
+      "t": "服务",
+      "py": "fúwù",
+      "g": "serve"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "中心",
+      "py": "zhōngxīn",
+      "g": "center"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "当"
+    },
+    {
+      "t": "本地",
+      "py": "běndì",
+      "g": "local"
+    },
+    {
+      "t": "行业",
+      "py": "hángyè",
+      "g": "industry"
+    },
+    {
+      "t": "能"
+    },
+    {
+      "t": "创造",
+      "py": "chuàngzào",
+      "g": "create"
+    },
+    {
+      "t": "就业",
+      "py": "jiùyè",
+      "g": "employment"
+    },
+    {
+      "t": "与"
+    },
+    {
+      "t": "技术",
+      "py": "jìshù",
+      "g": "technological"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "国家"
+    },
+    {
+      "t": "谈判",
+      "py": "tánpàn",
+      "g": "negotiate"
+    },
+    {
+      "t": "时",
+      "py": "shí",
+      "g": "when"
+    },
+    {
+      "t": "交换",
+      "py": "jiāohuàn",
+      "g": "exchange"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "不只是",
+      "py": "bù zhǐshì",
+      "g": "not merely"
+    },
+    {
+      "t": "地理",
+      "py": "dìlǐ",
+      "g": "geography"
+    },
+    {
+      "t": "位置",
+      "py": "wèizhi",
+      "g": "position"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "还有",
+      "py": "háiyǒu",
+      "g": "also have"
+    },
+    {
+      "t": "一套",
+      "py": "yí tào",
+      "g": "a set"
+    },
+    {
+      "t": "难以",
+      "py": "nányǐ",
+      "g": "difficult to"
+    },
+    {
+      "t": "迅速",
+      "py": "xùnsù",
+      "g": "rapidly"
+    },
+    {
+      "t": "代替",
+      "py": "dàitì",
+      "g": "replace"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "能力",
+      "py": "nénglì",
+      "g": "capacity"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "当然"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "分散",
+      "py": "fēnsàn",
+      "g": "diversify"
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "有"
+    },
+    {
+      "t": "代价",
+      "py": "dàijià",
+      "g": "cost"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "不同",
+      "py": "bùtóng",
+      "g": "different"
+    },
+    {
+      "t": "伙伴",
+      "py": "huǒbàn",
+      "g": "partner"
+    },
+    {
+      "t": "可能"
+    },
+    {
+      "t": "提出",
+      "py": "tíchū",
+      "g": "propose"
+    },
+    {
+      "t": "互相",
+      "py": "hùxiāng",
+      "g": "mutually"
+    },
+    {
+      "t": "冲突",
+      "py": "chōngtū",
+      "g": "conflict"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "条件",
+      "py": "tiáojiàn",
+      "g": "condition"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "企业",
+      "py": "qǐyè",
+      "g": "enterprise"
+    },
+    {
+      "t": "需要"
+    },
+    {
+      "t": "遵守",
+      "py": "zūnshǒu",
+      "g": "observe"
+    },
+    {
+      "t": "多套",
+      "py": "duō tào",
+      "g": "multiple sets"
+    },
+    {
+      "t": "标准",
+      "py": "biāozhǔn",
+      "g": "standard"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "政府",
+      "py": "zhèngfǔ",
+      "g": "government"
+    },
+    {
+      "t": "还"
+    },
+    {
+      "t": "要"
+    },
+    {
+      "t": "避免",
+      "py": "bìmiǎn",
+      "g": "avoid"
+    },
+    {
+      "t": "被"
+    },
+    {
+      "t": "看成",
+      "py": "kànchéng",
+      "g": "regard as"
+    },
+    {
+      "t": "没有"
+    },
+    {
+      "t": "立场",
+      "py": "lìchǎng",
+      "g": "position"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "所以"
+    },
+    {
+      "t": "灵活",
+      "py": "línghuó",
+      "g": "flexible"
+    },
+    {
+      "t": "外交",
+      "py": "wàijiāo",
+      "g": "diplomacy"
+    },
+    {
+      "t": "必须",
+      "py": "bìxū",
+      "g": "must"
+    },
+    {
+      "t": "配合",
+      "py": "pèihé",
+      "g": "coordinate with"
+    },
+    {
+      "t": "清楚"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "原则",
+      "py": "yuánzé",
+      "g": "principle"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "对"
+    },
+    {
+      "t": "谁"
+    },
+    {
+      "t": "都"
+    },
+    {
+      "t": "开放",
+      "py": "kāifàng",
+      "g": "open"
+    },
+    {
+      "t": "合作",
+      "py": "hézuò",
+      "g": "cooperate"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但"
+    },
+    {
+      "t": "不把",
+      "py": "bù bǎ",
+      "g": "not put"
+    },
+    {
+      "t": "所有"
+    },
+    {
+      "t": "安全"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "收入",
+      "py": "shōurù",
+      "g": "revenue"
+    },
+    {
+      "t": "押在",
+      "py": "yāzài",
+      "g": "stake on"
+    },
+    {
+      "t": "一张"
+    },
+    {
+      "t": "牌",
+      "py": "pái",
+      "g": "card"
+    },
+    {
+      "t": "上"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "真正",
+      "py": "zhēnzhèng",
+      "g": "genuine"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "平衡",
+      "py": "pínghéng",
+      "g": "balance"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "永远",
+      "py": "yǒngyuǎn",
+      "g": "forever"
+    },
+    {
+      "t": "站在",
+      "py": "zhànzài",
+      "g": "stand at"
+    },
+    {
+      "t": "中间",
+      "py": "zhōngjiān",
+      "g": "middle"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "更不是",
+      "py": "gèng bú shì",
+      "g": "still less"
+    },
+    {
+      "t": "拒绝",
+      "py": "jùjué",
+      "g": "reject"
+    },
+    {
+      "t": "对抗",
+      "py": "duìkàng",
+      "g": "confrontation"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "它"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "在"
+    },
+    {
+      "t": "危机",
+      "py": "wēijī",
+      "g": "crisis"
+    },
+    {
+      "t": "发生",
+      "py": "fāshēng",
+      "g": "happen"
+    },
+    {
+      "t": "以前"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "国家"
+    },
+    {
+      "t": "拥有",
+      "py": "yōngyǒu",
+      "g": "possess"
+    },
+    {
+      "t": "承受",
+      "py": "chéngshòu",
+      "g": "withstand"
+    },
+    {
+      "t": "冲击",
+      "py": "chōngjī",
+      "g": "shock"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "韧性",
+      "py": "rènxìng",
+      "g": "resilience"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "选择"
+    },
+    {
+      "t": "越",
+      "py": "yuè",
+      "g": "the more"
+    },
+    {
+      "t": "多"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "被动",
+      "py": "bèidòng",
+      "g": "passive"
+    },
+    {
+      "t": "接受",
+      "py": "jiēshòu",
+      "g": "accept"
+    },
+    {
+      "t": "条件",
+      "py": "tiáojiàn",
+      "g": "condition"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "可能"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "越",
+      "py": "yuè",
+      "g": "the more"
+    },
+    {
+      "t": "小"
+    },
+    {
+      "t": "。",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "分散",
+    "依赖",
+    "筹码",
+    "缓冲",
+    "韧性"
+  ],
+  "review_words": [
+    "对抗",
+    "平衡",
+    "摇摆",
+    "冲击"
+  ],
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "文章认为分散合作就是没有原则地在大国之间摇摆。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "港口小国可以怎样建立缓冲？",
+      "options": [
+        "只依赖一个最大市场",
+        "建立多种航线与伙伴并保留基本储备",
+        "停止所有进口",
+        "取消本地产业"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multiple_choice",
+      "q": "为什么要发展仓库、加工和物流服务？",
+      "options": [
+        "让港口停止运输货物",
+        "创造更难被替代的综合能力",
+        "减少所有就业",
+        "避免签署协议"
+      ],
+      "answer_index": 1
+    }
+  ]
+}

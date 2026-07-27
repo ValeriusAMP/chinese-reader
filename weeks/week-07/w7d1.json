@@ -1,0 +1,1151 @@
+{
+  "id": "w7d1",
+  "week": 7,
+  "day": 1,
+  "type": "dialogue",
+  "topic": "philosophy",
+  "register": "informal",
+  "target_level": "HSK5",
+  "title": "原谅以后，还要和解吗？",
+  "tokens": [
+    {
+      "t": "小雨",
+      "py": "Xiǎo Yǔ",
+      "g": "Xiao Yu"
+    },
+    {
+      "t": "把"
+    },
+    {
+      "t": "手机"
+    },
+    {
+      "t": "放在",
+      "py": "fàngzài",
+      "g": "place on"
+    },
+    {
+      "t": "桌上",
+      "py": "zhuōshàng",
+      "g": "on the table"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "叹气",
+      "py": "tànqì",
+      "g": "sigh"
+    },
+    {
+      "t": "说"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "已经"
+    },
+    {
+      "t": "道歉",
+      "py": "dàoqiàn",
+      "g": "apologize"
+    },
+    {
+      "t": "了"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "原谅",
+      "py": "yuánliàng",
+      "g": "forgive"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "了"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "可是",
+      "py": "kěshì",
+      "g": "but"
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "还是"
+    },
+    {
+      "t": "不"
+    },
+    {
+      "t": "想"
+    },
+    {
+      "t": "跟"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "恢复",
+      "py": "huīfù",
+      "g": "recover"
+    },
+    {
+      "t": "以前"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "关系"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这样"
+    },
+    {
+      "t": "是不是",
+      "py": "shìbushì",
+      "g": "is it or not"
+    },
+    {
+      "t": "不够",
+      "py": "bùgòu",
+      "g": "not enough"
+    },
+    {
+      "t": "成熟",
+      "py": "chéngshú",
+      "g": "mature"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "陈安",
+      "py": "Chén Ān",
+      "g": "Chen An"
+    },
+    {
+      "t": "想了想",
+      "py": "xiǎngle xiǎng",
+      "g": "thought briefly"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "原谅",
+      "py": "yuánliàng",
+      "g": "forgive"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "和解",
+      "py": "héjiě",
+      "g": "reconcile"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "一件",
+      "py": "yí jiàn",
+      "g": "one matter"
+    },
+    {
+      "t": "事情"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "原谅",
+      "py": "yuánliàng",
+      "g": "forgive"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "不再"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "那次",
+      "py": "nà cì",
+      "g": "that time"
+    },
+    {
+      "t": "伤害",
+      "py": "shānghài",
+      "g": "hurt"
+    },
+    {
+      "t": "一直"
+    },
+    {
+      "t": "控制",
+      "py": "kòngzhì",
+      "g": "control"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "；",
+      "punct": true
+    },
+    {
+      "t": "和解",
+      "py": "héjiě",
+      "g": "reconcile"
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "需要"
+    },
+    {
+      "t": "两个人",
+      "py": "liǎng ge rén",
+      "g": "two people"
+    },
+    {
+      "t": "重新",
+      "py": "chóngxīn",
+      "g": "anew"
+    },
+    {
+      "t": "建立",
+      "py": "jiànlì",
+      "g": "establish"
+    },
+    {
+      "t": "信任",
+      "py": "xìnrèn",
+      "g": "trust"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "可"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "说"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "很"
+    },
+    {
+      "t": "后悔",
+      "py": "hòuhuǐ",
+      "g": "regret"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "难道",
+      "py": "nándào",
+      "g": "could it be"
+    },
+    {
+      "t": "后悔",
+      "py": "hòuhuǐ",
+      "g": "regret"
+    },
+    {
+      "t": "还"
+    },
+    {
+      "t": "不够",
+      "py": "bùgòu",
+      "g": "not enough"
+    },
+    {
+      "t": "吗"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "后悔",
+      "py": "hòuhuǐ",
+      "g": "regret"
+    },
+    {
+      "t": "只是",
+      "py": "zhǐshì",
+      "g": "merely"
+    },
+    {
+      "t": "开始"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "真正",
+      "py": "zhēnzhèng",
+      "g": "genuine"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "道歉",
+      "py": "dàoqiàn",
+      "g": "apologize"
+    },
+    {
+      "t": "还"
+    },
+    {
+      "t": "包括",
+      "py": "bāokuò",
+      "g": "include"
+    },
+    {
+      "t": "承认",
+      "py": "chéngrèn",
+      "g": "acknowledge"
+    },
+    {
+      "t": "冒犯",
+      "py": "màofàn",
+      "g": "offend"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "承担",
+      "py": "chéngdān",
+      "g": "take on/bear"
+    },
+    {
+      "t": "代价",
+      "py": "dàijià",
+      "g": "cost"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "以及"
+    },
+    {
+      "t": "用"
+    },
+    {
+      "t": "行为",
+      "py": "xíngwéi",
+      "g": "behavior"
+    },
+    {
+      "t": "证明",
+      "py": "zhèngmíng",
+      "g": "prove"
+    },
+    {
+      "t": "改变"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "如果"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "只"
+    },
+    {
+      "t": "希望"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "立刻",
+      "py": "lìkè",
+      "g": "immediately"
+    },
+    {
+      "t": "忘记"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "那"
+    },
+    {
+      "t": "更像",
+      "py": "gèng xiàng",
+      "g": "more like"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "要求",
+      "py": "yāoqiú",
+      "g": "demand"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "替",
+      "py": "tì",
+      "g": "on behalf of"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "消除",
+      "py": "xiāochú",
+      "g": "eliminate"
+    },
+    {
+      "t": "不舒服",
+      "py": "bù shūfu",
+      "g": "uncomfortable"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "小雨",
+      "py": "Xiǎo Yǔ",
+      "g": "Xiao Yu"
+    },
+    {
+      "t": "沉默",
+      "py": "chénmò",
+      "g": "silence"
+    },
+    {
+      "t": "了一会儿",
+      "py": "le yíhuìr",
+      "g": "for a while"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "所以"
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "可以"
+    },
+    {
+      "t": "放下",
+      "py": "fàngxià",
+      "g": "let go"
+    },
+    {
+      "t": "愤怒",
+      "py": "fènnù",
+      "g": "anger"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "同时",
+      "py": "tóngshí",
+      "g": "at the same time"
+    },
+    {
+      "t": "保留",
+      "py": "bǎoliú",
+      "g": "retain"
+    },
+    {
+      "t": "边界",
+      "py": "biānjiè",
+      "g": "boundary"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "当然"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "理智",
+      "py": "lǐzhì",
+      "g": "rational"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "把"
+    },
+    {
+      "t": "情绪",
+      "py": "qíngxù",
+      "g": "emotion"
+    },
+    {
+      "t": "压住",
+      "py": "yāzhù",
+      "g": "suppress"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "成熟",
+      "py": "chéngshú",
+      "g": "mature"
+    },
+    {
+      "t": "也不是",
+      "py": "yě bú shì",
+      "g": "nor is it"
+    },
+    {
+      "t": "假装",
+      "py": "jiǎzhuāng",
+      "g": "pretend"
+    },
+    {
+      "t": "一切",
+      "py": "yíqiè",
+      "g": "everything"
+    },
+    {
+      "t": "没有"
+    },
+    {
+      "t": "发生",
+      "py": "fāshēng",
+      "g": "happen"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "可以"
+    },
+    {
+      "t": "尊重",
+      "py": "zūnzhòng",
+      "g": "respect"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "诚意",
+      "py": "chéngyì",
+      "g": "sincerity"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "可以"
+    },
+    {
+      "t": "观察",
+      "py": "guānchá",
+      "g": "observe"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "是否",
+      "py": "shìfǒu",
+      "g": "whether"
+    },
+    {
+      "t": "有"
+    },
+    {
+      "t": "耐心",
+      "py": "nàixīn",
+      "g": "patience"
+    },
+    {
+      "t": "修复",
+      "py": "xiūfù",
+      "g": "repair"
+    },
+    {
+      "t": "关系"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "信任",
+      "py": "xìnrèn",
+      "g": "trust"
+    },
+    {
+      "t": "一旦",
+      "py": "yīdàn",
+      "g": "once"
+    },
+    {
+      "t": "破裂",
+      "py": "pòliè",
+      "g": "rupture"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "恢复",
+      "py": "huīfù",
+      "g": "recover"
+    },
+    {
+      "t": "本来",
+      "py": "běnlái",
+      "g": "inherently"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "需要"
+    },
+    {
+      "t": "时间"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "那"
+    },
+    {
+      "t": "如果"
+    },
+    {
+      "t": "他"
+    },
+    {
+      "t": "认为",
+      "py": "rènwéi",
+      "g": "consider"
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "很"
+    },
+    {
+      "t": "冷漠",
+      "py": "lěngmò",
+      "g": "indifferent/cold"
+    },
+    {
+      "t": "呢"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "陈安",
+      "py": "Chén Ān",
+      "g": "Chen An"
+    },
+    {
+      "t": "摇摇头",
+      "py": "yáoyao tóu",
+      "g": "shake one's head"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "别人"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "评价",
+      "py": "píngjià",
+      "g": "evaluation"
+    },
+    {
+      "t": "不会",
+      "py": "bú huì",
+      "g": "will not"
+    },
+    {
+      "t": "自动",
+      "py": "zìdòng",
+      "g": "automatically"
+    },
+    {
+      "t": "决定"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "是否",
+      "py": "shìfǒu",
+      "g": "whether"
+    },
+    {
+      "t": "公平",
+      "py": "gōngpíng",
+      "g": "fair"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "不欠",
+      "py": "bú qiàn",
+      "g": "do not owe"
+    },
+    {
+      "t": "任何",
+      "py": "rènhé",
+      "g": "any"
+    },
+    {
+      "t": "人"
+    },
+    {
+      "t": "一次"
+    },
+    {
+      "t": "和解",
+      "py": "héjiě",
+      "g": "reconcile"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "等到",
+      "py": "děngdào",
+      "g": "wait until"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "觉得"
+    },
+    {
+      "t": "安全"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而且"
+    },
+    {
+      "t": "对方",
+      "py": "duìfāng",
+      "g": "other party"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "改变"
+    },
+    {
+      "t": "值得",
+      "py": "zhíde",
+      "g": "be worth"
+    },
+    {
+      "t": "相信"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "再"
+    },
+    {
+      "t": "决定"
+    },
+    {
+      "t": "是否",
+      "py": "shìfǒu",
+      "g": "whether"
+    },
+    {
+      "t": "靠近",
+      "py": "kàojìn",
+      "g": "draw near"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "勉强",
+      "py": "miǎnqiǎng",
+      "g": "reluctantly force"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "原谅",
+      "py": "yuánliàng",
+      "g": "forgive"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "反而",
+      "py": "fǎn'ér",
+      "g": "instead"
+    },
+    {
+      "t": "可能"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "伤口",
+      "py": "shāngkǒu",
+      "g": "wound"
+    },
+    {
+      "t": "更难",
+      "py": "gèng nán",
+      "g": "more difficult"
+    },
+    {
+      "t": "修复",
+      "py": "xiūfù",
+      "g": "repair"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "小雨",
+      "py": "Xiǎo Yǔ",
+      "g": "Xiao Yu"
+    },
+    {
+      "t": "轻轻",
+      "py": "qīngqīng",
+      "g": "gently"
+    },
+    {
+      "t": "点头",
+      "py": "diǎntóu",
+      "g": "nod"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "原来"
+    },
+    {
+      "t": "原谅",
+      "py": "yuánliàng",
+      "g": "forgive"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "放过",
+      "py": "fàngguò",
+      "g": "let go of"
+    },
+    {
+      "t": "过去",
+      "py": "guòqù",
+      "g": "the past"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "和解",
+      "py": "héjiě",
+      "g": "reconcile"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "重新",
+      "py": "chóngxīn",
+      "g": "anew"
+    },
+    {
+      "t": "选择"
+    },
+    {
+      "t": "未来",
+      "py": "wèilái",
+      "g": "future"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "原谅",
+    "和解",
+    "冒犯",
+    "信任",
+    "修复"
+  ],
+  "review_words": [
+    "边界",
+    "承担",
+    "理智",
+    "冷漠"
+  ],
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "陈安认为，原谅一个人以后就必须恢复原来的关系。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "陈安认为真正的道歉还需要什么？",
+      "options": [
+        "要求对方马上忘记",
+        "承担代价并用行为证明改变",
+        "停止谈论过去",
+        "让朋友替自己解释"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multiple_choice",
+      "q": "小雨最后怎样理解原谅与和解？",
+      "options": [
+        "两者完全相同",
+        "原谅是放过过去，和解是重新选择未来",
+        "和解比信任更容易",
+        "成熟就是压住情绪"
+      ],
+      "answer_index": 1
+    }
+  ]
+}

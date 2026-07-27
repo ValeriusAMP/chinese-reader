@@ -1,0 +1,1199 @@
+{
+  "id": "w7d2",
+  "week": 7,
+  "day": 2,
+  "type": "article",
+  "topic": "venture capital",
+  "register": "formal",
+  "target_level": "HSK5",
+  "title": "增长之前，先证明谁愿意付钱",
+  "tokens": [
+    {
+      "t": "许多",
+      "py": "xǔduō",
+      "g": "many"
+    },
+    {
+      "t": "创业者",
+      "py": "chuàngyèzhě",
+      "g": "entrepreneur"
+    },
+    {
+      "t": "做出",
+      "py": "zuòchū",
+      "g": "produce"
+    },
+    {
+      "t": "第一版",
+      "py": "dì-yī bǎn",
+      "g": "first version"
+    },
+    {
+      "t": "产品",
+      "py": "chǎnpǐn",
+      "g": "product"
+    },
+    {
+      "t": "以后"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "立刻",
+      "py": "lìkè",
+      "g": "immediately"
+    },
+    {
+      "t": "追求",
+      "py": "zhuīqiú",
+      "g": "pursue"
+    },
+    {
+      "t": "用户",
+      "py": "yònghù",
+      "g": "user"
+    },
+    {
+      "t": "增长",
+      "py": "zēngzhǎng",
+      "g": "growth"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "他们"
+    },
+    {
+      "t": "觉得"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "只要"
+    },
+    {
+      "t": "注册",
+      "py": "zhùcè",
+      "g": "register"
+    },
+    {
+      "t": "人数",
+      "py": "rénshù",
+      "g": "number of people"
+    },
+    {
+      "t": "足够",
+      "py": "zúgòu",
+      "g": "sufficiently"
+    },
+    {
+      "t": "多"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "投资人",
+      "py": "tóuzīrén",
+      "g": "investor"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "相信"
+    },
+    {
+      "t": "公司"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "愿景",
+      "py": "yuànjǐng",
+      "g": "vision"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "可是",
+      "py": "kěshì",
+      "g": "but"
+    },
+    {
+      "t": "免费",
+      "py": "miǎnfèi",
+      "g": "free"
+    },
+    {
+      "t": "试用",
+      "py": "shìyòng",
+      "g": "trial use"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "真正",
+      "py": "zhēnzhèng",
+      "g": "genuine"
+    },
+    {
+      "t": "付款",
+      "py": "fùkuǎn",
+      "g": "make payment"
+    },
+    {
+      "t": "之间"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "往往",
+      "py": "wǎngwǎng",
+      "g": "often"
+    },
+    {
+      "t": "有"
+    },
+    {
+      "t": "一段"
+    },
+    {
+      "t": "很长",
+      "py": "hěn cháng",
+      "g": "very long"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "距离",
+      "py": "jùlí",
+      "g": "distance"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "调查",
+      "py": "diàochá",
+      "g": "survey"
+    },
+    {
+      "t": "可以"
+    },
+    {
+      "t": "告诉"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "用户",
+      "py": "yònghù",
+      "g": "user"
+    },
+    {
+      "t": "表示",
+      "py": "biǎoshì",
+      "g": "express"
+    },
+    {
+      "t": "喜欢"
+    },
+    {
+      "t": "什么"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "无法",
+      "py": "wúfǎ",
+      "g": "be unable to"
+    },
+    {
+      "t": "验证",
+      "py": "yànzhèng",
+      "g": "validate"
+    },
+    {
+      "t": "他们"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "付费意愿",
+      "py": "fùfèi yìyuàn",
+      "g": "willingness to pay"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "有些"
+    },
+    {
+      "t": "人"
+    },
+    {
+      "t": "出于",
+      "py": "chūyú",
+      "g": "out of"
+    },
+    {
+      "t": "礼貌",
+      "py": "lǐmào",
+      "g": "polite"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "说"
+    },
+    {
+      "t": "产品",
+      "py": "chǎnpǐn",
+      "g": "product"
+    },
+    {
+      "t": "不错",
+      "py": "búcuò",
+      "g": "quite good"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "甚至",
+      "py": "shènzhì",
+      "g": "even"
+    },
+    {
+      "t": "承诺",
+      "py": "chéngnuò",
+      "g": "promise"
+    },
+    {
+      "t": "以后"
+    },
+    {
+      "t": "购买",
+      "py": "gòumǎi",
+      "g": "purchase"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但"
+    },
+    {
+      "t": "只有",
+      "py": "zhǐyǒu",
+      "g": "only if"
+    },
+    {
+      "t": "真实",
+      "py": "zhēnshí",
+      "g": "real"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "付款",
+      "py": "fùkuǎn",
+      "g": "make payment"
+    },
+    {
+      "t": "才能",
+      "py": "cáinéng",
+      "g": "only then can"
+    },
+    {
+      "t": "说明",
+      "py": "shuōmíng",
+      "g": "demonstrate"
+    },
+    {
+      "t": "需求",
+      "py": "xūqiú",
+      "g": "demand"
+    },
+    {
+      "t": "是否",
+      "py": "shìfǒu",
+      "g": "whether"
+    },
+    {
+      "t": "存在",
+      "py": "cúnzài",
+      "g": "existence"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "因此",
+      "py": "yīncǐ",
+      "g": "therefore"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "小"
+    },
+    {
+      "t": "公司"
+    },
+    {
+      "t": "最早",
+      "py": "zuìzǎo",
+      "g": "at earliest stage"
+    },
+    {
+      "t": "应该"
+    },
+    {
+      "t": "验证",
+      "py": "yànzhèng",
+      "g": "validate"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "市场",
+      "py": "shìchǎng",
+      "g": "market"
+    },
+    {
+      "t": "有"
+    },
+    {
+      "t": "多大",
+      "py": "duō dà",
+      "g": "how large"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "哪一类",
+      "py": "nǎ yí lèi",
+      "g": "which type"
+    },
+    {
+      "t": "客户",
+      "py": "kèhù",
+      "g": "customer"
+    },
+    {
+      "t": "有"
+    },
+    {
+      "t": "明确",
+      "py": "míngquè",
+      "g": "clear"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "痛点",
+      "py": "tòngdiǎn",
+      "g": "pain point"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "核心",
+      "py": "héxīn",
+      "g": "core"
+    },
+    {
+      "t": "功能",
+      "py": "gōngnéng",
+      "g": "feature"
+    },
+    {
+      "t": "是否",
+      "py": "shìfǒu",
+      "g": "whether"
+    },
+    {
+      "t": "真能",
+      "py": "zhēn néng",
+      "g": "truly can"
+    },
+    {
+      "t": "解决",
+      "py": "jiějué",
+      "g": "solve"
+    },
+    {
+      "t": "它"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "这项",
+      "py": "zhè xiàng",
+      "g": "this item"
+    },
+    {
+      "t": "验证",
+      "py": "yànzhèng",
+      "g": "validate"
+    },
+    {
+      "t": "还"
+    },
+    {
+      "t": "要"
+    },
+    {
+      "t": "观察",
+      "py": "guānchá",
+      "g": "observe"
+    },
+    {
+      "t": "留存",
+      "py": "liúcún",
+      "g": "retention"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "续费率",
+      "py": "xùfèilǜ",
+      "g": "renewal rate",
+      "domain": true
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "如果"
+    },
+    {
+      "t": "用户",
+      "py": "yònghù",
+      "g": "user"
+    },
+    {
+      "t": "试用",
+      "py": "shìyòng",
+      "g": "trial use"
+    },
+    {
+      "t": "一次"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "离开",
+      "py": "líkāi",
+      "g": "leave"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "公司"
+    },
+    {
+      "t": "即使",
+      "py": "jíshǐ",
+      "g": "even if"
+    },
+    {
+      "t": "用"
+    },
+    {
+      "t": "广告",
+      "py": "guǎnggào",
+      "g": "advertising"
+    },
+    {
+      "t": "换来",
+      "py": "huànlái",
+      "g": "obtain in exchange"
+    },
+    {
+      "t": "很多"
+    },
+    {
+      "t": "注册",
+      "py": "zhùcè",
+      "g": "register"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "很难",
+      "py": "hěn nán",
+      "g": "difficult"
+    },
+    {
+      "t": "建立",
+      "py": "jiànlì",
+      "g": "establish"
+    },
+    {
+      "t": "稳定",
+      "py": "wěndìng",
+      "g": "stable"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "现金流",
+      "py": "xiànjīnliú",
+      "g": "cash flow",
+      "domain": true
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "过早",
+      "py": "guòzǎo",
+      "g": "premature"
+    },
+    {
+      "t": "扩张",
+      "py": "kuòzhāng",
+      "g": "expand/expansion"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "提高",
+      "py": "tígāo",
+      "g": "raise"
+    },
+    {
+      "t": "获客成本",
+      "py": "huòkè chéngběn",
+      "g": "acquisition cost",
+      "domain": true
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "团队",
+      "py": "tuánduì",
+      "g": "team"
+    },
+    {
+      "t": "忙于",
+      "py": "mángyú",
+      "g": "be busy with"
+    },
+    {
+      "t": "支撑",
+      "py": "zhīchēng",
+      "g": "support/sustain"
+    },
+    {
+      "t": "不成熟",
+      "py": "bù chéngshú",
+      "g": "immature"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "产品",
+      "py": "chǎnpǐn",
+      "g": "product"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "最后"
+    },
+    {
+      "t": "连",
+      "py": "lián",
+      "g": "even"
+    },
+    {
+      "t": "调整",
+      "py": "tiáozhěng",
+      "g": "adjust"
+    },
+    {
+      "t": "方向",
+      "py": "fāngxiàng",
+      "g": "direction"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "时间"
+    },
+    {
+      "t": "都"
+    },
+    {
+      "t": "没有"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "相反",
+      "py": "xiāngfǎn",
+      "g": "on the contrary"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "一百",
+      "py": "yìbǎi",
+      "g": "one hundred"
+    },
+    {
+      "t": "名",
+      "py": "míng",
+      "g": "people measure"
+    },
+    {
+      "t": "愿意",
+      "py": "yuànyì",
+      "g": "be willing"
+    },
+    {
+      "t": "反复",
+      "py": "fǎnfù",
+      "g": "repeatedly"
+    },
+    {
+      "t": "付款",
+      "py": "fùkuǎn",
+      "g": "make payment"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "客户",
+      "py": "kèhù",
+      "g": "customer"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "常常",
+      "py": "chángcháng",
+      "g": "often"
+    },
+    {
+      "t": "比"
+    },
+    {
+      "t": "一万",
+      "py": "yíwàn",
+      "g": "ten thousand"
+    },
+    {
+      "t": "名",
+      "py": "míng",
+      "g": "people measure"
+    },
+    {
+      "t": "免费",
+      "py": "miǎnfèi",
+      "g": "free"
+    },
+    {
+      "t": "用户",
+      "py": "yònghù",
+      "g": "user"
+    },
+    {
+      "t": "更有",
+      "py": "gèng yǒu",
+      "g": "have more"
+    },
+    {
+      "t": "说服力",
+      "py": "shuōfúlì",
+      "g": "persuasiveness"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "他们"
+    },
+    {
+      "t": "提供",
+      "py": "tígōng",
+      "g": "provide"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "反馈",
+      "py": "fǎnkuì",
+      "g": "feedback"
+    },
+    {
+      "t": "能"
+    },
+    {
+      "t": "帮助"
+    },
+    {
+      "t": "团队",
+      "py": "tuánduì",
+      "g": "team"
+    },
+    {
+      "t": "区分",
+      "py": "qūfēn",
+      "g": "distinguish"
+    },
+    {
+      "t": "哪些",
+      "py": "nǎxiē",
+      "g": "which ones"
+    },
+    {
+      "t": "功能",
+      "py": "gōngnéng",
+      "g": "feature"
+    },
+    {
+      "t": "真正",
+      "py": "zhēnzhèng",
+      "g": "genuine"
+    },
+    {
+      "t": "耐用",
+      "py": "nàiyòng",
+      "g": "durable"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "哪些",
+      "py": "nǎxiē",
+      "g": "which ones"
+    },
+    {
+      "t": "只是",
+      "py": "zhǐshì",
+      "g": "merely"
+    },
+    {
+      "t": "创业者",
+      "py": "chuàngyèzhě",
+      "g": "entrepreneur"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "假设",
+      "py": "jiǎshè",
+      "g": "assumption"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这种",
+      "py": "zhè zhǒng",
+      "g": "this kind"
+    },
+    {
+      "t": "纪律",
+      "py": "jìlǜ",
+      "g": "discipline"
+    },
+    {
+      "t": "看起来",
+      "py": "kànqǐlái",
+      "g": "appear"
+    },
+    {
+      "t": "增长",
+      "py": "zēngzhǎng",
+      "g": "growth"
+    },
+    {
+      "t": "较慢",
+      "py": "jiào màn",
+      "g": "relatively slow"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "能"
+    },
+    {
+      "t": "减少",
+      "py": "jiǎnshǎo",
+      "g": "reduce"
+    },
+    {
+      "t": "盲目",
+      "py": "mángmù",
+      "g": "blindly"
+    },
+    {
+      "t": "浪费",
+      "py": "làngfèi",
+      "g": "waste"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "融资",
+      "py": "róngzī",
+      "g": "fundraising",
+      "domain": true
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "估值",
+      "py": "gūzhí",
+      "g": "valuation",
+      "domain": true
+    },
+    {
+      "t": "当然"
+    },
+    {
+      "t": "重要"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但"
+    },
+    {
+      "t": "它们",
+      "py": "tāmen",
+      "g": "they"
+    },
+    {
+      "t": "应该"
+    },
+    {
+      "t": "支撑",
+      "py": "zhīchēng",
+      "g": "support/sustain"
+    },
+    {
+      "t": "已经"
+    },
+    {
+      "t": "被"
+    },
+    {
+      "t": "验证",
+      "py": "yànzhèng",
+      "g": "validate"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "生意",
+      "py": "shēngyi",
+      "g": "business"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而不是",
+      "py": "ér bú shì",
+      "g": "rather than"
+    },
+    {
+      "t": "替",
+      "py": "tì",
+      "g": "on behalf of"
+    },
+    {
+      "t": "生意",
+      "py": "shēngyi",
+      "g": "business"
+    },
+    {
+      "t": "制造",
+      "py": "zhìzào",
+      "g": "manufacture"
+    },
+    {
+      "t": "证据",
+      "py": "zhèngjù",
+      "g": "evidence"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "对"
+    },
+    {
+      "t": "初创",
+      "py": "chūchuàng",
+      "g": "early-stage"
+    },
+    {
+      "t": "公司"
+    },
+    {
+      "t": "来说",
+      "py": "láishuō",
+      "g": "for"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "最便宜",
+      "py": "zuì piányi",
+      "g": "least costly"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "失败",
+      "py": "shībài",
+      "g": "failure"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "在"
+    },
+    {
+      "t": "扩大",
+      "py": "kuòdà",
+      "g": "expand"
+    },
+    {
+      "t": "团队",
+      "py": "tuánduì",
+      "g": "team"
+    },
+    {
+      "t": "以前"
+    },
+    {
+      "t": "得出",
+      "py": "déchū",
+      "g": "derive"
+    },
+    {
+      "t": "结论",
+      "py": "jiélùn",
+      "g": "conclusion"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "原来"
+    },
+    {
+      "t": "客户",
+      "py": "kèhù",
+      "g": "customer"
+    },
+    {
+      "t": "并不"
+    },
+    {
+      "t": "愿意",
+      "py": "yuànyì",
+      "g": "be willing"
+    },
+    {
+      "t": "为"
+    },
+    {
+      "t": "这个"
+    },
+    {
+      "t": "方案",
+      "py": "fāng'àn",
+      "g": "solution"
+    },
+    {
+      "t": "付钱",
+      "py": "fùqián",
+      "g": "pay money"
+    },
+    {
+      "t": "。",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "验证",
+    "付费意愿",
+    "假设",
+    "留存",
+    "盲目"
+  ],
+  "review_words": [
+    "愿景",
+    "纪律",
+    "支撑",
+    "扩张"
+  ],
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "文章认为，用户口头表示喜欢就足以证明真实需求。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "小公司早期最应该验证什么？",
+      "options": [
+        "办公地点是否够大",
+        "哪类客户愿意为被解决的痛点付钱",
+        "竞争者有多少员工",
+        "广告是否足够漂亮"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multiple_choice",
+      "q": "为什么过早扩张可能危险？",
+      "options": [
+        "会减少注册人数",
+        "会提高获客成本并占用调整方向的时间",
+        "会让产品立刻成熟",
+        "会降低融资估值"
+      ],
+      "answer_index": 1
+    }
+  ]
+}

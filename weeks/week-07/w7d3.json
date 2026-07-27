@@ -1,0 +1,1277 @@
+{
+  "id": "w7d3",
+  "week": 7,
+  "day": 3,
+  "type": "article",
+  "topic": "history",
+  "register": "formal",
+  "target_level": "HSK5",
+  "title": "古代驿站：一封公文怎样跑过千里",
+  "tokens": [
+    {
+      "t": "在"
+    },
+    {
+      "t": "没有"
+    },
+    {
+      "t": "火车",
+      "py": "huǒchē",
+      "g": "train"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "网络",
+      "py": "wǎngluò",
+      "g": "network"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "古代",
+      "py": "gǔdài",
+      "g": "ancient times"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "一封",
+      "py": "yì fēng",
+      "g": "one letter"
+    },
+    {
+      "t": "紧急",
+      "py": "jǐnjí",
+      "g": "urgent"
+    },
+    {
+      "t": "公文",
+      "py": "gōngwén",
+      "g": "official dispatch",
+      "domain": true
+    },
+    {
+      "t": "怎样",
+      "py": "zěnyàng",
+      "g": "how"
+    },
+    {
+      "t": "迅速",
+      "py": "xùnsù",
+      "g": "rapidly"
+    },
+    {
+      "t": "传递",
+      "py": "chuándì",
+      "g": "transmit"
+    },
+    {
+      "t": "到"
+    },
+    {
+      "t": "千里",
+      "py": "qiānlǐ",
+      "g": "thousand li"
+    },
+    {
+      "t": "之外",
+      "py": "zhīwài",
+      "g": "beyond"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "答案",
+      "py": "dá'àn",
+      "g": "answer"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "一名"
+    },
+    {
+      "t": "驿卒",
+      "py": "yìzú",
+      "g": "relay courier",
+      "domain": true
+    },
+    {
+      "t": "从头",
+      "py": "cóngtóu",
+      "g": "from the start"
+    },
+    {
+      "t": "跑到",
+      "py": "pǎodào",
+      "g": "run to"
+    },
+    {
+      "t": "最后"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "依靠",
+      "py": "yīkào",
+      "g": "rely on"
+    },
+    {
+      "t": "沿途",
+      "py": "yántú",
+      "g": "along the route"
+    },
+    {
+      "t": "驿站",
+      "py": "yìzhàn",
+      "g": "relay station",
+      "domain": true
+    },
+    {
+      "t": "完成",
+      "py": "wánchéng",
+      "g": "complete"
+    },
+    {
+      "t": "接力",
+      "py": "jiēlì",
+      "g": "relay"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这种",
+      "py": "zhè zhǒng",
+      "g": "this kind"
+    },
+    {
+      "t": "制度",
+      "py": "zhìdù",
+      "g": "system"
+    },
+    {
+      "t": "把"
+    },
+    {
+      "t": "漫长",
+      "py": "màncháng",
+      "g": "lengthy"
+    },
+    {
+      "t": "道路",
+      "py": "dàolù",
+      "g": "road"
+    },
+    {
+      "t": "分成",
+      "py": "fēnchéng",
+      "g": "divide into"
+    },
+    {
+      "t": "许多",
+      "py": "xǔduō",
+      "g": "many"
+    },
+    {
+      "t": "较短",
+      "py": "jiào duǎn",
+      "g": "shorter"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "一段"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "每到",
+      "py": "měi dào",
+      "g": "upon reaching each"
+    },
+    {
+      "t": "一站",
+      "py": "yí zhàn",
+      "g": "one station"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "更换",
+      "py": "gēnghuàn",
+      "g": "replace"
+    },
+    {
+      "t": "疲劳",
+      "py": "píláo",
+      "g": "fatigue"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "驿马",
+      "py": "yìmǎ",
+      "g": "relay horse",
+      "domain": true
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "必要",
+      "py": "bìyào",
+      "g": "necessary"
+    },
+    {
+      "t": "时",
+      "py": "shí",
+      "g": "when"
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "更换",
+      "py": "gēnghuàn",
+      "g": "replace"
+    },
+    {
+      "t": "送信",
+      "py": "sòngxìn",
+      "g": "deliver messages"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "人"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "驿卒",
+      "py": "yìzú",
+      "g": "relay courier",
+      "domain": true
+    },
+    {
+      "t": "携带",
+      "py": "xiédài",
+      "g": "carry"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "不只是",
+      "py": "bù zhǐshì",
+      "g": "not merely"
+    },
+    {
+      "t": "公文",
+      "py": "gōngwén",
+      "g": "official dispatch",
+      "domain": true
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "还有",
+      "py": "háiyǒu",
+      "g": "also have"
+    },
+    {
+      "t": "证明",
+      "py": "zhèngmíng",
+      "g": "prove"
+    },
+    {
+      "t": "身份",
+      "py": "shēnfèn",
+      "g": "identity"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "等级",
+      "py": "děngjí",
+      "g": "rank"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "符牌",
+      "py": "fúpái",
+      "g": "travel credential",
+      "domain": true
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "驿站",
+      "py": "yìzhàn",
+      "g": "relay station",
+      "domain": true
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "按照",
+      "py": "ànzhào",
+      "g": "according to"
+    },
+    {
+      "t": "凭证",
+      "py": "píngzhèng",
+      "g": "credential"
+    },
+    {
+      "t": "提供",
+      "py": "tígōng",
+      "g": "provide"
+    },
+    {
+      "t": "马匹",
+      "py": "mǎpǐ",
+      "g": "horses"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "食物",
+      "py": "shíwù",
+      "g": "food"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "住宿",
+      "py": "zhùsù",
+      "g": "lodging"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "防止",
+      "py": "fángzhǐ",
+      "g": "prevent"
+    },
+    {
+      "t": "普通",
+      "py": "pǔtōng",
+      "g": "ordinary"
+    },
+    {
+      "t": "人"
+    },
+    {
+      "t": "冒充",
+      "py": "màochōng",
+      "g": "impersonate"
+    },
+    {
+      "t": "官员",
+      "py": "guānyuán",
+      "g": "official"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "盗窃",
+      "py": "dàoqiè",
+      "g": "theft"
+    },
+    {
+      "t": "物资",
+      "py": "wùzī",
+      "g": "supplies"
+    },
+    {
+      "t": "或"
+    },
+    {
+      "t": "随意",
+      "py": "suíyì",
+      "g": "as one wishes/freely"
+    },
+    {
+      "t": "使用",
+      "py": "shǐyòng",
+      "g": "use"
+    },
+    {
+      "t": "有限",
+      "py": "yǒuxiàn",
+      "g": "limited"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "资源",
+      "py": "zīyuán",
+      "g": "resources"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "重要"
+    },
+    {
+      "t": "消息",
+      "py": "xiāoxi",
+      "g": "message"
+    },
+    {
+      "t": "还"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "标明",
+      "py": "biāomíng",
+      "g": "mark clearly"
+    },
+    {
+      "t": "速度",
+      "py": "sùdù",
+      "g": "speed"
+    },
+    {
+      "t": "要求",
+      "py": "yāoqiú",
+      "g": "demand"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "负责",
+      "py": "fùzé",
+      "g": "take responsibility"
+    },
+    {
+      "t": "人"
+    },
+    {
+      "t": "必须",
+      "py": "bìxū",
+      "g": "must"
+    },
+    {
+      "t": "记录",
+      "py": "jìlù",
+      "g": "record"
+    },
+    {
+      "t": "抵达",
+      "py": "dǐdá",
+      "g": "arrive"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "离开",
+      "py": "líkāi",
+      "g": "leave"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "时间"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "一旦",
+      "py": "yīdàn",
+      "g": "once"
+    },
+    {
+      "t": "延误",
+      "py": "yánwù",
+      "g": "delay"
+    },
+    {
+      "t": "或"
+    },
+    {
+      "t": "泄露",
+      "py": "xièlòu",
+      "g": "leak"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "沿途",
+      "py": "yántú",
+      "g": "along the route"
+    },
+    {
+      "t": "哪一站",
+      "py": "nǎ yí zhàn",
+      "g": "which station"
+    },
+    {
+      "t": "出了",
+      "py": "chūle",
+      "g": "went wrong"
+    },
+    {
+      "t": "问题"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "比较",
+      "py": "bǐjiào",
+      "g": "relatively"
+    },
+    {
+      "t": "容易"
+    },
+    {
+      "t": "检查",
+      "py": "jiǎnchá",
+      "g": "inspect"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "这套",
+      "py": "zhè tào",
+      "g": "this system"
+    },
+    {
+      "t": "网络",
+      "py": "wǎngluò",
+      "g": "network"
+    },
+    {
+      "t": "主要",
+      "py": "zhǔyào",
+      "g": "mainly"
+    },
+    {
+      "t": "服务",
+      "py": "fúwù",
+      "g": "serve"
+    },
+    {
+      "t": "政府",
+      "py": "zhèngfǔ",
+      "g": "government"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "普通",
+      "py": "pǔtōng",
+      "g": "ordinary"
+    },
+    {
+      "t": "百姓",
+      "py": "bǎixìng",
+      "g": "common people"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "家书",
+      "py": "jiāshū",
+      "g": "family letter"
+    },
+    {
+      "t": "并不能",
+      "py": "bìng bù néng",
+      "g": "cannot actually"
+    },
+    {
+      "t": "总是",
+      "py": "zǒngshì",
+      "g": "always"
+    },
+    {
+      "t": "使用",
+      "py": "shǐyòng",
+      "g": "use"
+    },
+    {
+      "t": "同样"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "速度",
+      "py": "sùdù",
+      "g": "speed"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "商人",
+      "py": "shāngrén",
+      "g": "merchant"
+    },
+    {
+      "t": "传递",
+      "py": "chuándì",
+      "g": "transmit"
+    },
+    {
+      "t": "消息",
+      "py": "xiāoxi",
+      "g": "message"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "货物",
+      "py": "huòwù",
+      "g": "goods"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "更多",
+      "py": "gèngduō",
+      "g": "more"
+    },
+    {
+      "t": "依靠",
+      "py": "yīkào",
+      "g": "rely on"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "伙伴",
+      "py": "huǒbàn",
+      "g": "partner"
+    },
+    {
+      "t": "与"
+    },
+    {
+      "t": "交通",
+      "py": "jiāotōng",
+      "g": "transport"
+    },
+    {
+      "t": "路线",
+      "py": "lùxiàn",
+      "g": "route"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "因此",
+      "py": "yīncǐ",
+      "g": "therefore"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "古代",
+      "py": "gǔdài",
+      "g": "ancient times"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "信息",
+      "py": "xìnxī",
+      "g": "information"
+    },
+    {
+      "t": "速度",
+      "py": "sùdù",
+      "g": "speed"
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "反映",
+      "py": "fǎnyìng",
+      "g": "reflect"
+    },
+    {
+      "t": "身份",
+      "py": "shēnfèn",
+      "g": "identity"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "权力",
+      "py": "quánlì",
+      "g": "power"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "差别",
+      "py": "chābié",
+      "g": "difference"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "不过",
+      "py": "búguò",
+      "g": "however"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "驿站",
+      "py": "yìzhàn",
+      "g": "relay station",
+      "domain": true
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "意义",
+      "py": "yìyì",
+      "g": "significance"
+    },
+    {
+      "t": "不只",
+      "py": "bùzhǐ",
+      "g": "not only"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "快"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "它"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "分散",
+      "py": "fēnsàn",
+      "g": "diversify"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "地区",
+      "py": "dìqū",
+      "g": "region"
+    },
+    {
+      "t": "遵守",
+      "py": "zūnshǒu",
+      "g": "observe"
+    },
+    {
+      "t": "相近",
+      "py": "xiāngjìn",
+      "g": "similar"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "时间"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "秩序",
+      "py": "zhìxù",
+      "g": "order"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "使",
+      "py": "shǐ",
+      "g": "cause"
+    },
+    {
+      "t": "中央",
+      "py": "zhōngyāng",
+      "g": "central government"
+    },
+    {
+      "t": "命令",
+      "py": "mìnglìng",
+      "g": "command"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "边境",
+      "py": "biānjìng",
+      "g": "border region"
+    },
+    {
+      "t": "情况",
+      "py": "qíngkuàng",
+      "g": "situation"
+    },
+    {
+      "t": "与"
+    },
+    {
+      "t": "灾情",
+      "py": "zāiqíng",
+      "g": "disaster report"
+    },
+    {
+      "t": "能够",
+      "py": "nénggòu",
+      "g": "be able to"
+    },
+    {
+      "t": "较准确",
+      "py": "jiào zhǔnquè",
+      "g": "fairly accurately"
+    },
+    {
+      "t": "地"
+    },
+    {
+      "t": "抵达",
+      "py": "dǐdá",
+      "g": "arrive"
+    },
+    {
+      "t": "官员",
+      "py": "guānyuán",
+      "g": "official"
+    },
+    {
+      "t": "手中",
+      "py": "shǒuzhōng",
+      "g": "in one's hands"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "官员",
+      "py": "guānyuán",
+      "g": "official"
+    },
+    {
+      "t": "才能",
+      "py": "cáinéng",
+      "g": "only then can"
+    },
+    {
+      "t": "根据",
+      "py": "gēnjù",
+      "g": "according to"
+    },
+    {
+      "t": "新"
+    },
+    {
+      "t": "消息",
+      "py": "xiāoxi",
+      "g": "message"
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "是否",
+      "py": "shìfǒu",
+      "g": "whether"
+    },
+    {
+      "t": "调整",
+      "py": "tiáozhěng",
+      "g": "adjust"
+    },
+    {
+      "t": "军队",
+      "py": "jūnduì",
+      "g": "military"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "粮食",
+      "py": "liángshi",
+      "g": "grain"
+    },
+    {
+      "t": "或"
+    },
+    {
+      "t": "税收",
+      "py": "shuìshōu",
+      "g": "tax revenue"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "从"
+    },
+    {
+      "t": "这个"
+    },
+    {
+      "t": "角度",
+      "py": "jiǎodù",
+      "g": "perspective"
+    },
+    {
+      "t": "看"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "驿站",
+      "py": "yìzhàn",
+      "g": "relay station",
+      "domain": true
+    },
+    {
+      "t": "像",
+      "py": "xiàng",
+      "g": "resemble"
+    },
+    {
+      "t": "一个"
+    },
+    {
+      "t": "看不见",
+      "py": "kànbujiàn",
+      "g": "invisible"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "骨架",
+      "py": "gǔjià",
+      "g": "framework"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "百姓",
+      "py": "bǎixìng",
+      "g": "common people"
+    },
+    {
+      "t": "平时",
+      "py": "píngshí",
+      "g": "ordinarily"
+    },
+    {
+      "t": "未必",
+      "py": "wèibì",
+      "g": "not necessarily"
+    },
+    {
+      "t": "注意",
+      "py": "zhùyì",
+      "g": "notice"
+    },
+    {
+      "t": "它"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "国家"
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "依靠",
+      "py": "yīkào",
+      "g": "rely on"
+    },
+    {
+      "t": "它"
+    },
+    {
+      "t": "维持",
+      "py": "wéichí",
+      "g": "maintain"
+    },
+    {
+      "t": "远距离",
+      "py": "yuǎn jùlí",
+      "g": "long-distance"
+    },
+    {
+      "t": "管理",
+      "py": "guǎnlǐ",
+      "g": "administration"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "一封",
+      "py": "yì fēng",
+      "g": "one letter"
+    },
+    {
+      "t": "公文",
+      "py": "gōngwén",
+      "g": "official dispatch",
+      "domain": true
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "速度",
+      "py": "sùdù",
+      "g": "speed"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "背后",
+      "py": "bèihòu",
+      "g": "behind"
+    },
+    {
+      "t": "其实"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "道路",
+      "py": "dàolù",
+      "g": "road"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "马匹",
+      "py": "mǎpǐ",
+      "g": "horses"
+    },
+    {
+      "t": "、",
+      "punct": true
+    },
+    {
+      "t": "凭证",
+      "py": "píngzhèng",
+      "g": "credential"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "人力",
+      "py": "rénlì",
+      "g": "manpower"
+    },
+    {
+      "t": "共同",
+      "py": "gòngtóng",
+      "g": "jointly"
+    },
+    {
+      "t": "支撑",
+      "py": "zhīchēng",
+      "g": "support/sustain"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "制度",
+      "py": "zhìdù",
+      "g": "system"
+    },
+    {
+      "t": "能力",
+      "py": "nénglì",
+      "g": "capacity"
+    },
+    {
+      "t": "。",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "传递",
+    "接力",
+    "延误",
+    "凭证",
+    "沿途"
+  ],
+  "review_words": [
+    "秩序",
+    "税收",
+    "盗窃",
+    "随意"
+  ],
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "古代紧急公文通常由同一名驿卒从起点一直送到终点。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "符牌的主要作用是什么？",
+      "options": [
+        "装饰马匹",
+        "证明身份和使用驿站资源的等级",
+        "记录天气",
+        "替代公文内容"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multiple_choice",
+      "q": "文章为什么把驿站比作“看不见的骨架”？",
+      "options": [
+        "它只在夜间工作",
+        "它支撑国家的远距离管理",
+        "它由木头建成",
+        "百姓都住在驿站"
+      ],
+      "answer_index": 1
+    }
+  ]
+}

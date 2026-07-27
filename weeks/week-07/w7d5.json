@@ -1,0 +1,1271 @@
+{
+  "id": "w7d5",
+  "week": 7,
+  "day": 5,
+  "type": "dialogue",
+  "topic": "psychology",
+  "register": "informal",
+  "target_level": "HSK5",
+  "title": "为什么越想睡，反而越清醒？",
+  "tokens": [
+    {
+      "t": "凌晨",
+      "py": "língchén",
+      "g": "early morning"
+    },
+    {
+      "t": "两点",
+      "py": "liǎng diǎn",
+      "g": "two o'clock"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "阿哲",
+      "py": "Ā Zhé",
+      "g": "A-Zhe"
+    },
+    {
+      "t": "给"
+    },
+    {
+      "t": "心理",
+      "py": "xīnlǐ",
+      "g": "psychology"
+    },
+    {
+      "t": "老师"
+    },
+    {
+      "t": "发",
+      "py": "fā",
+      "g": "send"
+    },
+    {
+      "t": "消息",
+      "py": "xiāoxi",
+      "g": "message"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "明天"
+    },
+    {
+      "t": "有"
+    },
+    {
+      "t": "重要"
+    },
+    {
+      "t": "工作"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "越",
+      "py": "yuè",
+      "g": "the more"
+    },
+    {
+      "t": "告诉"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "必须",
+      "py": "bìxū",
+      "g": "must"
+    },
+    {
+      "t": "马上",
+      "py": "mǎshàng",
+      "g": "immediately"
+    },
+    {
+      "t": "睡"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "大脑",
+      "py": "dànǎo",
+      "g": "brain"
+    },
+    {
+      "t": "反而",
+      "py": "fǎn'ér",
+      "g": "instead"
+    },
+    {
+      "t": "越",
+      "py": "yuè",
+      "g": "the more"
+    },
+    {
+      "t": "清醒",
+      "py": "qīngxǐng",
+      "g": "awake"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "是不是",
+      "py": "shìbushì",
+      "g": "is it or not"
+    },
+    {
+      "t": "注定",
+      "py": "zhùdìng",
+      "g": "destined/predetermined"
+    },
+    {
+      "t": "要"
+    },
+    {
+      "t": "失眠",
+      "py": "shīmián",
+      "g": "insomnia"
+    },
+    {
+      "t": "了"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "老师"
+    },
+    {
+      "t": "回答"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "先别",
+      "py": "xiān bié",
+      "g": "do not yet"
+    },
+    {
+      "t": "预测",
+      "py": "yùcè",
+      "g": "predict"
+    },
+    {
+      "t": "明天"
+    },
+    {
+      "t": "一定"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "很糟",
+      "py": "hěn zāo",
+      "g": "very bad"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "把"
+    },
+    {
+      "t": "入睡",
+      "py": "rùshuì",
+      "g": "fall asleep"
+    },
+    {
+      "t": "变成",
+      "py": "biànchéng",
+      "g": "turn into"
+    },
+    {
+      "t": "任务",
+      "py": "rènwu",
+      "g": "task"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "大脑",
+      "py": "dànǎo",
+      "g": "brain"
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "像",
+      "py": "xiàng",
+      "g": "resemble"
+    },
+    {
+      "t": "监视",
+      "py": "jiānshì",
+      "g": "monitor"
+    },
+    {
+      "t": "危险",
+      "py": "wēixiǎn",
+      "g": "danger"
+    },
+    {
+      "t": "一样"
+    },
+    {
+      "t": "检查",
+      "py": "jiǎnchá",
+      "g": "inspect"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "睡着",
+      "py": "shuìzháo",
+      "g": "fall asleep"
+    },
+    {
+      "t": "了吗",
+      "py": "le ma",
+      "g": "yet"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "还要",
+      "py": "háiyào",
+      "g": "still need"
+    },
+    {
+      "t": "多久",
+      "py": "duōjiǔ",
+      "g": "how long"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "这种",
+      "py": "zhè zhǒng",
+      "g": "this kind"
+    },
+    {
+      "t": "检查",
+      "py": "jiǎnchá",
+      "g": "inspect"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "提高",
+      "py": "tígāo",
+      "g": "raise"
+    },
+    {
+      "t": "警觉",
+      "py": "jǐngjué",
+      "g": "alertness"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "可"
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "不"
+    },
+    {
+      "t": "检查",
+      "py": "jiǎnchá",
+      "g": "inspect"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "心跳",
+      "py": "xīntiào",
+      "g": "heartbeat"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "呼吸",
+      "py": "hūxī",
+      "g": "breathing"
+    },
+    {
+      "t": "还是"
+    },
+    {
+      "t": "很明显",
+      "py": "hěn míngxiǎn",
+      "g": "very noticeable"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "肌肉",
+      "py": "jīròu",
+      "g": "muscle"
+    },
+    {
+      "t": "也"
+    },
+    {
+      "t": "很紧张",
+      "py": "hěn jǐnzhāng",
+      "g": "very tense"
+    },
+    {
+      "t": "呀"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "因为"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "在"
+    },
+    {
+      "t": "强迫",
+      "py": "qiǎngpò",
+      "g": "force"
+    },
+    {
+      "t": "身体",
+      "py": "shēntǐ",
+      "g": "body"
+    },
+    {
+      "t": "完成",
+      "py": "wánchéng",
+      "g": "complete"
+    },
+    {
+      "t": "一件",
+      "py": "yí jiàn",
+      "g": "one matter"
+    },
+    {
+      "t": "本来",
+      "py": "běnlái",
+      "g": "inherently"
+    },
+    {
+      "t": "应该"
+    },
+    {
+      "t": "自然",
+      "py": "zìrán",
+      "g": "naturally"
+    },
+    {
+      "t": "发生",
+      "py": "fāshēng",
+      "g": "happen"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "事情"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "每次"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "想"
+    },
+    {
+      "t": "‘",
+      "punct": true
+    },
+    {
+      "t": "又"
+    },
+    {
+      "t": "失败",
+      "py": "shībài",
+      "g": "failure"
+    },
+    {
+      "t": "了"
+    },
+    {
+      "t": "’",
+      "punct": true
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "就"
+    },
+    {
+      "t": "给"
+    },
+    {
+      "t": "大脑",
+      "py": "dànǎo",
+      "g": "brain"
+    },
+    {
+      "t": "一个"
+    },
+    {
+      "t": "暗示",
+      "py": "ànshì",
+      "g": "suggestion"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "床",
+      "py": "chuáng",
+      "g": "bed"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "考试",
+      "py": "kǎoshì",
+      "g": "exam"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "地方"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "阿哲",
+      "py": "Ā Zhé",
+      "g": "A-Zhe"
+    },
+    {
+      "t": "问"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "那"
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "应该"
+    },
+    {
+      "t": "怎么"
+    },
+    {
+      "t": "分心",
+      "py": "fēnxīn",
+      "g": "distracted/lose focus"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "看"
+    },
+    {
+      "t": "手机"
+    },
+    {
+      "t": "吗"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "用"
+    },
+    {
+      "t": "更强",
+      "py": "gèng qiáng",
+      "g": "stronger"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "刺激",
+      "py": "cìjī",
+      "g": "stimulation"
+    },
+    {
+      "t": "把"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "弄累",
+      "py": "nònglèi",
+      "g": "wear out"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "如果"
+    },
+    {
+      "t": "二十",
+      "py": "èrshí",
+      "g": "twenty"
+    },
+    {
+      "t": "分钟"
+    },
+    {
+      "t": "仍然",
+      "py": "réngrán",
+      "g": "still"
+    },
+    {
+      "t": "清醒",
+      "py": "qīngxǐng",
+      "g": "awake"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "可以"
+    },
+    {
+      "t": "暂时",
+      "py": "zànshí",
+      "g": "temporarily"
+    },
+    {
+      "t": "离开",
+      "py": "líkāi",
+      "g": "leave"
+    },
+    {
+      "t": "卧室",
+      "py": "wòshì",
+      "g": "bedroom"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "在"
+    },
+    {
+      "t": "微弱",
+      "py": "wēiruò",
+      "g": "dim"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "灯光",
+      "py": "dēngguāng",
+      "g": "lighting"
+    },
+    {
+      "t": "下"
+    },
+    {
+      "t": "读"
+    },
+    {
+      "t": "几页",
+      "py": "jǐ yè",
+      "g": "a few pages"
+    },
+    {
+      "t": "不太",
+      "py": "bú tài",
+      "g": "not very"
+    },
+    {
+      "t": "刺激",
+      "py": "cìjī",
+      "g": "stimulation"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "书",
+      "py": "shū",
+      "g": "book"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "等"
+    },
+    {
+      "t": "困意",
+      "py": "kùnyì",
+      "g": "sleepiness"
+    },
+    {
+      "t": "回来",
+      "py": "huílái",
+      "g": "return"
+    },
+    {
+      "t": "再"
+    },
+    {
+      "t": "上床",
+      "py": "shàngchuáng",
+      "g": "go to bed"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这是",
+      "py": "zhè shì",
+      "g": "this is"
+    },
+    {
+      "t": "在"
+    },
+    {
+      "t": "调整",
+      "py": "tiáozhěng",
+      "g": "adjust"
+    },
+    {
+      "t": "床",
+      "py": "chuáng",
+      "g": "bed"
+    },
+    {
+      "t": "和"
+    },
+    {
+      "t": "入睡",
+      "py": "rùshuì",
+      "g": "fall asleep"
+    },
+    {
+      "t": "之间"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "关系"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "脑子",
+      "py": "nǎozi",
+      "g": "mind"
+    },
+    {
+      "t": "一直"
+    },
+    {
+      "t": "反复",
+      "py": "fǎnfù",
+      "g": "repeatedly"
+    },
+    {
+      "t": "想"
+    },
+    {
+      "t": "明天"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "事情"
+    },
+    {
+      "t": "怎么办",
+      "py": "zěnmebàn",
+      "g": "what to do"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "那"
+    },
+    {
+      "t": "叫",
+      "py": "jiào",
+      "g": "be called"
+    },
+    {
+      "t": "反刍",
+      "py": "fǎnchú",
+      "g": "rumination"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "可以"
+    },
+    {
+      "t": "把"
+    },
+    {
+      "t": "担心",
+      "py": "dānxīn",
+      "g": "worry"
+    },
+    {
+      "t": "写在",
+      "py": "xiězài",
+      "g": "write on"
+    },
+    {
+      "t": "纸上",
+      "py": "zhǐshàng",
+      "g": "on paper"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "再"
+    },
+    {
+      "t": "告诉"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "我"
+    },
+    {
+      "t": "已经"
+    },
+    {
+      "t": "记录",
+      "py": "jìlù",
+      "g": "record"
+    },
+    {
+      "t": "了"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "明天"
+    },
+    {
+      "t": "处理",
+      "py": "chǔlǐ",
+      "g": "handle"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "不必",
+      "py": "búbì",
+      "g": "need not"
+    },
+    {
+      "t": "现在"
+    },
+    {
+      "t": "找到",
+      "py": "zhǎodào",
+      "g": "find"
+    },
+    {
+      "t": "所有"
+    },
+    {
+      "t": "答案",
+      "py": "dá'àn",
+      "g": "answer"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "阿哲",
+      "py": "Ā Zhé",
+      "g": "A-Zhe"
+    },
+    {
+      "t": "沉默",
+      "py": "chénmò",
+      "g": "silence"
+    },
+    {
+      "t": "一会儿"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "所以"
+    },
+    {
+      "t": "最重要",
+      "py": "zuì zhòngyào",
+      "g": "most important"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "技巧",
+      "py": "jìqiǎo",
+      "g": "technique"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "命令",
+      "py": "mìnglìng",
+      "g": "command"
+    },
+    {
+      "t": "自己"
+    },
+    {
+      "t": "放松",
+      "py": "fàngsōng",
+      "g": "relax"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "对"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "接纳",
+      "py": "jiēnà",
+      "g": "accept"
+    },
+    {
+      "t": "暂时",
+      "py": "zànshí",
+      "g": "temporarily"
+    },
+    {
+      "t": "清醒",
+      "py": "qīngxǐng",
+      "g": "awake"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "当"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "允许",
+      "py": "yǔnxǔ",
+      "g": "allow"
+    },
+    {
+      "t": "今晚",
+      "py": "jīnwǎn",
+      "g": "tonight"
+    },
+    {
+      "t": "可能"
+    },
+    {
+      "t": "睡得",
+      "py": "shuìde",
+      "g": "sleep"
+    },
+    {
+      "t": "不完美",
+      "py": "bù wánměi",
+      "g": "imperfect"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "入睡",
+      "py": "rùshuì",
+      "g": "fall asleep"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "压力",
+      "py": "yālì",
+      "g": "pressure"
+    },
+    {
+      "t": "反而",
+      "py": "fǎn'ér",
+      "g": "instead"
+    },
+    {
+      "t": "会"
+    },
+    {
+      "t": "下降",
+      "py": "xiàjiàng",
+      "g": "decrease"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "睡眠",
+      "py": "shuìmián",
+      "g": "sleep quality"
+    },
+    {
+      "t": "不是"
+    },
+    {
+      "t": "被"
+    },
+    {
+      "t": "赢下",
+      "py": "yíngxià",
+      "g": "win"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "比赛",
+      "py": "bǐsài",
+      "g": "competition"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "更像",
+      "py": "gèng xiàng",
+      "g": "more like"
+    },
+    {
+      "t": "是"
+    },
+    {
+      "t": "你"
+    },
+    {
+      "t": "安静",
+      "py": "ānjìng",
+      "g": "calm"
+    },
+    {
+      "t": "以后"
+    },
+    {
+      "t": "自然",
+      "py": "zìrán",
+      "g": "naturally"
+    },
+    {
+      "t": "到来",
+      "py": "dàolái",
+      "g": "arrive"
+    },
+    {
+      "t": "的"
+    },
+    {
+      "t": "客人",
+      "py": "kèrén",
+      "g": "guest"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "反刍",
+    "警觉",
+    "失眠",
+    "暗示",
+    "接纳"
+  ],
+  "review_words": [
+    "预测",
+    "注定",
+    "分心",
+    "调整"
+  ],
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "老师建议阿哲一直躺在床上检查自己是否睡着。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "清醒二十分钟后，老师建议阿哲怎么做？",
+      "options": [
+        "刷刺激的视频",
+        "暂时离开卧室，在微弱灯光下读几页书",
+        "开始高强度运动",
+        "继续强迫自己闭眼"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multiple_choice",
+      "q": "老师所说的“反刍”是什么？",
+      "options": [
+        "反复想着担心的事情",
+        "睡前吃东西",
+        "调整房间温度",
+        "记录睡眠时间"
+      ],
+      "answer_index": 0
+    }
+  ]
+}

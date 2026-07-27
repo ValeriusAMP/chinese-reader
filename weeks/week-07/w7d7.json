@@ -1,0 +1,252 @@
+{
+  "id": "w7d7",
+  "week": 7,
+  "day": 7,
+  "type": "review",
+  "title": "复习",
+  "eligible_word_count": 347,
+  "items": [
+    {
+      "format": "matching",
+      "pairs": [
+        {
+          "t": "估值",
+          "py": "gūzhí",
+          "g": "valuation"
+        },
+        {
+          "t": "超额",
+          "py": "chāo'é",
+          "g": "outsize/excess"
+        },
+        {
+          "t": "机构",
+          "py": "jīgòu",
+          "g": "institution/firm"
+        },
+        {
+          "t": "摄入",
+          "py": "shèrù",
+          "g": "intake"
+        },
+        {
+          "t": "宇宙",
+          "py": "yǔzhòu",
+          "g": "universe"
+        }
+      ]
+    },
+    {
+      "format": "recognition_mc",
+      "word": {
+        "t": "话语权",
+        "py": "huàyǔquán",
+        "g": "discursive power"
+      },
+      "prompt": "话语权的意思是：",
+      "options": [
+        "right to shape discourse",
+        "payment period",
+        "sleepiness",
+        "relay station"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "recognition_mc",
+      "word": {
+        "t": "注定",
+        "py": "zhùdìng",
+        "g": "destined/predetermined"
+      },
+      "prompt": "注定的意思是：",
+      "options": [
+        "be destined",
+        "repair",
+        "diversify",
+        "apologize"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "recognition_mc",
+      "word": {
+        "t": "坐标",
+        "py": "zuòbiāo",
+        "g": "coordinates"
+      },
+      "prompt": "坐标的意思是：",
+      "options": [
+        "coordinates",
+        "curfew",
+        "boundary",
+        "evidence"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {
+        "t": "假动作",
+        "py": "jiǎdòngzuò",
+        "g": "feint/fake move"
+      },
+      "prompt": "“feint / fake move”用中文怎么说？",
+      "options": [
+        "假动作",
+        "姿势",
+        "节奏",
+        "实战"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {
+        "t": "预测",
+        "py": "yùcè",
+        "g": "predict"
+      },
+      "prompt": "“predict / forecast”用中文怎么说？",
+      "options": [
+        "预测",
+        "预言",
+        "判断",
+        "调整"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "reverse_recall_mc",
+      "word": {
+        "t": "格局",
+        "py": "géjú",
+        "g": "pattern/order"
+      },
+      "prompt": "“overall pattern / landscape”用中文怎么说？",
+      "options": [
+        "格局",
+        "机构",
+        "博弈",
+        "冲击"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "预言",
+        "py": "yùyán",
+        "g": "predicts"
+      },
+      "sentence": "古代航海者把那颗突然出现的星看成王朝变化的___。",
+      "options": [
+        "预言",
+        "估值",
+        "摄入",
+        "坐标"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "延迟",
+        "py": "yánchí",
+        "g": "delay"
+      },
+      "sentence": "因为道路被暴雨冲坏，紧急公文的送达出现了___。",
+      "options": [
+        "延迟",
+        "边界",
+        "估值",
+        "和解"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "博弈",
+        "py": "bóyì",
+        "g": "game/rivalry"
+      },
+      "sentence": "谈判桌上的每个条件，都是双方长期___的一部分。",
+      "options": [
+        "博弈",
+        "失眠",
+        "道歉",
+        "留存"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "暗物质",
+        "py": "àn wùzhì",
+        "g": "dark matter"
+      },
+      "sentence": "天文学家无法直接看见___，却能通过引力效应推断它的存在。",
+      "options": [
+        "暗物质",
+        "现金流",
+        "供应链",
+        "驿站"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "机构",
+        "py": "jīgòu",
+        "g": "institution/firm"
+      },
+      "sentence": "这家研究___准备公布最新的睡眠调查结果。",
+      "options": [
+        "机构",
+        "坐标",
+        "宵禁",
+        "冲击"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "cloze",
+      "word": {
+        "t": "重塑",
+        "py": "chóngsù",
+        "g": "reshape"
+      },
+      "sentence": "新的航线可能___整个地区的贸易格局。",
+      "options": [
+        "重塑",
+        "注定",
+        "延迟",
+        "摄入"
+      ],
+      "answer_index": 0
+    },
+    {
+      "format": "flashcard_selfrate",
+      "word": {
+        "t": "话语权",
+        "py": "huàyǔquán",
+        "g": "discursive power"
+      },
+      "prompt": "话语权",
+      "back": "huàyǔquán — discursive power"
+    },
+    {
+      "format": "flashcard_selfrate",
+      "word": {
+        "t": "注定",
+        "py": "zhùdìng",
+        "g": "destined/predetermined"
+      },
+      "prompt": "注定",
+      "back": "zhùdìng — destined/predetermined"
+    }
+  ]
+}
