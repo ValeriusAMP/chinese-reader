@@ -1,0 +1,1188 @@
+{
+  "id": "w8d6",
+  "week": 8,
+  "day": 6,
+  "type": "story",
+  "topic": "fighter/martial-artist",
+  "register": "narrative",
+  "target_level": "HSK5",
+  "title": "《逆风拳馆》第二章：照片背后的约定",
+  "tokens": [
+    {
+      "t": "第二天"
+    },
+    {
+      "t": "早上"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "林野",
+      "py": "Lín Yě",
+      "g": "Lin Ye, the gym assistant",
+      "name": true,
+      "first": true
+    },
+    {
+      "t": "发现",
+      "py": "fāxiàn",
+      "g": "discovered"
+    },
+    {
+      "t": "报名表",
+      "py": "bàomíngbiǎo",
+      "g": "entry form"
+    },
+    {
+      "t": "已经",
+      "py": "yǐjīng",
+      "g": "already"
+    },
+    {
+      "t": "放在",
+      "py": "fàngzài",
+      "g": "place on"
+    },
+    {
+      "t": "柜台",
+      "py": "guìtái",
+      "g": "counter"
+    },
+    {
+      "t": "上",
+      "py": "shàng",
+      "g": "(aspect)"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "教练",
+      "py": "jiàoliàn",
+      "g": "coach"
+    },
+    {
+      "t": "签名",
+      "py": "qiānmíng",
+      "g": "signature"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "地方",
+      "py": "dìfāng",
+      "g": "places"
+    },
+    {
+      "t": "仍然",
+      "py": "réngrán",
+      "g": "still"
+    },
+    {
+      "t": "空着"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "周岚",
+      "py": "Zhōu Lán",
+      "g": "Zhou Lan, the coach",
+      "name": true,
+      "first": true
+    },
+    {
+      "t": "没有",
+      "py": "méiyǒu",
+      "g": "without"
+    },
+    {
+      "t": "提"
+    },
+    {
+      "t": "那张"
+    },
+    {
+      "t": "旧",
+      "py": "jiù",
+      "g": "old"
+    },
+    {
+      "t": "照片",
+      "py": "zhàopiàn",
+      "g": "photograph"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "只",
+      "py": "zhǐ",
+      "g": "only"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "戴好"
+    },
+    {
+      "t": "护具",
+      "py": "hùjù",
+      "g": "protective gear"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "想",
+      "py": "xiǎng",
+      "g": "want to"
+    },
+    {
+      "t": "比赛",
+      "py": "bǐsài",
+      "g": "competition"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "先",
+      "py": "xiān",
+      "g": "first"
+    },
+    {
+      "t": "证明",
+      "py": "zhèngmíng",
+      "g": "prove"
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "有",
+      "py": "yǒu",
+      "g": "have"
+    },
+    {
+      "t": "资格",
+      "py": "zīgé",
+      "g": "qualification"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "她",
+      "py": "tā",
+      "g": "she"
+    },
+    {
+      "t": "把",
+      "py": "bǎ",
+      "g": "(object)"
+    },
+    {
+      "t": "计时器",
+      "py": "jìshíqì",
+      "g": "timer"
+    },
+    {
+      "t": "设成"
+    },
+    {
+      "t": "三分钟"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "林野",
+      "py": "Lín Yě",
+      "g": "Lin Ye, the gym assistant",
+      "name": true
+    },
+    {
+      "t": "连续",
+      "py": "liánxù",
+      "g": "consecutively"
+    },
+    {
+      "t": "完成",
+      "py": "wánchéng",
+      "g": "complete"
+    },
+    {
+      "t": "基本",
+      "py": "jīběn",
+      "g": "basic"
+    },
+    {
+      "t": "动作",
+      "py": "dòngzuò",
+      "g": "movement"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "林野",
+      "py": "Lín Yě",
+      "g": "Lin Ye, the gym assistant",
+      "name": true
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "速度",
+      "py": "sùdù",
+      "g": "speed"
+    },
+    {
+      "t": "很",
+      "py": "hěn",
+      "g": "very"
+    },
+    {
+      "t": "稳"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "可",
+      "py": "kě",
+      "g": "can"
+    },
+    {
+      "t": "到",
+      "py": "dào",
+      "g": "to"
+    },
+    {
+      "t": "最后",
+      "py": "zuìhòu",
+      "g": "at the end"
+    },
+    {
+      "t": "半分钟"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "手腕",
+      "py": "shǒuwàn",
+      "g": "wrist"
+    },
+    {
+      "t": "开始",
+      "py": "kāishǐ",
+      "g": "began"
+    },
+    {
+      "t": "发抖",
+      "py": "fādǒu",
+      "g": "trembling"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "周岚",
+      "py": "Zhōu Lán",
+      "g": "Zhou Lan, the coach",
+      "name": true
+    },
+    {
+      "t": "突然",
+      "py": "tūrán",
+      "g": "suddenly"
+    },
+    {
+      "t": "向前"
+    },
+    {
+      "t": "试探",
+      "py": "shìtàn",
+      "g": "probe/test"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "林野",
+      "py": "Lín Yě",
+      "g": "Lin Ye, the gym assistant",
+      "name": true
+    },
+    {
+      "t": "急着"
+    },
+    {
+      "t": "反击"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "立刻",
+      "py": "lìkè",
+      "g": "immediately"
+    },
+    {
+      "t": "失去"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "保护",
+      "py": "bǎohù",
+      "g": "protect"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "看",
+      "py": "kàn",
+      "g": "reading"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "周岚",
+      "py": "Zhōu Lán",
+      "g": "Zhou Lan, the coach",
+      "name": true
+    },
+    {
+      "t": "关掉"
+    },
+    {
+      "t": "计时器",
+      "py": "jìshíqì",
+      "g": "timer"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "不是",
+      "py": "bùshì",
+      "g": "not"
+    },
+    {
+      "t": "没有",
+      "py": "méiyǒu",
+      "g": "without"
+    },
+    {
+      "t": "本领"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "太",
+      "py": "tài",
+      "g": "too"
+    },
+    {
+      "t": "想",
+      "py": "xiǎng",
+      "g": "want to"
+    },
+    {
+      "t": "证明",
+      "py": "zhèngmíng",
+      "g": "prove"
+    },
+    {
+      "t": "自己",
+      "py": "zìjǐ",
+      "g": "oneself"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "真正",
+      "py": "zhēnzhèng",
+      "g": "actually"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "对手",
+      "py": "duìshǒu",
+      "g": "opponent"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "等",
+      "py": "děng",
+      "g": "and others like"
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "着急"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "林野",
+      "py": "Lín Yě",
+      "g": "Lin Ye, the gym assistant",
+      "name": true
+    },
+    {
+      "t": "沉默",
+      "py": "chénmò",
+      "g": "silence"
+    },
+    {
+      "t": "一会儿",
+      "py": "yīhuìr",
+      "g": "a moment"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "问"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "认识"
+    },
+    {
+      "t": "我",
+      "py": "wǒ",
+      "g": "I"
+    },
+    {
+      "t": "父亲"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "对不对"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "周岚",
+      "py": "Zhōu Lán",
+      "g": "Zhou Lan, the coach",
+      "name": true
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "眼神"
+    },
+    {
+      "t": "变了",
+      "py": "biàn le",
+      "g": "changed"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "她",
+      "py": "tā",
+      "g": "she"
+    },
+    {
+      "t": "说",
+      "py": "shuō",
+      "g": "said"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "很多年"
+    },
+    {
+      "t": "前"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "林野",
+      "py": "Lín Yě",
+      "g": "Lin Ye, the gym assistant",
+      "name": true
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "父亲"
+    },
+    {
+      "t": "在",
+      "py": "zài",
+      "g": "(in progress)"
+    },
+    {
+      "t": "一场"
+    },
+    {
+      "t": "比赛",
+      "py": "bǐsài",
+      "g": "competition"
+    },
+    {
+      "t": "中",
+      "py": "zhōng",
+      "g": "in"
+    },
+    {
+      "t": "受伤",
+      "py": "shòushāng",
+      "g": "get injured"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "后来",
+      "py": "hòulái",
+      "g": "later"
+    },
+    {
+      "t": "要求",
+      "py": "yāoqiú",
+      "g": "requirements"
+    },
+    {
+      "t": "她",
+      "py": "tā",
+      "g": "she"
+    },
+    {
+      "t": "别"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "儿子",
+      "py": "érzi",
+      "g": "son"
+    },
+    {
+      "t": "走",
+      "py": "zǒu",
+      "g": "go"
+    },
+    {
+      "t": "同一条"
+    },
+    {
+      "t": "路"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "后悔",
+      "py": "hòuhuǐ",
+      "g": "regret"
+    },
+    {
+      "t": "比赛",
+      "py": "bǐsài",
+      "g": "competition"
+    },
+    {
+      "t": "吗",
+      "py": "ma",
+      "g": "(question)"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "遗憾",
+      "py": "yíhàn",
+      "g": "regret"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "不是",
+      "py": "bùshì",
+      "g": "not"
+    },
+    {
+      "t": "上台"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "把",
+      "py": "bǎ",
+      "g": "(object)"
+    },
+    {
+      "t": "倔强",
+      "py": "juéjiàng",
+      "g": "stubborn"
+    },
+    {
+      "t": "当成"
+    },
+    {
+      "t": "勇敢"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "受伤",
+      "py": "shòushāng",
+      "g": "get injured"
+    },
+    {
+      "t": "后",
+      "py": "hòu",
+      "g": "after"
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "不肯"
+    },
+    {
+      "t": "到",
+      "py": "dào",
+      "g": "to"
+    },
+    {
+      "t": "医院",
+      "py": "yīyuàn",
+      "g": "hospital"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "周岚",
+      "py": "Zhōu Lán",
+      "g": "Zhou Lan, the coach",
+      "name": true
+    },
+    {
+      "t": "把",
+      "py": "bǎ",
+      "g": "(object)"
+    },
+    {
+      "t": "报名表",
+      "py": "bàomíngbiǎo",
+      "g": "entry form"
+    },
+    {
+      "t": "推回"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "我",
+      "py": "wǒ",
+      "g": "I"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "给",
+      "py": "gěi",
+      "g": "gives"
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "一次",
+      "py": "yīcì",
+      "g": "one"
+    },
+    {
+      "t": "机会",
+      "py": "jīhuì",
+      "g": "opportunities"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但",
+      "py": "dàn",
+      "g": "but"
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "要",
+      "py": "yào",
+      "g": "going to"
+    },
+    {
+      "t": "学会"
+    },
+    {
+      "t": "停下",
+      "py": "tíng xià",
+      "g": "stopped"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "下午"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "两人"
+    },
+    {
+      "t": "正在",
+      "py": "zhèngzài",
+      "g": "are reshaping"
+    },
+    {
+      "t": "收拾"
+    },
+    {
+      "t": "器材",
+      "py": "qìcái",
+      "g": "equipment"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "门外"
+    },
+    {
+      "t": "来了"
+    },
+    {
+      "t": "一个",
+      "py": "yīgè",
+      "g": "a"
+    },
+    {
+      "t": "叫",
+      "py": "jiào",
+      "g": "named"
+    },
+    {
+      "t": "陈叔",
+      "py": "Chén shū",
+      "g": "Uncle Chen",
+      "name": true,
+      "first": true
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "男人"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "看见"
+    },
+    {
+      "t": "林野",
+      "py": "Lín Yě",
+      "g": "Lin Ye, the gym assistant",
+      "name": true
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "轻声",
+      "py": "qīngshēng",
+      "g": "quietly"
+    },
+    {
+      "t": "说",
+      "py": "shuō",
+      "g": "said"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "你的"
+    },
+    {
+      "t": "反应",
+      "py": "fǎnyìng",
+      "g": "reaction"
+    },
+    {
+      "t": "跟",
+      "py": "gēn",
+      "g": "with"
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "父亲"
+    },
+    {
+      "t": "一样",
+      "py": "yīyàng",
+      "g": "same"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "可",
+      "py": "kě",
+      "g": "can"
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "留下"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "教训",
+      "py": "jiàoxun",
+      "g": "lesson"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "周岚",
+      "py": "Zhōu Lán",
+      "g": "Zhou Lan, the coach",
+      "name": true
+    },
+    {
+      "t": "只",
+      "py": "zhǐ",
+      "g": "only"
+    },
+    {
+      "t": "告诉"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "一半"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "试探",
+    "遗憾",
+    "资格"
+  ],
+  "review_words": [
+    "报名表",
+    "器材",
+    "倔强"
+  ],
+  "difficulty_design": {
+    "target_unknown_rate": 0.1,
+    "new_stretch_word_budget": 3,
+    "review_word_budget": 3
+  },
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "周岚已经在报名表上签了名。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "周岚发现林野训练时的主要问题是什么？",
+      "options": [
+        "他完全不记得任何基本动作",
+        "他因为害怕所以拒绝继续训练",
+        "他太想证明自己，着急时失去保护",
+        "他的手腕受伤后仍然拒绝前往医院检查"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "multiple_choice",
+      "q": "章节结尾出现了什么新的疑问？",
+      "options": [
+        "拳馆的所有器材为什么突然不见了",
+        "比赛为什么决定取消这个量级",
+        "林野为什么不愿意填写报名表",
+        "周岚是否隐瞒了林野父亲的另一半故事"
+      ],
+      "answer_index": 3
+    }
+  ]
+}

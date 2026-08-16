@@ -1,0 +1,59 @@
+{
+  "week": 8,
+  "articles": [
+    {
+      "id": "w8d1",
+      "day": 1,
+      "type": "dialogue",
+      "topic": "philosophy",
+      "title": "改变想法，是不是输了？",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w8d2",
+      "day": 2,
+      "type": "article",
+      "topic": "venture capital",
+      "title": "先卖十份，再决定开店",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w8d3",
+      "day": 3,
+      "type": "article",
+      "topic": "history",
+      "title": "没有钟表的夜里，人们怎么知道时间？",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w8d4",
+      "day": 4,
+      "type": "article",
+      "topic": "astrophysics",
+      "title": "看不见那颗行星，怎么知道它在那里？",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w8d5",
+      "day": 5,
+      "type": "dialogue",
+      "topic": "finance",
+      "title": "工资涨了，为什么还是存不下钱？",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w8d6",
+      "day": 6,
+      "type": "story",
+      "topic": "fighter/martial-artist",
+      "title": "《逆风拳馆》第二章：照片背后的约定",
+      "target_level": "HSK5"
+    },
+    {
+      "id": "w8d7",
+      "day": 7,
+      "type": "review",
+      "title": "复习"
+    }
+  ]
+}

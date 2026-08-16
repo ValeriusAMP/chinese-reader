@@ -1,0 +1,1088 @@
+{
+  "id": "w8d2",
+  "week": 8,
+  "day": 2,
+  "type": "article",
+  "topic": "venture capital",
+  "register": "formal",
+  "target_level": "HSK5",
+  "title": "先卖十份，再决定开店",
+  "tokens": [
+    {
+      "t": "一位",
+      "py": "yīwèi",
+      "g": "a"
+    },
+    {
+      "t": "年轻人",
+      "py": "niánqīngrén",
+      "g": "young man"
+    },
+    {
+      "t": "想",
+      "py": "xiǎng",
+      "g": "want to"
+    },
+    {
+      "t": "开"
+    },
+    {
+      "t": "一家"
+    },
+    {
+      "t": "面包店",
+      "py": "miànbāodiàn",
+      "g": "bakery"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "做",
+      "py": "zuò",
+      "g": "doing"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "很",
+      "py": "hěn",
+      "g": "very"
+    },
+    {
+      "t": "漂亮"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "计划"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "还",
+      "py": "hái",
+      "g": "also"
+    },
+    {
+      "t": "问"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "很多"
+    },
+    {
+      "t": "朋友",
+      "py": "péngyou",
+      "g": "friend"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "大家"
+    },
+    {
+      "t": "都",
+      "py": "dōu",
+      "g": "all"
+    },
+    {
+      "t": "说",
+      "py": "shuō",
+      "g": "said"
+    },
+    {
+      "t": "喜欢",
+      "py": "xǐhuān",
+      "g": "like"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "可是",
+      "py": "kěshì",
+      "g": "but"
+    },
+    {
+      "t": "投资人",
+      "py": "tóuzīrén",
+      "g": "investor"
+    },
+    {
+      "t": "仍然",
+      "py": "réngrán",
+      "g": "still"
+    },
+    {
+      "t": "问"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "有",
+      "py": "yǒu",
+      "g": "have"
+    },
+    {
+      "t": "多少"
+    },
+    {
+      "t": "人",
+      "py": "rén",
+      "g": "person"
+    },
+    {
+      "t": "真的",
+      "py": "zhēnde",
+      "g": "really"
+    },
+    {
+      "t": "愿意",
+      "py": "yuànyì",
+      "g": "willing"
+    },
+    {
+      "t": "付钱",
+      "py": "fùqián",
+      "g": "pay money"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "于是"
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "没有",
+      "py": "méiyǒu",
+      "g": "without"
+    },
+    {
+      "t": "马上",
+      "py": "mǎshàng",
+      "g": "immediately"
+    },
+    {
+      "t": "租"
+    },
+    {
+      "t": "店",
+      "py": "diàn",
+      "g": "shop"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "先",
+      "py": "xiān",
+      "g": "first"
+    },
+    {
+      "t": "做",
+      "py": "zuò",
+      "g": "doing"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "十份"
+    },
+    {
+      "t": "周末"
+    },
+    {
+      "t": "面包",
+      "py": "miànbāo",
+      "g": "bread"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "顾客",
+      "py": "gùkè",
+      "g": "customer"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "付"
+    },
+    {
+      "t": "一点",
+      "py": "yīdiǎn",
+      "g": "a bit"
+    },
+    {
+      "t": "定金",
+      "py": "dìngjīn",
+      "g": "deposit"
+    },
+    {
+      "t": "预订",
+      "py": "yùdìng",
+      "g": "reserve/preorder"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "如果",
+      "py": "rúguǒ",
+      "g": "if"
+    },
+    {
+      "t": "不",
+      "py": "bù",
+      "g": "not"
+    },
+    {
+      "t": "满意"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "随时",
+      "py": "suíshí",
+      "g": "at any time"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "退款",
+      "py": "tuìkuǎn",
+      "g": "refund"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这个",
+      "py": "zhège",
+      "g": "well"
+    },
+    {
+      "t": "方法",
+      "py": "fāngfǎ",
+      "g": "method"
+    },
+    {
+      "t": "很",
+      "py": "hěn",
+      "g": "very"
+    },
+    {
+      "t": "小"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "能",
+      "py": "néng",
+      "g": "can"
+    },
+    {
+      "t": "验证",
+      "py": "yànzhèng",
+      "g": "validate"
+    },
+    {
+      "t": "真实",
+      "py": "zhēnshí",
+      "g": "true"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "需求",
+      "py": "xūqiú",
+      "g": "demand"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "第一周",
+      "py": "dì yī zhōu",
+      "g": "the first week"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "有",
+      "py": "yǒu",
+      "g": "have"
+    },
+    {
+      "t": "三十"
+    },
+    {
+      "t": "人",
+      "py": "rén",
+      "g": "person"
+    },
+    {
+      "t": "表示",
+      "py": "biǎoshì",
+      "g": "express"
+    },
+    {
+      "t": "有",
+      "py": "yǒu",
+      "g": "have"
+    },
+    {
+      "t": "兴趣"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但",
+      "py": "dàn",
+      "g": "but"
+    },
+    {
+      "t": "只有",
+      "py": "zhǐyǒu",
+      "g": "only"
+    },
+    {
+      "t": "八人"
+    },
+    {
+      "t": "付"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "定金",
+      "py": "dìngjīn",
+      "g": "deposit"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "年轻人",
+      "py": "niánqīngrén",
+      "g": "young man"
+    },
+    {
+      "t": "没有",
+      "py": "méiyǒu",
+      "g": "without"
+    },
+    {
+      "t": "难过"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "发现",
+      "py": "fāxiàn",
+      "g": "discovered"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "大家"
+    },
+    {
+      "t": "最",
+      "py": "zuì",
+      "g": "most"
+    },
+    {
+      "t": "喜欢",
+      "py": "xǐhuān",
+      "g": "like"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "不是",
+      "py": "bùshì",
+      "g": "not"
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "原来"
+    },
+    {
+      "t": "准备"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "口味",
+      "py": "kǒuwèi",
+      "g": "flavor"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "一种",
+      "py": "yīzhǒng",
+      "g": "a form of"
+    },
+    {
+      "t": "更",
+      "py": "gèng",
+      "g": "even more"
+    },
+    {
+      "t": "普通",
+      "py": "pǔtōng",
+      "g": "ordinary"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "面包",
+      "py": "miànbāo",
+      "g": "bread"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "第二周"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "改了"
+    },
+    {
+      "t": "口味",
+      "py": "kǒuwèi",
+      "g": "flavor"
+    },
+    {
+      "t": "和",
+      "py": "hé",
+      "g": "and"
+    },
+    {
+      "t": "价格",
+      "py": "jiàgé",
+      "g": "price"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "十份"
+    },
+    {
+      "t": "全部"
+    },
+    {
+      "t": "卖完"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这",
+      "py": "zhè",
+      "g": "this"
+    },
+    {
+      "t": "还",
+      "py": "hái",
+      "g": "also"
+    },
+    {
+      "t": "不能",
+      "py": "bùnéng",
+      "g": "cannot"
+    },
+    {
+      "t": "证明",
+      "py": "zhèngmíng",
+      "g": "prove"
+    },
+    {
+      "t": "一家"
+    },
+    {
+      "t": "大店"
+    },
+    {
+      "t": "一定"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "成功",
+      "py": "chénggōng",
+      "g": "succeed"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但",
+      "py": "dàn",
+      "g": "but"
+    },
+    {
+      "t": "比",
+      "py": "bǐ",
+      "g": "more than"
+    },
+    {
+      "t": "客气"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "称赞"
+    },
+    {
+      "t": "更",
+      "py": "gèng",
+      "g": "even more"
+    },
+    {
+      "t": "有用"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "付钱",
+      "py": "fùqián",
+      "g": "pay money"
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "一个",
+      "py": "yīgè",
+      "g": "a"
+    },
+    {
+      "t": "小小"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "承诺",
+      "py": "chéngnuò",
+      "g": "promise"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "给",
+      "py": "gěi",
+      "g": "gives"
+    },
+    {
+      "t": "计划"
+    },
+    {
+      "t": "带来"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "比较",
+      "py": "bǐjiào",
+      "g": "relatively"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "结果",
+      "py": "jiéguǒ",
+      "g": "outcome"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "如果",
+      "py": "rúguǒ",
+      "g": "if"
+    },
+    {
+      "t": "一开始",
+      "py": "yī kāishǐ",
+      "g": "at first"
+    },
+    {
+      "t": "就",
+      "py": "jiù",
+      "g": "immediately"
+    },
+    {
+      "t": "租"
+    },
+    {
+      "t": "店",
+      "py": "diàn",
+      "g": "shop"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "可能",
+      "py": "kěnéng",
+      "g": "maybe"
+    },
+    {
+      "t": "要",
+      "py": "yào",
+      "g": "going to"
+    },
+    {
+      "t": "花"
+    },
+    {
+      "t": "很多"
+    },
+    {
+      "t": "钱",
+      "py": "qián",
+      "g": "money"
+    },
+    {
+      "t": "才",
+      "py": "cái",
+      "g": "only then"
+    },
+    {
+      "t": "发现",
+      "py": "fāxiàn",
+      "g": "discovered"
+    },
+    {
+      "t": "口味",
+      "py": "kǒuwèi",
+      "g": "flavor"
+    },
+    {
+      "t": "不对",
+      "py": "bùduì",
+      "g": "wrong"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "小规模"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "预售",
+      "py": "yùshòu",
+      "g": "presale"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "能",
+      "py": "néng",
+      "g": "can"
+    },
+    {
+      "t": "较早"
+    },
+    {
+      "t": "改正"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "即使",
+      "py": "jíshǐ",
+      "g": "even if"
+    },
+    {
+      "t": "需要",
+      "py": "xūyào",
+      "g": "requiring"
+    },
+    {
+      "t": "退款",
+      "py": "tuìkuǎn",
+      "g": "refund"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "花掉"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "钱",
+      "py": "qián",
+      "g": "money"
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "不会",
+      "py": "bú huì",
+      "g": "will not"
+    },
+    {
+      "t": "太多"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "对",
+      "py": "duì",
+      "g": "of"
+    },
+    {
+      "t": "刚"
+    },
+    {
+      "t": "开始",
+      "py": "kāishǐ",
+      "g": "began"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "生意",
+      "py": "shēngyi",
+      "g": "business"
+    },
+    {
+      "t": "来说",
+      "py": "láishuō",
+      "g": "for"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "先",
+      "py": "xiān",
+      "g": "first"
+    },
+    {
+      "t": "完成",
+      "py": "wánchéng",
+      "g": "complete"
+    },
+    {
+      "t": "一次",
+      "py": "yīcì",
+      "g": "one"
+    },
+    {
+      "t": "小"
+    },
+    {
+      "t": "买卖"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "往往",
+      "py": "wǎngwǎng",
+      "g": "often"
+    },
+    {
+      "t": "比",
+      "py": "bǐ",
+      "g": "more than"
+    },
+    {
+      "t": "先",
+      "py": "xiān",
+      "g": "first"
+    },
+    {
+      "t": "做",
+      "py": "zuò",
+      "g": "doing"
+    },
+    {
+      "t": "一个",
+      "py": "yīgè",
+      "g": "a"
+    },
+    {
+      "t": "很",
+      "py": "hěn",
+      "g": "very"
+    },
+    {
+      "t": "大"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "梦"
+    },
+    {
+      "t": "更",
+      "py": "gèng",
+      "g": "even more"
+    },
+    {
+      "t": "安全"
+    },
+    {
+      "t": "。",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "预售",
+    "定金",
+    "退款"
+  ],
+  "review_words": [
+    "需求",
+    "验证",
+    "承诺"
+  ],
+  "difficulty_design": {
+    "target_unknown_rate": 0.1,
+    "new_stretch_word_budget": 3,
+    "review_word_budget": 3
+  },
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "年轻人一开始就租下了一家很大的店。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "年轻人怎样先验证真实需求？",
+      "options": [
+        "先接受十份可以退款的预订",
+        "请所有朋友继续称赞他的计划",
+        "直接借钱租下更大的店面",
+        "把每一种面包都免费送给路人品尝"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multiple_choice",
+      "q": "为什么付款比口头称赞更有用？",
+      "options": [
+        "因为付款以后就肯定能让大店成功",
+        "因为朋友从来不会说真实想法",
+        "因为价格越高就代表口味越好",
+        "因为顾客愿意承担一点真实成本"
+      ],
+      "answer_index": 3
+    }
+  ]
+}

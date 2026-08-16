@@ -1,0 +1,1015 @@
+{
+  "id": "w8d4",
+  "week": 8,
+  "day": 4,
+  "type": "article",
+  "topic": "astrophysics",
+  "register": "formal",
+  "target_level": "HSK5",
+  "title": "看不见那颗行星，怎么知道它在那里？",
+  "tokens": [
+    {
+      "t": "离"
+    },
+    {
+      "t": "地球",
+      "py": "dìqiú",
+      "g": "Earth"
+    },
+    {
+      "t": "很",
+      "py": "hěn",
+      "g": "very"
+    },
+    {
+      "t": "远"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "行星",
+      "py": "xíngxīng",
+      "g": "planet"
+    },
+    {
+      "t": "本身",
+      "py": "běnshēn",
+      "g": "itself"
+    },
+    {
+      "t": "不会",
+      "py": "bú huì",
+      "g": "will not"
+    },
+    {
+      "t": "发光",
+      "py": "fāguāng",
+      "g": "emit light"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "又",
+      "py": "yòu",
+      "g": "it's not like"
+    },
+    {
+      "t": "常常",
+      "py": "chángcháng",
+      "g": "often"
+    },
+    {
+      "t": "被",
+      "py": "bèi",
+      "g": "(passive)"
+    },
+    {
+      "t": "恒星",
+      "py": "héngxīng",
+      "g": "star"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "强光"
+    },
+    {
+      "t": "挡住",
+      "py": "dǎngzhù",
+      "g": "block"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "天文学家",
+      "py": "tiānwénxuéjiā",
+      "g": "astronomers"
+    },
+    {
+      "t": "很难",
+      "py": "hěn nán",
+      "g": "difficult"
+    },
+    {
+      "t": "亲眼"
+    },
+    {
+      "t": "看见"
+    },
+    {
+      "t": "它们",
+      "py": "tāmen",
+      "g": "they"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但",
+      "py": "dàn",
+      "g": "but"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "观察",
+      "py": "guānchá",
+      "g": "observe"
+    },
+    {
+      "t": "恒星",
+      "py": "héngxīng",
+      "g": "star"
+    },
+    {
+      "t": "亮度",
+      "py": "liàngdù",
+      "g": "brightness"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "小"
+    },
+    {
+      "t": "变化",
+      "py": "biànhuà",
+      "g": "change"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "如果",
+      "py": "rúguǒ",
+      "g": "if"
+    },
+    {
+      "t": "一颗",
+      "py": "yī kē",
+      "g": "one (star)"
+    },
+    {
+      "t": "行星",
+      "py": "xíngxīng",
+      "g": "planet"
+    },
+    {
+      "t": "从",
+      "py": "cóng",
+      "g": "from"
+    },
+    {
+      "t": "恒星",
+      "py": "héngxīng",
+      "g": "star"
+    },
+    {
+      "t": "前面"
+    },
+    {
+      "t": "经过",
+      "py": "jīngguò",
+      "g": "pass through"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "它",
+      "py": "tā",
+      "g": "they"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "挡住",
+      "py": "dǎngzhù",
+      "g": "block"
+    },
+    {
+      "t": "一小部分"
+    },
+    {
+      "t": "光",
+      "py": "guāng",
+      "g": "light"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这种",
+      "py": "zhèzhǒng",
+      "g": "this kind of"
+    },
+    {
+      "t": "现象",
+      "py": "xiànxiàng",
+      "g": "phenomenon"
+    },
+    {
+      "t": "叫",
+      "py": "jiào",
+      "g": "named"
+    },
+    {
+      "t": "凌日",
+      "py": "língrì",
+      "g": "transit across a star"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "对",
+      "py": "duì",
+      "g": "of"
+    },
+    {
+      "t": "我们",
+      "py": "wǒmen",
+      "g": "our"
+    },
+    {
+      "t": "来说",
+      "py": "láishuō",
+      "g": "for"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "恒星",
+      "py": "héngxīng",
+      "g": "star"
+    },
+    {
+      "t": "只是",
+      "py": "zhǐshì",
+      "g": "merely"
+    },
+    {
+      "t": "稍微",
+      "py": "shāowēi",
+      "g": "a little"
+    },
+    {
+      "t": "暗了"
+    },
+    {
+      "t": "一点",
+      "py": "yīdiǎn",
+      "g": "a bit"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "过",
+      "py": "guò",
+      "g": "(experience)"
+    },
+    {
+      "t": "一段"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "又",
+      "py": "yòu",
+      "g": "it's not like"
+    },
+    {
+      "t": "变回"
+    },
+    {
+      "t": "原来的",
+      "py": "yuánlái de",
+      "g": "the original"
+    },
+    {
+      "t": "亮度",
+      "py": "liàngdù",
+      "g": "brightness"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "一次",
+      "py": "yīcì",
+      "g": "one"
+    },
+    {
+      "t": "变暗"
+    },
+    {
+      "t": "还",
+      "py": "hái",
+      "g": "also"
+    },
+    {
+      "t": "不能",
+      "py": "bùnéng",
+      "g": "cannot"
+    },
+    {
+      "t": "说明",
+      "py": "shuōmíng",
+      "g": "shows"
+    },
+    {
+      "t": "太多"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "可能",
+      "py": "kěnéng",
+      "g": "maybe"
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "仪器"
+    },
+    {
+      "t": "出错"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "可能",
+      "py": "kěnéng",
+      "g": "maybe"
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "其他",
+      "py": "qítā",
+      "g": "other"
+    },
+    {
+      "t": "原因"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "只有",
+      "py": "zhǐyǒu",
+      "g": "only"
+    },
+    {
+      "t": "相似"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "变化",
+      "py": "biànhuà",
+      "g": "change"
+    },
+    {
+      "t": "按",
+      "py": "àn",
+      "g": "according to"
+    },
+    {
+      "t": "固定",
+      "py": "gùdìng",
+      "g": "lock in"
+    },
+    {
+      "t": "周期",
+      "py": "zhōuqī",
+      "g": "cycle/period"
+    },
+    {
+      "t": "重复出现",
+      "py": "chóngfù chūxiàn",
+      "g": "appear repeatedly"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "天文学家",
+      "py": "tiānwénxuéjiā",
+      "g": "astronomers"
+    },
+    {
+      "t": "才",
+      "py": "cái",
+      "g": "only then"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "那里"
+    },
+    {
+      "t": "可能",
+      "py": "kěnéng",
+      "g": "maybe"
+    },
+    {
+      "t": "有",
+      "py": "yǒu",
+      "g": "have"
+    },
+    {
+      "t": "一颗",
+      "py": "yī kē",
+      "g": "one (star)"
+    },
+    {
+      "t": "行星",
+      "py": "xíngxīng",
+      "g": "planet"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "变暗"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "程度"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "帮助",
+      "py": "bāngzhù",
+      "g": "helps"
+    },
+    {
+      "t": "研究者"
+    },
+    {
+      "t": "估计"
+    },
+    {
+      "t": "行星",
+      "py": "xíngxīng",
+      "g": "planet"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "大小"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "两次"
+    },
+    {
+      "t": "变化",
+      "py": "biànhuà",
+      "g": "change"
+    },
+    {
+      "t": "之间",
+      "py": "zhījiān",
+      "g": "between"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "则",
+      "py": "zé",
+      "g": "then"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "说明",
+      "py": "shuōmíng",
+      "g": "shows"
+    },
+    {
+      "t": "它",
+      "py": "tā",
+      "g": "they"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "轨道",
+      "py": "guǐdào",
+      "g": "orbit"
+    },
+    {
+      "t": "周期",
+      "py": "zhōuqī",
+      "g": "cycle/period"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "多次"
+    },
+    {
+      "t": "观察",
+      "py": "guānchá",
+      "g": "observe"
+    },
+    {
+      "t": "放在",
+      "py": "fàngzài",
+      "g": "place on"
+    },
+    {
+      "t": "一起",
+      "py": "yīqǐ",
+      "g": "together"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "就",
+      "py": "jiù",
+      "g": "immediately"
+    },
+    {
+      "t": "成了"
+    },
+    {
+      "t": "更",
+      "py": "gèng",
+      "g": "even more"
+    },
+    {
+      "t": "可靠"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "证据",
+      "py": "zhèngjù",
+      "g": "evidence"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "为了",
+      "py": "wèile",
+      "g": "in order to"
+    },
+    {
+      "t": "排除"
+    },
+    {
+      "t": "偶然"
+    },
+    {
+      "t": "情况",
+      "py": "qíngkuàng",
+      "g": "situation"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "不同",
+      "py": "bùtóng",
+      "g": "different"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "研究者"
+    },
+    {
+      "t": "还",
+      "py": "hái",
+      "g": "also"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "比较",
+      "py": "bǐjiào",
+      "g": "relatively"
+    },
+    {
+      "t": "多次"
+    },
+    {
+      "t": "记录",
+      "py": "jìlù",
+      "g": "recording"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "如果",
+      "py": "rúguǒ",
+      "g": "if"
+    },
+    {
+      "t": "变化",
+      "py": "biànhuà",
+      "g": "change"
+    },
+    {
+      "t": "出现",
+      "py": "chūxiàn",
+      "g": "appeared"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "总是",
+      "py": "zǒngshì",
+      "g": "always"
+    },
+    {
+      "t": "接近",
+      "py": "jiējìn",
+      "g": "near"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而且"
+    },
+    {
+      "t": "大小"
+    },
+    {
+      "t": "相似"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "才",
+      "py": "cái",
+      "g": "only then"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "慢慢",
+      "py": "mànman",
+      "g": "gradually"
+    },
+    {
+      "t": "变得"
+    },
+    {
+      "t": "稳定",
+      "py": "wěndìng",
+      "g": "stability"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "科学",
+      "py": "kēxué",
+      "g": "science"
+    },
+    {
+      "t": "有时"
+    },
+    {
+      "t": "不是",
+      "py": "bùshì",
+      "g": "not"
+    },
+    {
+      "t": "亲眼"
+    },
+    {
+      "t": "看见"
+    },
+    {
+      "t": "答案",
+      "py": "dá'àn",
+      "g": "answer"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "先",
+      "py": "xiān",
+      "g": "first"
+    },
+    {
+      "t": "预测",
+      "py": "yùcè",
+      "g": "predict"
+    },
+    {
+      "t": "某种"
+    },
+    {
+      "t": "变化",
+      "py": "biànhuà",
+      "g": "change"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "再",
+      "py": "zài",
+      "g": "then"
+    },
+    {
+      "t": "用",
+      "py": "yòng",
+      "g": "using"
+    },
+    {
+      "t": "重复",
+      "py": "chóngfù",
+      "g": "repetition"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "记录",
+      "py": "jìlù",
+      "g": "recording"
+    },
+    {
+      "t": "看看",
+      "py": "kànkan",
+      "g": "take a look"
+    },
+    {
+      "t": "这个",
+      "py": "zhège",
+      "g": "well"
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "看不见",
+      "py": "kànbujiàn",
+      "g": "invisible"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "行星",
+      "py": "xíngxīng",
+      "g": "planet"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "就",
+      "py": "jiù",
+      "g": "immediately"
+    },
+    {
+      "t": "这样",
+      "py": "zhèyàng",
+      "g": "do this"
+    },
+    {
+      "t": "留下"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "自己",
+      "py": "zìjǐ",
+      "g": "oneself"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "影子"
+    },
+    {
+      "t": "。",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "凌日",
+    "轨道",
+    "周期"
+  ],
+  "review_words": [
+    "预测",
+    "证据",
+    "观察"
+  ],
+  "difficulty_design": {
+    "target_unknown_rate": 0.1,
+    "new_stretch_word_budget": 3,
+    "review_word_budget": 3
+  },
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "一次亮度变化就足以证明一定存在行星。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "什么是文章所说的凌日？",
+      "options": [
+        "恒星突然停止向周围发出任何光",
+        "仪器因为太热而失去作用",
+        "行星离开原来的运行方向",
+        "行星经过恒星前面并挡住少量光"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "multiple_choice",
+      "q": "怎样的证据会让判断更可靠？",
+      "options": [
+        "只记录一次特别明显的变化",
+        "相似的亮度变化按固定周期出现",
+        "先相信结论再忽略不同记录",
+        "直接用肉眼寻找很远的小行星"
+      ],
+      "answer_index": 1
+    }
+  ]
+}

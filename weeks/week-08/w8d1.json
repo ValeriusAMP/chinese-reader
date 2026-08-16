@@ -1,0 +1,1045 @@
+{
+  "id": "w8d1",
+  "week": 8,
+  "day": 1,
+  "type": "dialogue",
+  "topic": "philosophy",
+  "register": "informal",
+  "target_level": "HSK5",
+  "title": "改变想法，是不是输了？",
+  "tokens": [
+    {
+      "t": "小雨",
+      "py": "Xiǎo Yǔ",
+      "g": "Xiao Yu",
+      "name": true,
+      "first": true
+    },
+    {
+      "t": "跟",
+      "py": "gēn",
+      "g": "with"
+    },
+    {
+      "t": "阿哲",
+      "py": "Ā Zhé",
+      "g": "A-Zhe",
+      "name": true,
+      "first": true
+    },
+    {
+      "t": "说",
+      "py": "shuō",
+      "g": "said"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "我",
+      "py": "wǒ",
+      "g": "I"
+    },
+    {
+      "t": "昨天",
+      "py": "zuótiān",
+      "g": "yesterday's"
+    },
+    {
+      "t": "还",
+      "py": "hái",
+      "g": "also"
+    },
+    {
+      "t": "支持",
+      "py": "zhīchí",
+      "g": "supporting"
+    },
+    {
+      "t": "那个",
+      "py": "nàge",
+      "g": "that"
+    },
+    {
+      "t": "计划"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "今天",
+      "py": "jīntiān",
+      "g": "today"
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "觉得",
+      "py": "juéde",
+      "g": "think"
+    },
+    {
+      "t": "它",
+      "py": "tā",
+      "g": "they"
+    },
+    {
+      "t": "不",
+      "py": "bù",
+      "g": "not"
+    },
+    {
+      "t": "合适"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "如果",
+      "py": "rúguǒ",
+      "g": "if"
+    },
+    {
+      "t": "我",
+      "py": "wǒ",
+      "g": "I"
+    },
+    {
+      "t": "现在",
+      "py": "xiànzài",
+      "g": "now"
+    },
+    {
+      "t": "改口",
+      "py": "gǎikǒu",
+      "g": "change what one says"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "别人",
+      "py": "biérén",
+      "g": "others"
+    },
+    {
+      "t": "会不会"
+    },
+    {
+      "t": "觉得",
+      "py": "juéde",
+      "g": "think"
+    },
+    {
+      "t": "我",
+      "py": "wǒ",
+      "g": "I"
+    },
+    {
+      "t": "没有",
+      "py": "méiyǒu",
+      "g": "without"
+    },
+    {
+      "t": "立场",
+      "py": "lìchǎng",
+      "g": "position/stance"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "阿哲",
+      "py": "Ā Zhé",
+      "g": "A-Zhe",
+      "name": true
+    },
+    {
+      "t": "问"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "你",
+      "py": "nǐ",
+      "g": "you"
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "因为",
+      "py": "yīnwèi",
+      "g": "because"
+    },
+    {
+      "t": "怕",
+      "py": "pà",
+      "g": "be afraid of"
+    },
+    {
+      "t": "别人",
+      "py": "biérén",
+      "g": "others"
+    },
+    {
+      "t": "反对"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "还是",
+      "py": "háishi",
+      "g": "still"
+    },
+    {
+      "t": "因为",
+      "py": "yīnwèi",
+      "g": "because"
+    },
+    {
+      "t": "看到",
+      "py": "kàndào",
+      "g": "see"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "新的",
+      "py": "xīn de",
+      "g": "new"
+    },
+    {
+      "t": "证据",
+      "py": "zhèngjù",
+      "g": "evidence"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "小雨",
+      "py": "Xiǎo Yǔ",
+      "g": "Xiao Yu",
+      "name": true
+    },
+    {
+      "t": "说",
+      "py": "shuō",
+      "g": "said"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "新的",
+      "py": "xīn de",
+      "g": "new"
+    },
+    {
+      "t": "数字",
+      "py": "shùzì",
+      "g": "digital"
+    },
+    {
+      "t": "说明",
+      "py": "shuōmíng",
+      "g": "shows"
+    },
+    {
+      "t": "计划"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "代价",
+      "py": "dàijià",
+      "g": "cost"
+    },
+    {
+      "t": "比",
+      "py": "bǐ",
+      "g": "more than"
+    },
+    {
+      "t": "原来"
+    },
+    {
+      "t": "高",
+      "py": "gāo",
+      "g": "high"
+    },
+    {
+      "t": "很多"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "那么",
+      "py": "nàme",
+      "g": "so/that"
+    },
+    {
+      "t": "改变",
+      "py": "gǎibiàn",
+      "g": "change"
+    },
+    {
+      "t": "想法",
+      "py": "xiǎngfǎ",
+      "g": "thoughts"
+    },
+    {
+      "t": "不一定"
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "丢脸",
+      "py": "diūliǎn",
+      "g": "lose face"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "可能",
+      "py": "kěnéng",
+      "g": "maybe"
+    },
+    {
+      "t": "是",
+      "py": "shì",
+      "g": "is"
+    },
+    {
+      "t": "修正",
+      "py": "xiūzhèng",
+      "g": "revise/correct"
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "真正",
+      "py": "zhēnzhèng",
+      "g": "actually"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "原则",
+      "py": "yuánzé",
+      "g": "principle"
+    },
+    {
+      "t": "不是",
+      "py": "bùshì",
+      "g": "not"
+    },
+    {
+      "t": "永远",
+      "py": "yǒngyuǎn",
+      "g": "forever"
+    },
+    {
+      "t": "说",
+      "py": "shuō",
+      "g": "said"
+    },
+    {
+      "t": "同一句"
+    },
+    {
+      "t": "话",
+      "py": "huà",
+      "g": "words"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "发现",
+      "py": "fāxiàn",
+      "g": "discovered"
+    },
+    {
+      "t": "自己",
+      "py": "zìjǐ",
+      "g": "oneself"
+    },
+    {
+      "t": "错了"
+    },
+    {
+      "t": "以后"
+    },
+    {
+      "t": "愿意",
+      "py": "yuànyì",
+      "g": "willing"
+    },
+    {
+      "t": "承认",
+      "py": "chéngrèn",
+      "g": "admit"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "小雨",
+      "py": "Xiǎo Yǔ",
+      "g": "Xiao Yu",
+      "name": true
+    },
+    {
+      "t": "还是",
+      "py": "háishi",
+      "g": "still"
+    },
+    {
+      "t": "有点",
+      "py": "yǒudiǎn",
+      "g": "somewhat"
+    },
+    {
+      "t": "担心",
+      "py": "dānxīn",
+      "g": "worry"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "可是",
+      "py": "kěshì",
+      "g": "but"
+    },
+    {
+      "t": "别人",
+      "py": "biérén",
+      "g": "others"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "说",
+      "py": "shuō",
+      "g": "said"
+    },
+    {
+      "t": "我",
+      "py": "wǒ",
+      "g": "I"
+    },
+    {
+      "t": "前后"
+    },
+    {
+      "t": "不一样",
+      "py": "bùyīyàng",
+      "g": "different"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "阿哲",
+      "py": "Ā Zhé",
+      "g": "A-Zhe",
+      "name": true
+    },
+    {
+      "t": "笑了"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "人",
+      "py": "rén",
+      "g": "person"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "了解"
+    },
+    {
+      "t": "本来",
+      "py": "běnlái",
+      "g": "inherently"
+    },
+    {
+      "t": "就",
+      "py": "jiù",
+      "g": "immediately"
+    },
+    {
+      "t": "有限",
+      "py": "yǒuxiàn",
+      "g": "limited"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "如果",
+      "py": "rúguǒ",
+      "g": "if"
+    },
+    {
+      "t": "证据",
+      "py": "zhèngjù",
+      "g": "evidence"
+    },
+    {
+      "t": "变了",
+      "py": "biàn le",
+      "g": "changed"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "当然",
+      "py": "dāngrán",
+      "g": "of course"
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "可以",
+      "py": "kěyǐ",
+      "g": "can"
+    },
+    {
+      "t": "变"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "那",
+      "py": "nà",
+      "g": "then"
+    },
+    {
+      "t": "什么",
+      "py": "shénme",
+      "g": "what"
+    },
+    {
+      "t": "才",
+      "py": "cái",
+      "g": "only then"
+    },
+    {
+      "t": "叫",
+      "py": "jiào",
+      "g": "named"
+    },
+    {
+      "t": "固执",
+      "py": "gùzhí",
+      "g": "stubborn"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "“",
+      "punct": true
+    },
+    {
+      "t": "明明"
+    },
+    {
+      "t": "知道",
+      "py": "zhīdào",
+      "g": "know"
+    },
+    {
+      "t": "原来的",
+      "py": "yuánlái de",
+      "g": "the original"
+    },
+    {
+      "t": "理由"
+    },
+    {
+      "t": "已经",
+      "py": "yǐjīng",
+      "g": "already"
+    },
+    {
+      "t": "不成立"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "只",
+      "py": "zhǐ",
+      "g": "only"
+    },
+    {
+      "t": "为了",
+      "py": "wèile",
+      "g": "in order to"
+    },
+    {
+      "t": "面子"
+    },
+    {
+      "t": "拒绝",
+      "py": "jùjué",
+      "g": "reject"
+    },
+    {
+      "t": "重新",
+      "py": "chóngxīn",
+      "g": "anew"
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "成熟",
+      "py": "chéngshú",
+      "g": "mature"
+    },
+    {
+      "t": "不是",
+      "py": "bùshì",
+      "g": "not"
+    },
+    {
+      "t": "从不",
+      "py": "cóngbù",
+      "g": "never"
+    },
+    {
+      "t": "改口",
+      "py": "gǎikǒu",
+      "g": "change what one says"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "而是",
+      "py": "érshì",
+      "g": "but rather"
+    },
+    {
+      "t": "能",
+      "py": "néng",
+      "g": "can"
+    },
+    {
+      "t": "说明",
+      "py": "shuōmíng",
+      "g": "shows"
+    },
+    {
+      "t": "自己",
+      "py": "zìjǐ",
+      "g": "oneself"
+    },
+    {
+      "t": "为什么",
+      "py": "wèishéme",
+      "g": "why"
+    },
+    {
+      "t": "改",
+      "py": "gǎi",
+      "g": "improved"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "”",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "小雨",
+      "py": "Xiǎo Yǔ",
+      "g": "Xiao Yu",
+      "name": true
+    },
+    {
+      "t": "想了想",
+      "py": "xiǎng le xiǎng",
+      "g": "thought for a moment"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "决定",
+      "py": "juédìng",
+      "g": "decision"
+    },
+    {
+      "t": "在",
+      "py": "zài",
+      "g": "(in progress)"
+    },
+    {
+      "t": "明天"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "讨论",
+      "py": "tǎolùn",
+      "g": "debate"
+    },
+    {
+      "t": "中",
+      "py": "zhōng",
+      "g": "in"
+    },
+    {
+      "t": "先",
+      "py": "xiān",
+      "g": "first"
+    },
+    {
+      "t": "讲"
+    },
+    {
+      "t": "原来的",
+      "py": "yuánlái de",
+      "g": "the original"
+    },
+    {
+      "t": "理由"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "再",
+      "py": "zài",
+      "g": "then"
+    },
+    {
+      "t": "讲"
+    },
+    {
+      "t": "新",
+      "py": "xīn",
+      "g": "new"
+    },
+    {
+      "t": "数字",
+      "py": "shùzì",
+      "g": "digital"
+    },
+    {
+      "t": "改变",
+      "py": "gǎibiàn",
+      "g": "change"
+    },
+    {
+      "t": "了",
+      "py": "le",
+      "g": "(aspect)"
+    },
+    {
+      "t": "什么",
+      "py": "shénme",
+      "g": "what"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "她",
+      "py": "tā",
+      "g": "she"
+    },
+    {
+      "t": "不需要"
+    },
+    {
+      "t": "假装",
+      "py": "jiǎzhuāng",
+      "g": "pretend"
+    },
+    {
+      "t": "自己",
+      "py": "zìjǐ",
+      "g": "oneself"
+    },
+    {
+      "t": "从来"
+    },
+    {
+      "t": "没有",
+      "py": "méiyǒu",
+      "g": "without"
+    },
+    {
+      "t": "判断",
+      "py": "pànduàn",
+      "g": "judge"
+    },
+    {
+      "t": "错",
+      "py": "cuò",
+      "g": "mistake"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "不需要"
+    },
+    {
+      "t": "把",
+      "py": "bǎ",
+      "g": "(object)"
+    },
+    {
+      "t": "每次"
+    },
+    {
+      "t": "改变",
+      "py": "gǎibiàn",
+      "g": "change"
+    },
+    {
+      "t": "都",
+      "py": "dōu",
+      "g": "all"
+    },
+    {
+      "t": "看成",
+      "py": "kànchéng",
+      "g": "regard as"
+    },
+    {
+      "t": "失败",
+      "py": "shībài",
+      "g": "failure"
+    },
+    {
+      "t": "。",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "改口",
+    "固执",
+    "修正"
+  ],
+  "review_words": [
+    "成熟",
+    "代价",
+    "原则"
+  ],
+  "difficulty_design": {
+    "target_unknown_rate": 0.1,
+    "new_stretch_word_budget": 3,
+    "review_word_budget": 3
+  },
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "小雨改变想法，是因为朋友要求她反对计划。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "小雨为什么觉得原来的计划不合适？",
+      "options": [
+        "她已经完全忘记原来的讨论",
+        "朋友要求她立刻换一个立场",
+        "新数字说明计划的代价比原来高",
+        "她希望所有人都马上接受她的新想法"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "multiple_choice",
+      "q": "按照阿哲的说法，哪种情况更像固执？",
+      "options": [
+        "证据变了却为了面子拒绝重新判断",
+        "说明改变想法的真实原因",
+        "承认自己的了解可能有限",
+        "先听完不同意见再作判断"
+      ],
+      "answer_index": 0
+    }
+  ]
+}

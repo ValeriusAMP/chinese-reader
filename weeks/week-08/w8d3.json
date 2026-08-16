@@ -1,0 +1,991 @@
+{
+  "id": "w8d3",
+  "week": 8,
+  "day": 3,
+  "type": "article",
+  "topic": "history",
+  "register": "formal",
+  "target_level": "HSK5",
+  "title": "没有钟表的夜里，人们怎么知道时间？",
+  "tokens": [
+    {
+      "t": "在",
+      "py": "zài",
+      "g": "(in progress)"
+    },
+    {
+      "t": "没有",
+      "py": "méiyǒu",
+      "g": "without"
+    },
+    {
+      "t": "手机"
+    },
+    {
+      "t": "和",
+      "py": "hé",
+      "g": "and"
+    },
+    {
+      "t": "家用"
+    },
+    {
+      "t": "钟表",
+      "py": "zhōngbiǎo",
+      "g": "clock/watch"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "时代",
+      "py": "shídài",
+      "g": "eras"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "城里",
+      "py": "chénglǐ",
+      "g": "in the city"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "人",
+      "py": "rén",
+      "g": "person"
+    },
+    {
+      "t": "到了"
+    },
+    {
+      "t": "夜间"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "怎么",
+      "py": "zěnme",
+      "g": "however"
+    },
+    {
+      "t": "知道",
+      "py": "zhīdào",
+      "g": "know"
+    },
+    {
+      "t": "大概",
+      "py": "dàgài",
+      "g": "about"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "时辰",
+      "py": "shíchen",
+      "g": "traditional time period"
+    },
+    {
+      "t": "？",
+      "punct": true
+    },
+    {
+      "t": "很多"
+    },
+    {
+      "t": "地方",
+      "py": "dìfāng",
+      "g": "places"
+    },
+    {
+      "t": "靠",
+      "py": "kào",
+      "g": "by"
+    },
+    {
+      "t": "更夫",
+      "py": "gēngfū",
+      "g": "night watchman"
+    },
+    {
+      "t": "巡夜",
+      "py": "xúnyè",
+      "g": "patrol at night"
+    },
+    {
+      "t": "和",
+      "py": "hé",
+      "g": "and"
+    },
+    {
+      "t": "打更",
+      "py": "dǎgēng",
+      "g": "sound the night watch"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "更夫",
+      "py": "gēngfū",
+      "g": "night watchman"
+    },
+    {
+      "t": "常常",
+      "py": "chángcháng",
+      "g": "often"
+    },
+    {
+      "t": "携带",
+      "py": "xiédài",
+      "g": "carrying"
+    },
+    {
+      "t": "铜锣",
+      "py": "tóngluó",
+      "g": "gong"
+    },
+    {
+      "t": "或",
+      "py": "huò",
+      "g": "or"
+    },
+    {
+      "t": "木梆",
+      "py": "mùbāng",
+      "g": "wooden clapper"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "一边"
+    },
+    {
+      "t": "走过"
+    },
+    {
+      "t": "街道",
+      "py": "jiēdào",
+      "g": "street"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "一边"
+    },
+    {
+      "t": "按",
+      "py": "àn",
+      "g": "according to"
+    },
+    {
+      "t": "不同",
+      "py": "bùtóng",
+      "g": "different"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "次数"
+    },
+    {
+      "t": "发出",
+      "py": "fāchū",
+      "g": "emitted"
+    },
+    {
+      "t": "声音",
+      "py": "shēngyīn",
+      "g": "voice"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "居民",
+      "py": "jūmín",
+      "g": "resident"
+    },
+    {
+      "t": "听到",
+      "py": "tīngdào",
+      "g": "hearing"
+    },
+    {
+      "t": "声音",
+      "py": "shēngyīn",
+      "g": "voice"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "就",
+      "py": "jiù",
+      "g": "immediately"
+    },
+    {
+      "t": "知道",
+      "py": "zhīdào",
+      "g": "know"
+    },
+    {
+      "t": "夜"
+    },
+    {
+      "t": "已经",
+      "py": "yǐjīng",
+      "g": "already"
+    },
+    {
+      "t": "到了"
+    },
+    {
+      "t": "哪个",
+      "py": "nǎge",
+      "g": "which"
+    },
+    {
+      "t": "时辰",
+      "py": "shíchen",
+      "g": "traditional time period"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "这",
+      "py": "zhè",
+      "g": "this"
+    },
+    {
+      "t": "像",
+      "py": "xiàng",
+      "g": "similar"
+    },
+    {
+      "t": "一个",
+      "py": "yīgè",
+      "g": "a"
+    },
+    {
+      "t": "大家"
+    },
+    {
+      "t": "都",
+      "py": "dōu",
+      "g": "all"
+    },
+    {
+      "t": "能",
+      "py": "néng",
+      "g": "can"
+    },
+    {
+      "t": "听见"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "钟"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "不过",
+      "py": "bùguò",
+      "g": "but"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "报时",
+      "py": "bàoshí",
+      "g": "announce the time"
+    },
+    {
+      "t": "只是",
+      "py": "zhǐshì",
+      "g": "merely"
+    },
+    {
+      "t": "更夫",
+      "py": "gēngfū",
+      "g": "night watchman"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "一项"
+    },
+    {
+      "t": "工作",
+      "py": "gōngzuò",
+      "g": "worked"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "过去",
+      "py": "guòqù",
+      "g": "go over"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "房屋"
+    },
+    {
+      "t": "多",
+      "py": "duō",
+      "g": "many"
+    },
+    {
+      "t": "用",
+      "py": "yòng",
+      "g": "using"
+    },
+    {
+      "t": "木头"
+    },
+    {
+      "t": "建造"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "夜里"
+    },
+    {
+      "t": "失火",
+      "py": "shīhuǒ",
+      "g": "catch fire"
+    },
+    {
+      "t": "特别",
+      "py": "tèbié",
+      "g": "especially"
+    },
+    {
+      "t": "危险",
+      "py": "wēixiǎn",
+      "g": "dangers"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "更夫",
+      "py": "gēngfū",
+      "g": "night watchman"
+    },
+    {
+      "t": "要",
+      "py": "yào",
+      "g": "going to"
+    },
+    {
+      "t": "注意",
+      "py": "zhùyì",
+      "g": "pay attention to"
+    },
+    {
+      "t": "烟"
+    },
+    {
+      "t": "和",
+      "py": "hé",
+      "g": "and"
+    },
+    {
+      "t": "火光"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "要",
+      "py": "yào",
+      "g": "going to"
+    },
+    {
+      "t": "防止",
+      "py": "fángzhǐ",
+      "g": "preventing"
+    },
+    {
+      "t": "小偷",
+      "py": "xiǎotōu",
+      "g": "thief"
+    },
+    {
+      "t": "进入",
+      "py": "jìnrù",
+      "g": "entering"
+    },
+    {
+      "t": "安静",
+      "py": "ānjìng",
+      "g": "calm"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "街道",
+      "py": "jiēdào",
+      "g": "street"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "遇到"
+    },
+    {
+      "t": "紧急",
+      "py": "jǐnjí",
+      "g": "urgent"
+    },
+    {
+      "t": "情况",
+      "py": "qíngkuàng",
+      "g": "situation"
+    },
+    {
+      "t": "时",
+      "py": "shí",
+      "g": "when"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "他",
+      "py": "tā",
+      "g": "he"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "改变",
+      "py": "gǎibiàn",
+      "g": "change"
+    },
+    {
+      "t": "敲击"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "方式",
+      "py": "fāngshì",
+      "g": "manner"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "居民",
+      "py": "jūmín",
+      "g": "resident"
+    },
+    {
+      "t": "开门"
+    },
+    {
+      "t": "帮忙"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "有些",
+      "py": "yǒuxiē",
+      "g": "some"
+    },
+    {
+      "t": "城门",
+      "py": "chéngmén",
+      "g": "city gate"
+    },
+    {
+      "t": "是否",
+      "py": "shìfǒu",
+      "g": "whether"
+    },
+    {
+      "t": "关闭"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "会",
+      "py": "huì",
+      "g": "will"
+    },
+    {
+      "t": "参考"
+    },
+    {
+      "t": "打更",
+      "py": "dǎgēng",
+      "g": "sound the night watch"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "因此",
+      "py": "yīncǐ",
+      "g": "therefore"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "人们"
+    },
+    {
+      "t": "听到",
+      "py": "tīngdào",
+      "g": "hearing"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "不只是",
+      "py": "bùzhǐshì",
+      "g": "not just"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "还是",
+      "py": "háishi",
+      "g": "still"
+    },
+    {
+      "t": "城市",
+      "py": "chéngshì",
+      "g": "city"
+    },
+    {
+      "t": "夜间"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "安排"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "不同",
+      "py": "bùtóng",
+      "g": "different"
+    },
+    {
+      "t": "地方",
+      "py": "dìfāng",
+      "g": "places"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "打更",
+      "py": "dǎgēng",
+      "g": "sound the night watch"
+    },
+    {
+      "t": "方法",
+      "py": "fāngfǎ",
+      "g": "method"
+    },
+    {
+      "t": "不完全"
+    },
+    {
+      "t": "一样",
+      "py": "yīyàng",
+      "g": "same"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "但",
+      "py": "dàn",
+      "g": "but"
+    },
+    {
+      "t": "作用"
+    },
+    {
+      "t": "很",
+      "py": "hěn",
+      "g": "very"
+    },
+    {
+      "t": "接近",
+      "py": "jiējìn",
+      "g": "near"
+    },
+    {
+      "t": "：",
+      "punct": true
+    },
+    {
+      "t": "当",
+      "py": "dāng",
+      "g": "when"
+    },
+    {
+      "t": "大多数",
+      "py": "dàduōshù",
+      "g": "most/majority of"
+    },
+    {
+      "t": "人",
+      "py": "rén",
+      "g": "person"
+    },
+    {
+      "t": "看不到"
+    },
+    {
+      "t": "准确",
+      "py": "zhǔnquè",
+      "g": "accurate"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "时",
+      "py": "shí",
+      "g": "when"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "由",
+      "py": "yóu",
+      "g": "by"
+    },
+    {
+      "t": "一个",
+      "py": "yīgè",
+      "g": "a"
+    },
+    {
+      "t": "不断",
+      "py": "bùduàn",
+      "g": "ever-growing"
+    },
+    {
+      "t": "走动"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "人",
+      "py": "rén",
+      "g": "person"
+    },
+    {
+      "t": "把",
+      "py": "bǎ",
+      "g": "(object)"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "送到"
+    },
+    {
+      "t": "每条"
+    },
+    {
+      "t": "街"
+    },
+    {
+      "t": "。",
+      "punct": true
+    },
+    {
+      "t": "\n",
+      "punct": true
+    },
+    {
+      "t": "更夫",
+      "py": "gēngfū",
+      "g": "night watchman"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "声音",
+      "py": "shēngyīn",
+      "g": "voice"
+    },
+    {
+      "t": "可能",
+      "py": "kěnéng",
+      "g": "maybe"
+    },
+    {
+      "t": "打扰"
+    },
+    {
+      "t": "休息",
+      "py": "xiūxi",
+      "g": "rest"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "却",
+      "py": "què",
+      "g": "yet"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "很多"
+    },
+    {
+      "t": "家庭"
+    },
+    {
+      "t": "共享"
+    },
+    {
+      "t": "同一个"
+    },
+    {
+      "t": "时间",
+      "py": "shíjiān",
+      "g": "time"
+    },
+    {
+      "t": "，",
+      "punct": true
+    },
+    {
+      "t": "也",
+      "py": "yě",
+      "g": "also"
+    },
+    {
+      "t": "让"
+    },
+    {
+      "t": "黑暗",
+      "py": "hēi'àn",
+      "g": "darkness"
+    },
+    {
+      "t": "的",
+      "py": "de",
+      "g": "(particle)"
+    },
+    {
+      "t": "街道",
+      "py": "jiēdào",
+      "g": "street"
+    },
+    {
+      "t": "多",
+      "py": "duō",
+      "g": "many"
+    },
+    {
+      "t": "一层"
+    },
+    {
+      "t": "安全"
+    },
+    {
+      "t": "。",
+      "punct": true
+    }
+  ],
+  "stretch_words": [
+    "更夫",
+    "打更",
+    "时辰"
+  ],
+  "review_words": [
+    "紧急",
+    "携带",
+    "防止"
+  ],
+  "difficulty_design": {
+    "target_unknown_rate": 0.1,
+    "new_stretch_word_budget": 3,
+    "review_word_budget": 3
+  },
+  "comprehension": [
+    {
+      "type": "true_false",
+      "q": "更夫的工作只有告诉居民时间。",
+      "answer": false
+    },
+    {
+      "type": "multiple_choice",
+      "q": "居民怎样判断大概的时辰？",
+      "options": [
+        "观察每家门口灯光亮起和熄灭的时间",
+        "听更夫敲击铜锣或木梆的次数",
+        "等待城门每天自动打开",
+        "阅读更夫写下的详细记录"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multiple_choice",
+      "q": "文章为什么把更夫比作移动的公共时钟？",
+      "options": [
+        "因为他负责修理每户人家的钟",
+        "因为他总是住在城市的中心",
+        "因为他沿街用声音向很多人报时",
+        "因为他的工具可以自己计算准确时间"
+      ],
+      "answer_index": 2
+    }
+  ]
+}

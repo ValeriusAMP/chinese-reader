@@ -69,30 +69,54 @@ body {
 
 /* Week picker */
 .week-picker {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 18px;
-}
-.btn-week {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   background: var(--surface);
   border: 1.5px solid var(--border);
-  border-radius: 20px;
+  border-radius: 12px;
+  padding: 7px 9px 7px 13px;
+  margin-bottom: 18px;
+}
+.week-picker label {
   color: var(--text-muted);
   font-family: var(--zh);
   font-size: 13px;
-  font-weight: 600;
-  padding: 5px 15px;
+  font-weight: 700;
+}
+.week-select-wrap {
+  position: relative;
+}
+.week-select-wrap::after {
+  content: '⌄';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-55%);
+  color: var(--accent);
+  pointer-events: none;
+  font-family: var(--en);
+  font-size: 15px;
+}
+.week-select {
+  appearance: none;
+  -webkit-appearance: none;
+  min-width: 112px;
+  background: rgba(139,124,246,0.13);
+  border: 1px solid rgba(139,124,246,0.3);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: var(--zh);
+  font-size: 14px;
+  font-weight: 650;
+  padding: 7px 32px 7px 11px;
   cursor: pointer;
-  transition: border-color .2s, color .2s;
+  outline: none;
+  transition: border-color .2s, background .2s;
   -webkit-tap-highlight-color: transparent;
 }
-.btn-week:hover { border-color: rgba(139,124,246,0.3); color: var(--text); }
-.btn-week.active {
-  background: rgba(139,124,246,0.15);
-  border-color: rgba(139,124,246,0.4);
-  color: var(--accent);
-}
+.week-select:hover, .week-select:focus { border-color: rgba(139,124,246,0.65); background: rgba(139,124,246,0.18); }
+.week-select option { background: var(--surface-2); color: var(--text); }
 
 .day-list { display: flex; flex-direction: column; gap: 10px; }
 
@@ -682,7 +706,12 @@ ruby.word-name rt { color: var(--accent-2); }
     <h1 id="wk-title">中文阅读器</h1>
     <span class="pill" id="wk-pill">— / —</span>
   </div>
-  <div class="week-picker" id="week-picker"></div>
+  <div class="week-picker" id="week-picker">
+    <label for="week-select">周</label>
+    <div class="week-select-wrap">
+      <select class="week-select" id="week-select" aria-label="选择周"></select>
+    </div>
+  </div>
   <div class="day-list" id="day-list">
     <div class="loading">加载中…</div>
   </div>
@@ -803,8 +832,9 @@ function init() {
 
   jfetch('../weeks/manifest.json').then(function(manifest) {
     S.manifest = manifest;
-    S.week = weekParam
-      ? Math.max(1, parseInt(weekParam, 10) || 1)
+    var requestedWeek = weekParam ? parseInt(weekParam, 10) : null;
+    S.week = requestedWeek && (manifest.weeks || []).indexOf(requestedWeek) !== -1
+      ? requestedWeek
       : (manifest.latest || 1);
     afterManifest();
   }).catch(function() {
@@ -822,18 +852,19 @@ function afterManifest() {
 
 /* ══ WEEK PICKER ════════════════════════════════════════════ */
 function renderWeekPicker() {
-  var picker = document.getElementById('week-picker');
-  picker.innerHTML = '';
+  var select = document.getElementById('week-select');
+  select.innerHTML = '';
   (S.manifest.weeks || [1]).forEach(function(w) {
-    var btn = document.createElement('button');
-    btn.className = 'btn-week' + (w === S.week ? ' active' : '');
-    btn.textContent = '第' + w + '周';
-    btn.addEventListener('click', function() {
-      if (w === S.week) return;
-      switchWeek(w);
-    });
-    picker.appendChild(btn);
+    var option = document.createElement('option');
+    option.value = String(w);
+    option.textContent = '第 ' + w + ' 周';
+    option.selected = w === S.week;
+    select.appendChild(option);
   });
+  select.onchange = function() {
+    var w = parseInt(select.value, 10);
+    if (w !== S.week) switchWeek(w);
+  };
 }
 
 function switchWeek(w) {
@@ -842,9 +873,7 @@ function switchWeek(w) {
   S.index = null;
   history.replaceState(null, '', '?week=' + w);
   document.getElementById('wk-title').textContent = '第 ' + w + ' 周';
-  document.querySelectorAll('.btn-week').forEach(function(btn) {
-    btn.classList.toggle('active', btn.textContent === '第' + w + '周');
-  });
+  document.getElementById('week-select').value = String(w);
   document.getElementById('day-list').innerHTML = '<div class="loading">加载中…</div>';
   loadWeekIndex();
 }
